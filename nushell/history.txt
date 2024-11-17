@@ -1,0 +1,8665 @@
+ls
+vlc `2024-02-28 21-59-13.mkv`
+sudo pacman -S nwg-look
+nwg-look
+mkdir ~/.themes
+ls
+cd .themes
+sudo pacman -S gnome-themes-extra
+yay -S catppuccin-gtk-theme-mocha catppuccin-gtk-theme-macchiato catppuccin-gtk-theme-frappe catppuccin-gtk-theme-latte
+nwg-look 
+sudo pacman =S mplus-font
+sudo pacman -S mplus-font
+sudo ysy -S mplus-font
+yay -S mplus-font
+nwg-look 
+cd /mnt/olddrive
+ls
+cd ..
+sudo mount /dev/nvme1n1p2 /mnt/olddrive
+cd olddrive/
+ls
+cd @home
+ls
+cd mrteathyme/
+cd .config
+ls
+cd fontconfig/
+ls
+cd ..
+cp fontconfig/ ~/.config/fontconfig
+cp -r fontconfig/ ~/.config/fontconfig
+cd ~/.config
+ls
+cd fontconfig/
+ls
+nvim fonts.conf
+yay -S vesktop
+yay -S ttf-mplus-git
+ls
+yay -S grimblast
+ls
+cd Pictures/
+ls
+cd /mnt/olddrive
+cd @home/mrteathyme/.config/hypr/
+grimblast check
+sudo pacman -S wl-copy
+yay -S wl-copy
+yay -S wlcopy
+yay -S wl-clipboard hyprpicker notify-send
+grimblast check
+exit
+nvim hyprland.conf
+exit
+nvim ~/.config/hypr/hyprland.conf
+exit
+sudo pacman -S npm
+nvim
+cd ~
+mkdir projects
+cd projects/
+mkdir game
+cd game/
+ls
+cargo init
+cargo add bevy
+nvim
+yay -S wlogout
+wlogout
+cd /mnt/olddrive
+cd @home/mrteathyme/.config/hypr/
+cd ..
+cd wlogout/
+ls
+cd ..
+cp -r wlogout/ ~/.config/wlogout
+wlogout
+nvim ~/.config/hypr/hyprland.conf
+nvim hypr/hyprland.conf
+exit
+sudo pacman -S swaylock
+swaylock
+ls
+nvim hypr/hyprland.conf
+sudo pacman -S greetd
+systemctl enable greetd.service
+nvim /etc/greetd/config.toml
+sudo /etc/greetd/config.toml
+sudo nvim /etc/greetd/config.toml
+nvim .config/hypr/hyprland.conf
+pkill -9 steam
+sudo pacman -S corectrl
+corectrl
+sudo pacman -Syu mesa-demos vulkan-tools
+corectrl
+sudo pacman -S mesa lib32-mesa vulkan-radeon mesa-vdpau lib32-vulkan-radeon lib32-mesa-vdpau libva-mesa-driver lib32-libva-mesa-driver
+corectrl
+sudo pacman -S amdgpu-fan
+yay -S amdgpu-fan
+amdgpu-fan 
+sudo nvim /etc/amdgpu-fan.yml
+amdgpu-fan 
+sudo nvim /etc/amdgpu-fan.yml
+amdgpu-fan 
+sudo nvim /etc/amdgpu-fan.yml
+amdgpu-fan 
+sudo amdgpu-fan 
+systemctl enable amdgpu-fan
+systemctl start amdgpu-fan
+systemctl status amdgpu-fan
+sensors
+lm_sensors
+psensors
+journalctl
+cat /tmp/hypr/$(ls -t /tmp/hypr/ | head -n 2 | tail -n 1)/hyprland.log
+cd /tmp/hypr
+ls
+cat 84ab8d11e8951a6551d1e1bf87796a8589da6d47_1709133574/
+cd 84ab8d11e8951a6551d1e1bf87796a8589da6d47_1709133574/
+ls
+nvim hyprland.log
+cd .hyprland/
+ls
+cd ~/Downloads/
+ls
+nvim patch69.txt
+exit
+nvim hyprlandCrashReport14149.txt
+exit
+sudo pacman -S zoxide
+z-init
+z init
+exit
+z
+zo
+zoxide
+zoxide init
+zoxide init nu
+zoxide init nushell
+nvim $nu.env
+nvim $nu.env-path
+nvim $nu.config-path
+exit
+z
+zo
+zi
+nvim $nu.env-path
+freshfetch
+neofetch
+sudo pacman -S neofetch
+clear
+neofetch
+$env | reject config | transpose key val | each {|r| echo $"$env.($r.key) = '($r.val)'"} | str join (char nl)
+nvim .config/nushell/login.nu
+sudo nvim /etc/shells
+chsh nu
+chsh Nu
+sudo nvim /etc/shells
+chsh mrteathyme nu
+chsh mrteathyme
+neofetch
+exit
+neofetch
+clear & neofetch
+clear | neofetch
+nvim .config/wezterm/wezterm.lua
+clear | neofetch
+sudo pacman -S starship
+starship
+starship init
+starship init nushell
+$nu.loginshell-path
+$nu.is-login
+nvim .config/nushell/env.nu
+nvim .config/nushell/config.nu
+cdi
+exit
+nvim .config/wlogout/layout.bak
+logout
+kill -u mrteathyme
+clear | neofetch
+nvim .config/nushell/config.nu
+grimblast copy area
+nvim .config/hypr/hyprland.conf
+cd projects
+cd game/
+cd ..
+cd game
+cd src
+cd ../..
+cd ..
+cd src
+cd projects
+cdi
+cd ~/.config/nvim/lua/config
+ls
+cd ..
+cd plugins
+sudo pacman -S gstreamer
+gstreamer udpsrc address=192.168.1.232 ! application/x-rtp, clock-rate=48000, channels=2 ! rtpjitterbuffer ! rtpl24depay ! audioconvert ! audioresample ! autoaudiosink
+sudo pacman -S gstreamer-plugins
+sudo pacman -S gstreamer-plugin
+git clone https://github.com/philhartung/aes67-monitor.git<\n>cd aes67-monitor
+npm run build
+ethtool
+sudo pacman -S pipewire-aes67
+yay -S pipewire-aes67
+pipewire-aes67 
+cd /usr/share/pipewire
+ls
+nvim pipewire-aes67.conf
+cp pipewire-aes67.conf ~
+cd ~
+ls
+ip link
+ifconfig
+pipewire-aes67 
+pipewire-aes67
+systemctl restart --user pipewire
+systemctl status --user pipewire
+pipewire-aes67
+mkdir .config/pipewire
+mv pipewire-aes67.conf .config/pipewire/
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+nvim pipewire-aes67.conf
+nvim .config/pipewire/pipewire-aes67.conf
+nvim pipewire-aes67.conf
+pipewire-aes67
+nvim pipewire-aes67.conf
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+sudo pacman -S ethtool
+ethtool
+ethtool -T enp79s0
+ethtool -T enp82s0
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+reboot
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+cd Downloads/
+ls
+DanteController-4.11.1.1_windows.exe
+./DanteController-4.11.1.1_windows.exe
+pip install netaudio
+pacman -S community/python-pipx community/python-poetry
+yay -S python-netaudio
+netaudio
+netaudio device --identify --name avio-input-2
+sudo pacman -S community/python-pipx community/python-poetry
+sudo pacman -S carla
+sudo pacman -S wine
+wind DanteController-4.11.1.1_windows.exe
+wine DanteController-4.11.1.1_windows.exe
+ls
+wine
+cd ..
+cd .wine
+ls
+cd drive_c
+ls
+cd `Program Files (x86)/`
+ls
+cd Audinate/
+ls
+cd ..
+ls
+cd Program Files (x86)
+cd `Program Files (x86)/`
+ls
+cd Audinate/
+ls
+cd `Shared Files/`
+ls
+cd ..
+cd `Program Files/`
+ls
+cd Audinate/
+ls
+cd `Dante Controller/`
+ls
+hyprctl
+hyprctl windows
+hyprctl clients
+wine DanteController.exe
+sudo pacman -S gamescope
+gamescope wine DanteController.exe
+wine explorer
+wine DanteController.exe
+pkill -9 Dante
+wine DanteController.exe
+wine explorer
+pkill -9 wine
+wine DanteController.exe
+gamescope wine DanteController.exe
+wine explorer
+wine explorer
+hyprctl clients
+nvim ~/.config/hypr/hyprland.conf
+wine DanteController.exe
+iplink
+ip link
+ifconfig
+ip -f inet addr show enp82s0
+ip -f inet addr show enp79s0
+ip link
+wine DanteController.exe
+wine `.wine/drive_c/Program Files/Audinate/Dante Controller/DanteController.exe`
+wine explorer
+ip link
+ip -f inet addr show enp82s0
+sudo dhclient
+sudo dhclient -r
+dhclient
+systelctl restart networkmanager
+systelctl restart network-manager
+systemctl restart network-manager
+systemctl restart NetworkManager
+ip -f inet addr show enp82s0
+wine explorer
+cd Downloads/
+wine DanteFirmwareUpdateManager-3.10.6.2_windows.exe
+Dante Controller has discovered an address for device 'AVIOAI2-525e09' that does not match the subnet configuration of the local Dante interface 'enp82s0'. Possible causes of this problem include: Multiple DHCP servers on the network Using a static IP address on a local interface that is on a different subnet to the DHCP address obtained by the device Details: Resolved device address on Dante interface is 172.16.0.40 Local address on Primary Dante interface 'enp82s0' is 192.168.1.84/255.255.255.0
+ip -f inet addr show enp82s0
+nvim /etc/dhcpcd.conf
+ip address del 192.168.1.84/24 dev enp82s0
+sudo ip address del 192.168.1.84/24 dev enp82s0
+ip -f inet addr show enp82s0
+pkill -9 wine
+ip -f inet addr show enp79s0
+ip -f inet addr show enp82s0
+wine explorer
+wine DanteFirmwareUpdateManager-3.10.6.2_windows.exe
+mount /dev/nvme1n1p3 /mnt/olddrive
+sudo mount /dev/nvme1n1p3 /mnt/olddrive
+nvim .config/hypr/hyprland.conf
+sudo pacman -S woeusb
+sudo pacman -S ventoy
+yay -S ventoy
+ventoy
+ventoy -l
+sudo bash VentoyWeb.sh
+lsblk
+mount sda /mnt/usb
+sudo mount /dev/sda /mnt/usb
+sudo mkdir /mnt/usb
+sudo mount /dev/sda /mnt/usb
+cd /mnt/usb
+ls
+cd ..
+umount /mnt/usb
+sudo umount /mnt/usb
+ls
+cd usb
+ls
+cd ..
+cd ~
+ventoy -i /dev/sda
+sudo ventoy -i /dev/sda
+mount /dev/sda /mnt/usb
+sudo mount /dev/sda /mnt/usb
+lsblk
+sudo mount /dev/sda1 /mnt/usb
+cd /mnt/usb
+ls
+cp ~/Downloads/Win11_23H2_EnglishInternational_x64v2.iso ./
+sudo cp ~/Downloads/Win11_23H2_EnglishInternational_x64v2.iso ./
+ls
+lsblk
+fdisk -l
+sudo fdisk -l
+sudo pacman -R ventoy
+yay -S etcher
+yay -S balena-etcher
+mkdir ~/windows_install_media
+mount /dev/sda ~/windows_install_media/
+mount /dev/sda1 ~/windows_install_media/
+sudo mount /dev/sda1 ~/windows_install_media/
+cd windows_install_media/
+ls
+cmp --silent ./Win11_23H2_EnglishInternational_x64v2.iso ../Downloads/Win11_23H2_EnglishInternational_x64v2.iso
+cmp --silent ./Win11_23H2_EnglishInternational_x64v2.iso ../Downloads/Win11_23H2_EnglishInternational_x64v2.iso || echo "files fucked"
+cmp --silent ./Win11_23H2_EnglishInternational_x64v2.iso ../Downloads/Win11_23H2_EnglishInternational_x64v2.iso try echo "files fucked"
+cmp --silent ./Win11_23H2_EnglishInternational_x64v2.iso ../Downloads/Win11_23H2_EnglishInternational_x64v2.iso | try echo "files fucked"
+cmp --silent ./Win11_23H2_EnglishInternational_x64v2.iso ../Downloads/Win11_23H2_EnglishInternational_x64v2.iso | echo "files fucked"
+pkill -9 cmp
+cmp --silent ./Win11_23H2_EnglishInternational_x64v2.iso ../Downloads/Win11_23H2_EnglishInternational_x64v2.iso or "files fucked"
+try { cmp --silent ./Win11_23H2_EnglishInternational_x64v2.iso ../Downloads/Win11_23H2_EnglishInternational_x64v2.iso } catch { echo "files fucked" }
+cp ~/Downloads/Win11_23H2_EnglishInternational_x64v2.iso ./
+sudo cp ~/Downloads/Win11_23H2_EnglishInternational_x64v2.iso ./
+try { cmp --silent ./Win11_23H2_EnglishInternational_x64v2.iso ../Downloads/Win11_23H2_EnglishInternational_x64v2.iso } catch { echo "files fucked" }
+sudo umount ~/windows_install_media/
+cd ..
+sudo umount ~/windows_install_media/
+sudo umount /dev/sda1
+sudo umount -l /dev/sda1
+mount -o remount,ro /mnt
+sudo mount -o remount,ro /mnt
+sudo mount -o remount,ro ./windows_install_media/
+sudo mount /dev/sda1 /mnt/usb
+sudo mount -o remount,ro /mnt/usb
+umount /dev/sda1
+sudo umount /dev/sda1
+cd windows_install_media/
+ls
+cd ..
+sudo mount /dev/nvme1n1p2 /mnt/olddrive
+cd /mnt/olddrive
+ls
+cd @
+ls
+cd home
+ls
+cd ..
+ls
+cd drives
+ls
+cd storage
+ls
+cd ..
+ls
+cd ..
+ls
+cd mnt
+ls
+cd ..
+cd usr
+ls
+cd ..
+cd @home
+ls
+cd mrteathyme/
+ls
+cd Videos
+ls
+Untitled.mov
+cd ..
+ls
+cd Pictures/
+ls
+cd ..
+cd Documents/
+ls
+cd ..
+cd Downloads/
+ls
+cd ..
+ls
+cd .steampath
+ls
+cd .steam
+ls
+cd steam
+ls
+cd steamapps/
+ls
+cd common
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+cd .config/pipewire/
+nvim pipewire-aes67.conf
+pipewire-aes67
+pipewire -v
+pacman -Q | grep pipewire
+systemctl status --user pipewire-aes67
+ethtool -T enp82s0
+nvim pipewire-aes67.conf
+pactl list-sources
+pactl list-source
+pactl list
+pactl list card
+wireplumber
+wireplumber list
+wireplumber list-sinks
+systemctl restart --user pipewire
+pipewire-aes67
+systemctl status --user pipewire
+systemctl enable --user pipewire
+systemctl status --user pipewire
+journalctl | grep pipewire
+systemctl restart --user pipewire
+journalctl | grep pipewire
+ip a
+sudo pacman -S linuxptp
+yay -S linuxptp
+pipewire-aes67
+sudo ptp4l -i enp82s0 -s -l 7 -m -q
+systemctl status ptp4l@enp82s0
+sudo systemctl status ptp4l@enp82s0
+sudo systemctl daemon-reload
+sudo systemctl status ptp4l@enp82s0
+sudo systemctl status ptp4l
+pipewire-aes67
+sudo pipewire-aes67
+pipewire-aes67
+nvim /etc/ptp4l.conf
+sudo /etc/ptp4l.conf
+sudo nvim /etc/ptp4l.conf
+ptp4l
+ptp4l -s
+ptp4l -s -i enp82s0
+sudo ptp4l -i enp82s0 -s -l 7 -m -q
+exit
+pipewire-aes67
+sudo ptp4l -s -i enp82s0
+sudo nvim /etc/systemd/system/ptp4l.service
+systemctl daemon-reload
+systemctl status ptp4l@enp82s0
+systemctl status ptp4l
+systemctl enable ptp4l
+systemctl start ptp4l
+systemctl status ptp4l
+sudo nvim /etc/ptp4l.conf
+rm /etc/ptp4l.conf
+rm -rf /etc/ptp4l.conf
+sudo rm -rf /etc/ptp4l.conf
+systemctl start ptp4l
+systemctl status ptp4l
+sudo touch /etc/ptp4l.conf
+systemctl start ptp4l
+systemctl status ptp4l
+sudo systemctl enable ptp4l
+systemctl status ptp4l
+nvim pipewire-aes67.conf
+cat /dev/ptp0
+stat /dev/ptp0
+sudo nvim /etc/rules.d/90-pipewire-aes67-ptp.rules
+cd /etc/rules.d
+ls
+mkdir /etc/rules.d
+sudo mkdir /etc/rules.d
+sudo nvim /etc/rules.d/90-pipewire-aes67-ptp.rules
+cat /dev/ptp*
+cat /dev/ptp0
+pipewire-aes67
+journalctl | grep udev
+journalctl | grep ptp
+sudo udevadm control --reload-rules && udevadm trigger
+sudo udevadm control --reload-rules; udevadm trigger
+sudo udevadm control --reload-rules; sudo udevadm trigger
+cat /dev/ptp0
+cat /dev/ptp*
+mkdir /etc/udev/rules.d
+mkdir -r /etc/udev/rules.d
+cd /etc/udev/rules.d
+ls
+cd ..
+sudo mv rules.d/ udev/rules.d/
+ls
+sudo udevadm control --reload-rules; sudo udevadm trigger
+cat /dev/ptp*
+cd /etc/udev/rules.d
+ls
+cd rules.d/
+ls
+mv 90-pipewire-aes67-ptp.rules ../
+sudo mv 90-pipewire-aes67-ptp.rules ../
+ls
+cd ..
+rm rules.d/
+ls
+sudo rm -rf ./rules.d/
+ls
+sudo udevadm control --reload-rules; sudo udevadm trigger
+cat /dev/ptp*
+pipewire-aes67
+cat /dev/ptp0
+systemctl restart --user pipewire
+systemctl status --user pipewire
+pipewire-aes67
+systemctl status ptp4l
+pmc
+pmc -i enp82s0
+sudo pmc -i enp82s0
+pmc -u -b 0 'GET CURRENT_DATA_SET'
+sudo pmc -u -b 0 'GET CURRENT_DATA_SET'
+journalctl | grep /dev/ptp0
+ls -l /dev/ptp0
+journalctl | grep pipewire-aes67
+nvim ~/.config/pipewire-aes67.conf
+pipewire-aes67
+ls
+journalctl | grep pipewire-aes67
+journalctl | grep /dev/ptp0
+nvim ~/.config/pipewire-aes67.conf
+nvim ~/.config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+nvim /etc/pipewire/pipewire.conf.d
+cd /etc/pipewire/pipewire.conf.d/
+ls
+cd ..
+ls
+cd minimal.conf.d/
+ls
+cd ..
+cd pipewire-pulse.conf.d/
+ls
+cd ..
+cd /usr/share/pipewire
+ls
+nvim pipewire.conf
+sudo cp pipewire.conf ~/.config/pipewire/
+cd ~/.config/pipewire
+ls
+nvim pipewire.conf
+chown pipewire.conf
+chown -g wheel pipewire.conf
+chown -G wheel pipewire.conf
+chown  mrteathyme:wheel pipewire.conf
+sudo chown mrteathyme:wheel pipewire.conf
+systemctl restart --user pipewire
+systemctl status --user pipewire
+systemctl stop --user pipewire
+systemctl start --user pipewire
+systemctl status --user pipewire
+journalctl | grep pipewire
+nvim pipewire.conf
+sudo pacman -Syuu
+yay -Syuu
+yay -Syyu
+rm pipewire.conf
+systemctl status --user pipewire
+systemctl start --user pipewire
+systemctl status --user pipewire
+pactl load-module
+pactl load-module libpipewire-rtp
+pactl load-module libpipewire-rtp-source
+pipewire -c pipewire-aes67.conf
+journalctl -u ptp4l
+PIPEWIRE_DEBUG=4 pipewire-aes67
+sudo chmod 777 /dev/ptp*
+pipewire-aes67
+wpctl
+wpctl
+wpctl status
+wpctl
+cd ~/Downloads/
+ls
+nvim pipewire-aes67.conf
+nvim ./pipewire-aes67.conf
+pipewire-aes67
+pw-top
+sudo pacman -S helvum
+wine explorer
+ip a
+pipewire-aes67
+nvim pipewire-aes67.conf
+pipewire-aes67
+nvim pipewire-aes67.conf
+pipewire-aes67
+yay -Q linuxptp
+PIPEWIRE_DEBUG=5 pipewire-aes67
+pipewire-aes67
+nvim pipewire-aes67.conf
+pipewire-aes67
+nvim pipewire-aes67.conf
+exit
+pipewire-aes67
+nvim pipewire-aes67.conf
+pipewire-aes67
+gst-launch-1.0 udpsrc address=239.69.161.58 port=5004 multicast-iface=eth0 !\<\n>	application/x-rtp, clock-rate=48000, channels=2 !\<\n>	rtpjitterbuffer !\<\n>	rtpL24depay !\<\n>	audioconvert !\<\n>	audioresample !\<\n>	autoaudiosink
+wine explorer
+ip a
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+sudo chmod 777 /dev/ptp*
+pipewire-aes67
+gst-launch-1.0 -v udpsrc uri=udp://239.69.xxx.xx:5004 caps="application/x-rtp,channels=(int)2,format=(string)S16LE,media=(string)audio,payload=(int)96,clock-rate=(int)48000,encoding-name=(string)L24" ! rtpL24depay ! audioconvert ! alsasink device=hw:0,0
+gst-launch-1.0 udpsrc uri=udp://239.69.232.224:5004
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+journalctl -u ptp4l
+gstreamer udpsrc address=239.69.124.42
+gst-launch-1.0 udpsrc address=239.69.124.42
+sudo pacman -S gst-plugins-good
+gst-launch-1.0 udpsrc address=239.69.124.42
+gst-launch-1.0 udpsrc address=239.69.124.42 port=5004 multicast-iface=enp82s0 ! application/x-rtp, clock-rate=48000, channels=1 ! rtpjitterbuffer ! rtpL24depay ! audioconvert ! audioresample ! autoaudiosink
+pipewire-aes67
+pipewire-aes67
+gst-launch-1.0 udpsrc address=239.69.124.42 port=5004 multicast-iface=enp82s0 ! application/x-rtp, clock-rate=48000, channels=1 ! rtpjitterbuffer ! rtpL24depay ! audioconvert ! audioresample ! autoaudiosink
+gst-launch-1.0 udpsrc address=239.69.124.42 port=5004 multicast-iface=enp82s0 ! application/x-rtp, clock-rate=48000, channels=1 ! rtpjitterbuffer ! audioconvert ! audioresample ! autoaudiosink
+gst-launch-1.0 udpsrc address=239.69.124.42 port=5004 multicast-iface=enp82s0 ! application/x-rtp, clock-rate=48000, channels=1 ! audioconvert ! audioresample ! autoaudiosink
+gst-launch-1.0 udpsrc address=239.69.124.42 port=5004 multicast-iface=enp82s0 ! application/x-rtp, clock-rate=48000, channels=1 ! rtpL24depay ! audioconvert ! audioresample ! autoaudiosink
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+systemctl stop ptp4l
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+pipewire-aes67
+gst-launch-1.0 udpsrc address=239.69.124.42 port=5004 multicast-iface=enp82s0 ! application/x-rtp, clock-rate=48000, channels=1 ! rtpL24depay ! audioconvert ! autoaudiosink
+gst-launch-1.0 udpsrc address=239.69.124.42 port=5004 multicast-iface=enp82s0 ! application/x-rtp, clock-rate=48000, channels=1 ! rtpL24depay ! autoaudiosink
+pipewire-aes67
+nvim .config/pipewire/pipewire-aes67.conf
+ls
+cd .config/pipewire/
+ls
+cp /usr/share/pipewire/pipewire.conf ./
+nvim .config/pipewire/pipewire.conf
+ls
+nvim .config/pipewire/pipewire.conf
+systemctl restart --user pipewire
+systemctl status --user pipewire
+systemctl stop --user pipewire
+nvim .config/pipewire/pipewire.conf
+journalctl -u pipewire
+journalctl | grep pipewire
+systemctl start --user pipewire
+nvim pipewire.conf
+nvim .config/pipewire/pipewire-aes67.conf
+yay -S xdg-desktop-portal-hyprland-git
+sudo pacman -S pipewire-media-session
+ps | grep portal
+systemctl start xdg-desktop-portal-hyprland
+obs
+exit
+nvim .config/hypr/hyprland.conf
+cd src
+cd ..
+nvim
+sudo pacman -S obsidian
+cd game
+nvim
+ls
+nvim
+nvim .gitignore
+sudo pacman -S ripgrep
+nvim
+cargo build
+nvim
+cargo lippy
+cargo clippy
+nvim
+cargo build
+nvim
+cargo build
+nvim
+cargo build
+cargo run
+nvim
+cargo add bevy_rapier3d
+nvim
+cargo build
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+nvim
+cargo run
+cargo run
+nvim
+cargo run
+cargo build
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+shutdown --now
+shutdown -now
+cd src
+cd ..
+nvm
+nvim
+cargo add bevy_hanabi
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+cargo run --release
+nvim
+nvim cargo.toml
+nvim
+cargo run --release
+cd Downloads/
+ls
+unzip TeaThyme_MonsterPlushie.zip
+sudo pacman -S unzip
+unzip TeaThyme_MonsterPlushie.zip
+ls
+cd TeaThyme_MonsterPlushie/
+ls
+cd home\mrteathyme\.local\share\Steam\steamapps\common\VTube Studio\VTube Studio_Data\StreamingAssets\Live2DModels
+cd `../../.local/share/Steam/steamapps/common/VTube Studio/VTube Studio_Data/StreamingAssets/Live2DModels/`
+ls
+cp -r ~/Downloads/TeaThyme_MonsterPlushie/ ./
+ls
+cd TeaThyme_MonsterPlushie/
+ls
+sudo pacman -S libimobiledevice
+systemctl status usbmuxd.service
+systemctl start usbmuxd.service
+systemctl start usbmuxd
+sudo pacman -S usbmuxd
+systemctl start usbmuxd
+systemctl status usbmuxd.service
+sudo pacman -S usbutils
+lsusb
+ideviceinfo
+sudo pacman -Sy ifuse usbmuxd libplist libimobiledevice
+ifuse
+ideviceinfo
+dmesg | grep -i iphone
+sudo dmesg | grep -i iphone
+yay -S obs-ndi
+obs-ndi
+obs
+ndi
+yay -S ndi
+yay -S carapace-bin
+nvim $nu.env-path
+nvim $nu.config-path
+exit
+yay -S ndi-sdk 
+ndi-record 
+ndi-directory-service 
+ndi-benchmark 
+ndi-record
+yay -S obs-vkcapture 
+obs
+cd projects
+mkdir pipewire
+cd ..
+cd pipewire
+cd ..
+cd /projects/pipewire
+cd ~/projects/pipewire
+cd ..
+cd pipewire
+cd ~/projects
+cd pipewire
+cd ..
+rm pipewire/
+ls
+mkdir pipewire-auto-route
+ls
+cd pipewire-auto-route/
+cargo init
+cargo add pipewire
+nvim
+cargo run
+sudo pacman -S clang
+cargo run
+cargo run --debug
+cargo run
+cargo run --release
+cargo run
+cargo run --release
+nvim
+clear | neofetch
+top
+htop
+sudo pacman -S htop
+htop
+neofetch
+clear | neofetch
+sudo pacman -S ntp
+system status ntpd
+systemctl status ntpd
+systemctl enable ntpd
+systemctl start ntpd
+systemctl status ntpd
+systemctl enable ntpd
+systemctl status ntpd
+ntpdupdate
+ntptime 
+ntpd 
+sudo ntpd
+ntpdate 
+sudo nvim /etc/ntp.conf
+ntpd -u
+ntpd -u ntp:ntp
+sudo ntpd -u ntp:ntp
+sudo timedatectl set-ntp 1
+systemctl status ntpd
+ntpq -p
+ntpstat
+sudo pacman -S ntpstat
+sudo systemctl force-reload ntp.service
+sudo systemctl force-reload ntp
+sudo systemctl force-reload ntpd
+system status ntpd
+systemctl status ntpd
+timedatectl
+systemctl stop ntpd
+systemctl start ntpdate
+systemctl start ntpd
+timedatectl
+timedatectl -h
+systemctl status ntpd
+systemctl restart ntpd
+systemctl status ntpd
+sudo pacman -S noto-fonts-emoji
+shutdown -now
+shutdown --now
+nvim .config/hypr/hyprland.conf
+neofetch
+clear | neofetch
+sensors 
+top
+htop
+clear
+clear | neofetch
+neofetch
+shutdown now
+pacman -S base-devel libglvnd libxkbcommon pixman gnutls jansson
+sudo pacman -S base-devel libglvnd libxkbcommon pixman gnutls jansson
+wayvnc
+sudo pacman -S wayvnc 
+sudo pacman -Syyu wayvnc 
+sudo pacman -S wayvnc
+wayvnc 0.0.0.0
+expr 123456 + 7890
+name="Lane"
+name = "Lane"
+$name = "Lane"
+var.name = "Lane"
+$var.name = "Lane"
+$env.name = "Lane"
+echo $env.name
+env.bankname = "WorldBanc"
+$env.bankname = "WorldBanc"
+$env.founded = "1969"
+$env.ceo = "Jeff Gates"
+echo $env.bankname was founded in $env.founded by $env.ceo
+echo `$env.bankname was founded in $env.founded by $env.ceo`
+echo "$env.bankname was founded in $env.founded by $env.ceo"
+echo "$env.bankname was founded in $env.founded by {$env.ceo}"
+echo $"$env.bankname was founded in $env.founded by $env.ceo"
+echo $"$env.bankname was founded in $env.founded by ceo"
+echo $"$env.bankname was founded in $env.founded by $ceo"
+echo $"($env.bankname) was founded in ($env.founded) by ($env.ceo)"
+history
+curl -L https://github.com/bootdotdev/worldbanc/archive/refs/heads/main.zip -o worldbanc.zip<\n>unzip worldbanc.zip<\n>rm worldbanc.zip<\n>mv worldbanc-main worldbanc<\n>sudo chown -R $(whoami) worldbanc<\n>sudo chmod -R 755 worldbanc
+bash
+cd projects/
+mkdir bookbot
+rm bookbot/
+mkdir boot.dev
+cd boot.dev/
+mkdir bookbot
+cd bookbot/
+git init
+cd ..
+rm bookbot/
+rm -rf bookbot
+mkdir bookbot
+cd bookbot/
+gh repo create
+ls
+mv boot.dev_bookbot/ ./
+mv boot.dev_bookbot/ ../
+cd ..
+ls
+rm bookbot/
+cd boot.dev_bookbot
+ls
+ls -a
+nvim main.py
+mkdir books
+cd books
+curl -L https://raw.githubusercontent.com/asweigart/codebreaker/master/frankenstein.txt frankenstein.txt
+ls
+curl -L https://raw.githubusercontent.com/asweigart/codebreaker/master/frankenstein.txt
+curl -O https://raw.githubusercontent.com/asweigart/codebreaker/master/frankenstein.txt
+ls
+cd ..
+python main.py
+nvim main.py
+python main.py
+cd reports
+ls
+nvim book_name.txt
+cd ..
+python main.py
+ls
+python main.py
+ls
+cd reports
+ls
+rm book_name.txt
+rm frankenstein.txt
+ls
+cd ..
+python main.py
+git add -A
+git commit
+gh auth
+gh setup-git
+gh setup-git auth
+gh auth
+gh auth setup-git
+git commit
+gh auth status
+git config --global user.email "mrteathyme@gmail.com"
+git config --global user.name "Jaiden Woods"
+git commit
+$env.EDITOR
+git config --global core.editor nvim
+git commit
+git push
+git push --set-upstream origin main
+git push --set-upstream origin master
+nvim main.py
+htop
+clear | neofetch
+cd test
+mkdir test
+cd test
+nvim deez.o
+gcc
+gcc deez.o deez
+cp deez.o deez.c
+ls
+gcc deez.c deez.o
+rm deez.o
+gcc deez.c deez.o
+ls
+gcc deez.c
+ls
+a.out
+./a.out
+./a.out 1 1
+./a.out 5 1
+./a.out 5 20
+echo ./a.out 5 20
+echo `./a.out 5 20`
+echo $"{./a.out 5 20}"
+echo $"(./a.out 5 20)"
+nvim deez.c
+gcc deez.c
+./a.out 5 20
+./a.out 5 1
+nvim deez.c
+nvim math_test.txt
+cd projects
+ls
+cd boot.dev
+ls
+mkdir python_oop_but_zig
+cd python_oop_but_zig/
+ls
+zig init
+sudo pacman -S zig
+zig init
+ls
+zig init-exe
+ls
+zig build
+nvim
+zig run
+zig run main
+zig run main.zig
+zig run src
+zig run src/main.zig
+nvim
+cd ..
+mkdir zig_lib_test
+cd zig_lib_test/
+zig init-lib
+ls
+nvim
+zig build
+l
+zig build
+ls
+cd zig-out
+ls
+cd lib
+ls
+cd ..
+ls
+cd zig-cache
+ls
+cd ..
+ls
+cd zig-out
+ls
+cd lib
+ls
+cd ..
+mkdir zig_in_rust_static
+cd zig_in_rust_static/
+cargo init
+nvim
+touch build.rs
+nvim
+nvim cargo.toml
+nvim
+nvim build.rs
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cd ..
+cd zig_lib_test/
+nvim
+cargo run
+nvim cargo.toml
+cargo run
+nvim cargo.toml
+cargo run
+nvim cargo.toml
+cargo run
+nvim cargo.toml
+cargo run
+nvim cargo.toml
+cargo add zigc
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo add --build zigc
+cargo add --build zigc@0.0.2 
+cargo run
+cargo add --build zigc@0.0.1 
+cargo run
+cargo add --build zigc@0.0.0-alpha0.2  
+cargo run
+cargo add --build zigc
+cargo add --build zigc@0.0.3
+cargo run
+cargo add --build ossrtools@0.2
+cargo add --build osstrtools@0.2
+cargo run
+cargo add --build osstrtools@0.1.0 
+cargo run
+cargo add --build osstrtools@0.2.2 
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim build.rs
+cargo run
+nvim
+cargo run
+ls
+cd zig-out/
+ls
+cd lib
+ls
+rm libzig_lib_test.a
+ls
+cargo run
+cd ..
+zig build -static
+cargo run
+nvim
+ls
+cd zig-out
+ls
+cd lib
+ls
+rm libzig_lib_test.a
+ls
+cargo run
+cd ..
+ls
+cd ..
+ls
+cargo run
+cargo run --release
+cargo build --release
+cargo build
+cargo build -C
+cargo build -- -C
+cargo build -- -C relocation-model=static
+cargo build --help
+cargo build --keep-going
+cd projects
+ls
+cd zig_in_rust_static/
+ls
+cargo run
+cd ..
+mkdir rust_zig
+cd rust_zig
+cargo init
+zig init
+zig init-lib
+nvim build.rs
+cargo run
+ls
+cd zig-out
+ls
+cd lib
+ls
+nvim
+cd ..
+nvim
+cargo run
+zig cc
+zig cc -fPIE
+zig cc -fPIE src/main.zig
+zig cc -fPIE -c src/main.zig
+ls
+zig cc -fPIE -c src/main.zig -o zig-out/lib/librust_zig.a
+cargo run
+nvim build.rs
+rm zig-out/lib/librust_zig.a.o
+rm zig-out/lib/librust_zig.a
+cargo run
+zig build
+cargo run
+sudo pacman -S mold
+which mold
+nvim
+readelf -p .comment target/debug/my_binary
+cargo run
+nvim
+nvim .cargo/config
+cargo run
+which zig cc
+which zigcc
+which zcc
+nvim .cargo/config
+cargo run
+nvim .cargo/config
+touch zcc
+nvim zcc
+which zig
+nvim zcc
+nvim .cargo/config
+cargo run
+cp zcc ~.wrapper/
+mkdir ~/.wrapper
+cp zcc ~/.wrapper/
+nvim .cargo/config
+cargo run
+mkdir /wrapper/
+sudo mkdir /wrapper/
+cp ~/.wrapper/zcc /wrapper/
+sudo cp ~/.wrapper/zcc /wrapper/
+nvim .cargo/config
+cargo run
+:q
+nvim .cargo/config
+cargo run
+nvim .cargo/config
+cargo run
+chmod +x /wrapper/zcc 
+sudo chmod +x /wrapper/zcc 
+cargo run
+cd zig_in_rust_static/
+cd zig_in_rust_static
+ls
+nvim build.rs
+cargo run
+nvim build.rs
+cargo run
+cargo run -Zbuild-std
+cargo run -Zbuild-std --target linux
+cargo run -Zbuild-std --target
+rustup target list
+cargo run -Zbuild-std --target x86_64-unknown-linux-gnu
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+cargo build --target
+rustup target list
+cargo build --target aarch64-apple-darwin
+rustup target add aarch64-apple-darwin
+cargo build --target aarch64-apple-darwin
+cargo build
+mkdir .cargo
+touch .cargo/config
+nvim
+nvim .cargo/config
+nvim
+nvim .cargo/config
+nvim Cargo.toml
+nvim .cargo/config
+cargo run
+nvim .cargo/config
+cargo run
+:q
+nvim .cargo/config
+cargo run
+sudo nvim /wrapper/zcc 
+cargo run
+sudo nvim /wrapper/zcc 
+cargo run
+cd rust_zig
+ls
+rm -rf .cargo
+ls
+cargo run
+nvim
+cargo run
+zig build
+nvim
+zig build
+nvim
+zig build
+build.zig
+nvim
+build.zig
+zig build
+nvim
+sudo pacman arch -Syyu zig
+sudo pacman -R zig
+yay -S zigmod 
+sudo yay -S zigup
+yay -S zigup
+sudo pacman -S zig
+yay -S zigup
+cd ~/downloads
+cd ~
+cd Downloads/
+ls
+zig-linux-x86_64-0.12.0-dev.3212+40e64245f.tar.xz
+unzip zig-linux-x86_64-0.12.0-dev.3212+40e64245f.tar.xz
+tar -xf zig-linux-x86_64-0.12.0-dev.3212+40e64245f.tar.xz
+ls
+zig-linux-x86_64-0.12.0-dev.3212+40e64245f.tar.xz
+zig-linux-x86_64-0.12.0-dev.3212+40e64245f
+ls
+cd zig-linux-x86_64-0.12.0-dev.3212+40e64245f
+ls
+cd zig
+ls
+cd ~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig
+ls
+cd ~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/
+ls
+cd ./zig
+cd zig
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig --version
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig version
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+nvim
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo run
+ls zig-out/lib/
+cd zig/lib
+ls
+cd zig-out/lib
+ls
+cd ..
+ls
+nvim build.rs
+cargo run
+nvim
+cargo run
+zig build
+cargo run
+nvim src/main.zig
+nvim src/main.rs
+nvim build.zig
+zig build
+nvim build.zig
+zig build
+nvim build.zig
+zig build
+cargo run
+nvim build.rs
+cargo run
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo run
+nvim build.rs
+cargo run
+nvim ./build.rs
+cargo run
+nvim ./build.rs
+cargo run
+nvim ./build.rs
+ls
+rm -rf zig-out
+ls
+rm main.o
+rm main.o.o
+ls
+zig build
+ls
+cargo run
+rm -rf target/
+ls
+cargo run
+nvim
+mkdir .cargo
+touch .cargo/config
+cd zig_in_rust_static
+nvim ./cargo/config
+nvim .cargo/config
+cargo run
+nvim .cargo/config
+cargo run
+nvim .cargo/config
+cargo run
+nvim .cargo/config
+cargo run
+nvim build.zig
+zig build
+nvim build.zig
+zig build
+nvim build.zig
+zig build
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo run
+nvim .cargo/config
+cargo run
+nvim .cargo/config
+cargo run
+nvim build.zig
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo run
+nvim src/main.zig
+ls
+cd zig-cache
+ls
+cd z
+ls
+cd ..
+find
+find *.h
+find -r *.h
+find r *.h
+find . -name "*.h"
+ls
+cd zcc
+ls
+cd target
+ls
+cd debug
+ls
+cd deps
+ls
+cd ..
+ls
+cd build
+;s
+ls
+cd rust_zig-6daa3e257c4373dc/
+ls
+cd ..
+nvim build.zig
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+nvim build.zig
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+ls
+cd zig-out
+cd lib
+ls
+touch rust_zig.h
+nvim rust_zig.h
+cargo run
+cargo build --target=x86_64-unknown-linux-gnu
+cd ..
+cargo run
+ls
+cd zig-out
+cd pie
+ls
+cd lib
+ls
+cd librust_zig.a
+ls
+cc
+ls
+nvim .cargo/config
+cd ..
+nvim .cargo/config
+cargo run
+cargo run --rlease
+cargo run --release
+cargo build --release
+nvim Cargo.toml
+nvim build.rs
+cargo build --release
+cargo build
+nvim build.zig
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo build
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build -fno-stack-check
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+nvim build.zig
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo run
+cargo run --release
+nvim build.zig
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo run
+nvim .cargo/config
+nvim build.zig
+cargo run
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo run
+ls
+rm -rf zig-out
+ls
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo run
+ls
+rm -rf zig-out
+ls
+cargo run
+ls
+rm -rf target
+cargo run
+ls
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo run
+nvim build.zig
+cargo run
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo run
+nvim
+nvim build.zig
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo run
+cd zig-out
+cd lib
+ls
+nvim .cargo/config
+cd ..
+nvim .cargo/config
+sudo /wrapper/zcc
+sudo nvim /wrapper/zcc
+nvim build.zig
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo run
+rm -rf target
+cargo run
+rm -rf target
+rm -rf zig-out
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo run
+nvim build.zig
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo run
+rm -rf target
+rm -rf zig-out
+~/Downloads/zig-linux-x86_64-0.12.0-dev.3212+40e64245f/zig build
+cargo run
+nvim
+cd rust_zig
+ls
+nvim
+zig build
+cd rust_zig
+nvim
+shutdown now
+yay -S xdg-desktop-portal-wlr
+ndi-record
+ndi-record -u localhost
+pkill -9 ndi
+ls
+avahi
+sudo pacman -S avahi
+systemctl status avahi
+systemctl status avahi-daemon
+systemctl enable avahi-daemon
+systemctl start avahi-daemon
+dbus-update-activation-environment --systemd --all<\n>systemctl --user import-environment QT_QPA_PLATFORMTHEME
+yay -S obs-studio-browser 
+env OBS_VKCAPTURE=1 google-chrome
+env OBS_VKCAPTURE=1 chrome
+env OBS_VKCAPTURE=1 google-chrome-stable 
+env OBS_VKCAPTURE=1 gamescope -- google-chrome-stable 
+env OBS_VKCAPTURE=1 gamescope -h 1440 -- google-chrome-stable 
+env OBS_VKCAPTURE=1 gamescope -h 1440 -w 2560 -- google-chrome-stable 
+env OBS_VKCAPTURE=1 gamescope -h 1440 -w 2560 -f -- google-chrome-stable 
+yay -S davinci-resolve 
+pkill -9 davinci
+pkill -9 resolve
+pkill resolve
+pkill -f resolve
+davinci
+resolve
+cd Documents/
+ls
+cd ..
+cd Videos/
+ls
+cd ..
+ls
+vlc `2024-02-28 21-59-13.mkv`
+glxinfo -B
+glxinfo
+sudo pacman -S glxinfo
+glxinfo
+glxinfo -B
+env __NV_PRIME_RENDER_OFFLOAD=1 vlc
+vlc
+env __NV_PRIME_RENDER_OFFLOAD=0 vlc
+vlc `2024-02-28 21-59-13.mkv`
+nvidia-smi
+davinci-resolve
+which davinci
+cd /usr/share
+l
+sls
+ls
+cd applications/
+ls
+nvim DaVinciResolve.desktop 
+/opt/resource/resolve
+/opt/resource/bin/resolve
+/opt/resolve/bin/resolve
+nvidia-smi
+sudo pacman -S radeontop 
+radeontop 
+obs
+env __NV_PRIME_RENDER_OFFLOAD=1 obs
+pkill -f obs
+env __NV_PRIME_RENDER_OFFLOAD=1 obs
+env __NV_PRIME_RENDER_OFFLOAD=0 obs
+obs
+env __NV_PRIME_RENDER_OFFLOAD=1 /opt/resolve/bin/resolve
+env __NV_PRIME_RENDER_OFFLOAD=0 /opt/resolve/bin/resolve
+env __NV_PRIME_RENDER_OFFLOAD=1 /opt/resolve/bin/resolve
+yay -S xdg-desktop-portal-hyprland-git
+env __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia /opt/resolve/bin/resolve
+env _GLX_VENDOR_LIBRARY_NAME=nvidia /opt/resolve/bin/resolve
+prime-run
+env __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia /opt/resolve/bin/resolve
+env DRI_PRIME=1 /opt/resolve/bin/resolve
+env DRI_PRIME=1 __GLX_VENDOR_LIBRARY_NAME=nvidia /opt/resolve/bin/resolve
+radeontop 
+nvidia-smi
+env DRI_PRIME=1 __GLX_VENDOR_LIBRARY_NAME=nvidia obs
+env __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia obs
+nvidia-smi
+env DRI_PRIME=1 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia obs
+env DRI_PRIME=0 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia obs
+env DRI_PRIME=0 __GLX_VENDOR_LIBRARY_NAME=nvidia obs
+nvidia-smi
+env DRI_PRIME=2 __GLX_VENDOR_LIBRARY_NAME=nvidia obs
+glxinfo -B
+env DRI_PRIME=1 glxinfo -B
+env DRI_PRIME=0 glxinfo -B
+env DRI_PRIME=1 glxinfo -B
+inxi -G
+inxi - G
+sudo pacman -S inxi
+inxi - G
+inxi -G
+sudo pacman -S prime-run
+sudo pacman -S nvidia-prime
+prime-run glxinfo -B
+prime-run obs
+prime-run /opt/resolve/bin/resolve
+xwayland
+env GDK_BACKEND=x11 prime-run /opt/resolve/bin/resolve
+env -u WAYLAND_DISPLAY prime-run /opt/resolve/bin/resolve 
+prime-run /opt/resolve/bin/resolve 
+inxi -G
+clear | neofetch
+cd projects/
+mkdir rusty_pascal
+cd rusty_pascal/
+cargo init
+nvim
+cd ..
+mkdir interpreter
+cd interpreter/
+cargo init
+cargo run
+nvim
+nvim
+cargo run
+cargo run
+cd ..
+mkdir aarch_oh_snap
+cd aarch_oh_snap/
+cargo init
+nvim
+cd ..
+cd interpreter/
+gh repo create
+git push --set-upstream origin main
+git add -A
+git commit -m "dah"
+git push --set-upstream origin main
+git push --set-upstream origin master
+shutdown now
+cd projects/
+mkdir binary_brain
+cd binary_brain/
+cargo init
+cargo run
+clear | neofetch
+cd projects
+ls
+mkdir resume_site
+cd resume_site/
+cargo init
+cargo add axum
+cargo add axum --features http2 macros
+cargo add axum --features axum/http2 axum/macros
+cargo add axum --features 'axum/http2' 'axum/macros'
+cargo add axum --features 'axum/http2' --features axum/macros
+cargo add liquid
+nvim
+cargo build
+cargo add liquid_core
+cargo build
+cargo remove liquid liquid_core
+cargo add tera
+cargo build
+nvim cargo.toml
+nvim Cargo.toml
+cargo build
+cargo run
+cargo build
+ls
+cd projects
+ls
+cd resume_site/
+ls
+nvim
+cd ..
+mkdir template_engine
+cd template_engine/
+ls
+pavucontrol
+cd template_engine/
+ls
+cd template_engine
+ls
+cargo init
+sudo pacman -S streamlink
+sudo pacman -Syyu streamlink
+streamlink
+streamlink --crunchyroll-username
+streamlink --crunchyroll-username="mrteathyme@gmail.com"
+streamlink --crunchyroll-username="mrteathyme@gmail.com" https://www.crunchyroll.com/watch/G4VUQV4D4/shakugan
+sudo pacman -R streamlink
+sudo pacman -S ani-cli
+yay -S ani-cli
+yay -S anicli
+yay
+sudo ln -s /usr/lib/libalpm.so.14.0.0 /usr/lib/libalpm.so.13
+yay
+yay -Syyu ani-cli 
+yay -Syyu
+yay -S ani-cli 
+ani-cli
+yay -S ani-skip
+git clone https://github.com/synacktraa/ani-skip.git<\n>sudo cp ani-skip/ani-skip /usr/local/bin<\n>mkdir -p ~/.config/mpv/scripts && cp ani-skip/skip.lua ~/.config/mpv/scripts/<\n>rm -rf ani-skip
+git clone https://github.com/synacktraa/ani-skip.git
+sudo cp ani-skip/ani-skip /usr/local/bin
+mkdir -p ~/.config/mpv/scripts
+mkdir ~/.config/mpv/scripts
+cd .config/mpv/scripts
+mkdir ~/.config/mpv/
+mkdir ~/.config/mpv/scripts
+cp ani-skip/skip.lua ~/.config/mpv/scripts/
+ls
+rm -rf ani-skip
+ani-skip
+exit
+cargo run
+nvim sample_template.template
+cargo run
+ani-cli
+ani-skip "Sengoku Youko" 4
+gh repo create
+git add -A
+git push --set-upstream origin master
+git push --set-upstream origin main
+git push --set-upstream origin
+git push --set-upstream origin master
+git commit
+git push --set-upstream origin main
+git push --set-upstream origin master
+nvim sample_template.template
+nvim
+exit
+exit
+exit
+exit
+nvim .config/hypr/hyprland.conf
+cd ~.config
+ls
+cd .config
+ls
+cd ~
+zoxide
+ls /usr/bin
+nvim
+vim
+bash
+zsh
+echo $"(./a.out 5 20)"
+__zoxide_z
+/usr/bin/bash
+exit
+yay
+pacman
+ls
+echo $env.PATH
+which wezterm
+which echo
+cd ~/.cargo/
+ls
+cd registry
+ls
+cd index
+ls
+cd ..
+ls
+wezterm
+yay
+cd /opt
+ls
+cd yay-git
+ls
+cd yay
+ls
+yay
+cd ..
+ls
+cd pkg
+ls
+cd yay-git
+ls
+cd usr
+ls
+cd bin
+ls
+cd /usr/bin
+ls
+yay
+./yay
+sudo ./yay 
+/usr/bin/sudo ./yay 
+$nu.PATH = ($nu.PATH | append '/usr/bin/')
+echo $nu.PATH
+echo $nu.path
+echo $nu.Path
+$env.PATH = ($env.PATH | append '/usr/bin/')
+sudo
+yay
+which google-chrome
+which obs
+which cd
+which nu
+which nvim
+nvim
+$env.PATH = ($env.PATH | append '/usr/bin/')
+which obs
+which wezterm
+nvim .config/nushell/env.nu 
+nvim
+reboot
+sudo
+nvim
+$env.PATH = ($env.PATH | append '/usr/bin/')
+nvim .config/nushell/login.nu 
+wezterm
+nvim .config/hypr/hyprland.conf
+sudo pacman -Syyu
+yay -Syyu
+pacman -Syyu
+sudo pacman -Syyu
+yay -S yay
+yay -S yay-git
+yay -S paru
+paru
+paru -S hyprland
+paru -S xdg-desktop-portal-hyprland-git
+ls
+wezterm
+paru -S xdg-desktop-portal
+paru -S wayland 
+journalctl
+WAYLAND_DEBUG=1 wezterm
+paru -S wezterm
+wezterm start --always-new-process
+paru -S wezterm-git 
+wezterm start --always-new-process
+paru -S hyprland@0.36
+paru -S downgrade
+downgrade hyprland
+sudo downgrade hyprland
+paru -S wezterm
+paru -R wezterm
+paru -Rcs wezterm
+paru -Rcs wezterm-git
+paru -S wezterm
+pavucontrol
+paru -S path-of-building-community-git 
+paru -R yay
+which yay
+rm /usr/bin/yay
+sudo rm /usr/bin/yay
+which yay
+yay
+paru -S blender 
+paru -Syyu
+paru -R balena-etcher 
+paru -R electron25 
+paru -Syyu
+paru -R yay-git 
+sudo nvim /etc/pacman.conf
+paru -Syyu
+paru -Syyu --no-confirm
+paru -Syyu --noconfirm
+paru -R vlc-luajit 
+sudo pacman -S obs
+paru -S obs
+paru -S obs-studio
+paru -R vlc-luajit 
+paru -S obs-browser
+paru -Syyu obs-browser
+paru -R vlc-luajit 
+paru -R vlc-luajit
+paru -S obs-studio
+paru -Syyu
+paru -Syyu obs-linuxbrowser-bin
+paru -S blender-4.2-bin 
+wezterm
+/usr/bin/wezterm
+$env.PATH = ($env.PATH | append '/usr/bin/')
+downgrade hyprland
+sudo downgrade hyprland
+exit
+wezterm
+cat /tmp/hypr/$(ls -t /tmp/hypr/ | head -n 2 | tail -n 1)/hyprland.log
+cat `/tmp/hypr/$(ls -t /tmp/hypr/ | head -n 2 | tail -n 1)/hyprland.log`
+bash -c cat `/tmp/hypr/$(ls -t /tmp/hypr/ | head -n 2 | tail -n 1)/hyprland.log`
+cd /usr/share/applications/
+ls
+nvim blender-4.2.desktop 
+sudo nvim blender-4.2.desktop 
+blender-4-2
+blender-4.2 
+xwayland blender-4.2
+echo $env.XDG_SESSION_TYPE
+nvim .config/wezterm/wezterm.lua
+blender-4.2 
+prime-run blender-4.2
+sudo nvim /usr/share/blender-4.2.desktop 
+sudo nvim /usr/share/applications/blender-4.2.desktop 
+cd /usr/share/applications/
+sudo nvim steam 
+ls
+sudo nvim steam.desktop 
+pkill -f steam
+ps | grep steam
+pkill -f Steam
+ps | grep steam
+ps | grep Steam
+nvidia-smi
+cd `~/.steam/root/steamapps/compatdata/238960/pfx/drive_c/users/steamuser/My Documents/My Games/Path of Exile/`
+ls
+cd -
+cd Documents/
+ls
+mkdir my_games
+cd my_games/
+ls
+ln -s `~/.steam/root/steamapps/compatdata/238960/pfx/drive_c/users/steamuser/My Documents/My Games/Path of Exile/` path_of_exile
+ls
+cd path_of_exile/
+ls
+cd ..
+ls
+cd ~
+ls
+cd my_games
+ls
+zoxide my_games
+nvim .config/nushell/config.nu 
+nvim .config/nushell/env.nu 
+:w
+:q
+cdi
+cd Documents/
+cd my_games/
+cdi
+cd pat
+cd path_of_exile/
+cd -
+cdi
+ls
+mv `filter preset.zip` ~/Documents/my_games/path_of_exile/
+mv `filter preset_0_Soft.filter` ~/Documents/my_games/path_of_exile/
+mv `filter preset_1_Regular.filter` ~/Documents/my_games/path_of_exile/
+mv `filter preset_2_Semi-Strict.filter` ~/Documents/my_games/path_of_exile/
+mv `filter preset_3_Strict.filter` ~/Documents/my_games/path_of_exile/
+mv `filter preset_4_Very Strict.filter` ~/Documents/my_games/path_of_exile/
+mv `filter preset_5_Uber Strict.filter` ~/Documents/my_games/path_of_exile/
+mv `filter preset_6_Uber Plus Strict.filter` ~/Documents/my_games/path_of_exile/
+cd path_of_exile
+ls
+cd my_games
+ls
+cd path_of_exile/
+ls
+unzip filter_preset.zip
+unzip `filter preset.zip`
+ls
+ps | grep steam
+ps | grep path
+ps | grep Path
+ps | grep P
+ps | grep p
+ps | grep proton
+ps | grep Proton
+pkill -f steam
+pkill -f Steam
+ps | grep Proton
+shutdown now
+nvim
+ls
+nvim test.txt
+ls
+rm test.txt
+ls
+paru -S krita 
+cd /usr/share/applications/
+ls
+sudo nvim PathOfBuildingCommunity 
+sudo nvim PathOfBuildingCommunity.desktop 
+sudo nvim PathOfBuildingCommunity.desktop
+which PathOfBuildingCommunity
+cd /usr/bin/
+ls
+cd ..
+pkill -f vesktop
+pavucontrol
+pkill -f vesktop
+pavucontrol
+nvim .config/hypr/hyprland.conf
+sudo nvim /usr/share/applications/steam.desktop 
+pkill -f steam
+pkill -f Steam
+ps | grep Proton
+ps | grep proton
+ps | grep steam
+ps | grep Steam
+pkill -f Steam
+pkill -f steam
+pkill -f Steam
+pkill -f steam
+pkill -f Steam
+cd Downloads/
+mv `filter preset_6_Uber Plus Strict.filter` ~/Documents/my_games/path_of_exile/
+ls
+mv `filter preset.zip` ~/Documents/my_games/path_of_exile/
+cd path_of_exile/
+cd path_of_exile
+cd my_games
+ls
+cd path_of_exile/
+ls
+zip filter_preset.zip
+ls
+unzip `filter preset.zip`
+pkill -f Steam
+pkill -f steam
+paru -S barrier-headless 
+barriers 
+barriers
+barrier
+barriers
+barrierc
+barriers
+paru -S barrier
+paru -S lan-mouse
+hostname
+ip a
+nvim .config/hypr/hyprland.conf
+paru -S hyprland
+wezterm
+$env.PATH = ($env.PATH | append '/usr/bin/')
+ps | grep path
+ps | grep Path
+ps | grep proton
+ps | grep Proton
+ps | grep steam
+pkill 10733
+ps | grep steam
+kill 10733
+ps | grep steam
+kill 10657
+ps | grep steam
+pavucontrol
+nvim .config/wezterm/wezterm.lua
+wezterm
+nvim .config/hypr/hyprland.conf
+ps | grep proton
+ps | grep Proton
+kill 9073
+ps | grep Proton
+pkill steam
+pkill Steam
+shutdown now
+sudo nvim /usr/share/applications/steam.desktop 
+exit
+paru -s exilence
+paru -s lutris
+lutris
+paru -s lutris
+paru -S lutris
+paru -Syyu lutris
+pkill Steam
+pkill steam
+pkill Steam
+ps | grep steam
+ps | grep Steam
+kill 7403
+ps | grep Steam
+kill 7273
+ps | grep Steam
+kill 7403
+ps | grep Steam
+kill 8032
+kill 8031
+kill 8184
+kill 37163
+ps | grep Steam
+kill 37164
+kill 37284
+ps | grep Steam
+clear | neofetch
+vesktop
+pkill vesktop
+ps | rg vesktop
+ps | rg Vesktop
+ps | rg chrome
+vesktop
+cd projects
+ls
+mkdir my_language
+cd my_language/
+cargo init
+ls
+nvim
+cargo add clap
+nvim
+mkdir tests
+cd tests
+ls
+touch compiler.rs
+nvim compiler.rs 
+cd ..
+cd src
+touch lib.rs
+cd ..
+cd tests
+cd ..
+nvim
+cargo add assert_cmd
+cargo test
+ls
+cd tests
+ls
+mkdir case_srcs
+cd case_srcs/
+touch hello_world.ml
+mv hello_world.ml hello_world.🦊
+ls
+nvim
+cargo add predicates
+cargo test
+cargo test
+nvim
+cargo test
+cargo build
+cargo run
+cd projects
+mkdir test_missing
+cd test_missing/
+cargo init
+cargo run
+cargo add rand
+cargo run
+nvim
+cargo run
+vesktop
+cd projects
+cd my_language/
+ls
+nvim
+cargo run
+ls
+touch src/token.rs
+rm src/token.rs
+touch src/token.rs
+cargo run
+cd my_language/
+git push --set-upstream origin master
+gh repo create
+cd ..
+git push --set-upstream origin master
+gh repo create
+git push --set-upstream origin master
+git add -A
+git commit -m "dah"
+git push --set-upstream origin master
+cd projects
+ls
+mkdir trading_to_escape
+cd trading_to_escape/
+ls
+cargo init
+ls
+nvim
+cargo add hyper
+cargo add hyper --features full
+cargo add tokio --features full
+nvim
+cargo add hyper-util --features full
+nvim
+cargo add http-body-util
+cargo run
+paru -S ydotool
+nvim .config/hypr/hyprland.conf
+ydotool
+ydotool key a
+ydotoold
+systemctl start ydotool
+systemctl start ydotoold
+systemctl --user start ydotoold
+systemctl start --user ydotoold
+systemctl start ydotoold
+cd /usr/lib/systemd/system
+ls
+cd ..
+cd ~
+systemctl start ydotool.service
+systemctl --user start ydotool.service
+ydotool key a
+ydotool key ab
+ydotool type a
+loop { ydotool key 1 }
+loop { ydotool type 1 }
+hyprctl activewindow
+if { hyprctl activewindow | rg }
+if { hyprctl activewindow | rg } { echo test }
+if { hyprctl activewindow | rg } | str contains 'wezterm' { echo test }
+if {{ hyprctl activewindow | rg } | str contains 'wezterm'} { echo test }
+if { hyprctl activewindow | rg  | str contains 'wezterm'} { echo test }
+if { hyprctl activewindow | str contains 'wezterm'} { echo test }
+if hyprctl activewindow | str contains 'wezterm' { echo test }
+if (hyprctl activewindow | str contains 'wezterm') { echo test }
+if (hyprctl activewindow | str contains '') { echo test }
+if (hyprctl activewindow | str contains 'path') { echo test }
+loop { if (hyprctl activewindow | str contains 'path') { echo test } }
+loop { if (hyprctl activewindow | str contains 'Path') { echo test } }
+loop { if (hyprctl activewindow | str contains 'Path') { ydotool type 1 } }
+loop { if (hyprctl activewindow | str contains 'Path') { ydotool key del } }
+systemctl --user enable ydotool.service
+systemctl --user start ydotool.service
+loop { if (hyprctl activewindow | str contains 'Path') { ydotool key del } }
+loop { if (hyprctl activewindow | str contains 'Path') { ydotool key 2 } }
+cd /usr/include/linux/
+cat input-event-codes.h 
+loop { if (hyprctl activewindow | str contains 'Path') { ydotool key 111 } }
+loop { if (hyprctl activewindow | str contains 'Path') { ydotool key 111; sleep 1sec } }
+nvim input-event-codes.h 
+loop { if (hyprctl activewindow | str contains 'Path') { ydotool type /; sleep 1sec } }
+EXIT
+exit
+loop { if (hyprctl activewindow | str contains 'Path') { ydotool key 111; sleep 1sec } }
+cat input-event-codes.h 
+cd /usr/include/linux/
+loop { if (hyprctl activewindow | str contains 'Path') { ydotool key 110; sleep 1sec } }
+loop { if (hyprctl activewindow | str contains 'Path') { ydotool key 110:1 110:0; sleep 1sec } }
+nvim input-event-codes.h 
+loop { if (hyprctl activewindow | str contains 'Path') { ydotool key 111:1 111:0; sleep 1sec } }
+ani-cli
+cd projects
+ls
+cd trading_to_escape/
+ls
+nvim
+cargo remove hyper
+cargo remove hyper-util
+cargo remove all
+cargo remove http-body-util 
+nvim
+cargo add serde-json --features full
+cargo add serde-json
+cargo add serde --features full
+cargo add serde --features derive
+ani-skip
+ani-skip "Tensei shitara Slime Datta Ken"
+ani-skip "Tensei shitara Slime Datta Ken" 1
+exit
+exit
+exit
+loop { if (hyprctl activewindow | str contains 'Path') { ydotool key 111:1 111:0; sleep 1sec } }
+sh
+loop { if (hyprctl activewindow | str contains 'Path') { ydotool key 111:1 111:0; sleep 1sec } }
+shutdown now
+cd projects
+mkdir cdc_api
+cd cdc_api/
+cargo init
+cargo add serde --features derive
+cargo add serde_json
+cargo add serde_repr
+cargo build
+nvim
+gh repo create
+git add -A
+git commit -m "dah"
+git push --set-upstream origin master
+exit
+exit
+cd cdc_api/
+cd cdc_api
+nvim
+cargo clippy
+cargo build
+cargo clippy
+nvim
+cargo build
+nvim
+git add -A
+cargo clippy
+git add -A 
+git commit -m "Fixed clippy warnings, moved MethodResponse trait to lib.rs to deduplicate it"
+git push --set-upstream origin master
+cd cdc_api
+ls
+nvim
+rm src/main.rs
+cargo build
+cargo add const_format
+cargo add const_format --features rust_1_64
+cargo build
+cargo add reqwest
+cargo add reqwest --features blocking
+cargo build
+cargo test
+cargo add serde_as
+cargo remove serde_as
+cargo add serde_with
+cargo test
+cargo build
+cargo test
+nvim src/main.rs
+cargo run
+nvim src/main.rs
+cargo run
+cargo test
+nvim
+cd cdc_api
+git add -A
+git commit -m "wrote some tests and a couple endpoints"
+git push --set-upstream origin master
+vesktop
+shutdown now
+cd projects
+ls
+cd game
+ls
+nvim cargo.toml
+nvim
+cargo run
+cargo run --release
+nvim
+lspci -k
+lspci -k | rg wifi
+lspci -k | rg WiFi
+lspci -k | rg Network
+ip link
+ip link set wlp80s0 up
+sudo ip link set wlp80s0 up
+ip link
+networkctl 
+networkctl 4
+networkctl up
+networkctl up wlp80s0
+sudo networkctl up wlp80s0
+networkctl
+networkctl -h
+iw dev wlp80s0 scan
+iw wlp80s0 scan
+iw link
+nmtui 
+exit
+netcli
+nmcli
+nmcli connection show
+nmcli connection -h
+nmcli connection up Iphone
+nmtui
+sudo nmcli connection up Iphone
+nmcli connection up Iphone
+nmcli
+nmcli connection show
+nmcli connection up Iphone
+pkill steam
+pkill Steam
+ps | rg steam
+clear | neofetch
+shutdown now
+nmcli connection up Iphone
+nmtui
+ps | vesk
+ps | rg vesk
+ps | rg Vesk
+ps | rg Ven
+ps | rg dis
+ps | rg Dis
+ps | rg Ven
+paru -S vesktop
+cd config
+cd vesktop/
+ls
+rm vencordDist
+rm -rf ./vencordDist
+ls
+cd vesktop
+ls
+rm SingletonLock
+rm SingletonCookie
+rm SingletonSocket
+ls
+nvim state.json
+shutdown now
+ip link
+ip addr
+nmtui
+ip addr
+ip route
+ps | rg steam
+pkill steam
+ps | rg steam
+pkill Steam
+pkill steam
+ps | rg steam
+steam
+cd config
+cd hyprland
+ls
+cd hypr
+nvim hyprland.conf 
+cd projects
+mkdir brain_cells
+cd brain_cells/
+ls
+cargo init
+cargo run
+cargo add rand
+cargo run
+nvim
+cargo run
+paru -S jerry
+sudo curl -sL github.com/justchokingaround/jerry/raw/main/jerry.sh -o /usr/local/bin/jerry &&<\n>sudo chmod +x /usr/local/bin/jerry
+sudo curl -sL github.com/justchokingaround/jerry/raw/main/jerry.sh -o /usr/local/bin/jerry
+sudo chmod +x /usr/local/bin/jerry
+jerry
+ani-cli
+exit
+jerry --rofi
+jerry --wofi
+jerry gushing
+jerry --external-menu
+jerry --external-menu wofi
+jerry -e
+jerry -dmenu
+jerry --dmenu
+nvim .config/jerry/jerry.conf
+cd /usr/local
+ls
+cd bin
+ls
+nvim jerry
+jerry --rofi
+jerry --wofi
+mpv
+jerry --wofi
+sudo nvim jerry
+htop
+exit
+nvim .config/hypr/hyprland.conf
+exit
+paru -S ueberzug_x
+paru -S ueberzugpp
+jerry -h
+jerry -i
+jerry -wofi -i
+jerry --wofi -i
+cd /usr/local/bin
+jerry --wofi
+jerry --wofi -i
+wofi -u
+jerry --wofi -i
+jerry --wofi
+cd projects
+mkdir brain_clear
+cd brain_clear/
+cargo init
+cargo add time
+nvim
+cargo run
+nvim
+exit
+exit
+cd projects
+ls
+mkdir routiner
+cd routiner
+cargo init
+cargo add chrono
+cargo add slint
+cargo run
+cargo add slint_interpreter
+cargo add tokio --features full
+cargo run
+cd ..
+mkdir gui_framework
+ls
+cd gui_framework/
+cargo add winit
+cargo add winnit
+cargo init
+cargo add winit
+nvim
+cd gui_framework
+cargo run
+cargo softbuffer
+cargo add softbuffer
+cargo run
+nvim
+cd config
+ls
+cd pipewire
+ls
+nvim pipewire-aes67.conf
+systemctl --user restart pipewire.service 
+nvim pipewire.conf 
+pkill steam
+systemctl --user restart pipewire.service 
+nvim .config/pipewire/pipewire.conf
+cd projects
+ls
+cd game
+ls
+cargo run
+cargo run\
+cargo run
+cargo fmt
+cargo run
+cargo fmt
+nvim
+cargo fmt
+rustup update
+cargo fmt
+rustfmt
+cargo fmt --check
+cargo --check
+cargo fmt --check
+cargo fmt -- --check
+cargo fmt --all --check
+cargo fmt --all
+rustfmt --check
+rustfmt src/main.rs
+rustfmt src/main.rs --check
+rustfmt src/main.rs
+nvim
+cargo fmt --help
+cargo fmt --help=config
+cargo fmt -- --help=config
+nvim
+touch rustfmt.toml
+nvim
+cd .config/mpv/scripts
+ls
+cd .config/mpv
+cd .config
+mkdir mpv
+cd mpv
+mkdir scripts
+ls
+cd scripts
+ani-skip "Tensei shitara Slime Datta Ken" 1
+ls
+nvim skip.lua
+cd ..
+ls
+cd ..
+ls
+cd mpv
+cd scripts
+ani-skip
+ani-skip "Tensei shitara Slime Datta Ken" 1
+paru -S webtorrent-cli
+git clone https://github.com/noctuid/mpv-webtorrent-hook.git
+ls
+cd mpv-webtorrent-hook/
+ls
+cd ..
+paru -S jq
+paru -S xidel
+cd ..
+ls
+mkdir script-opts
+ani-skip "Tensei shitara Slime Datta Ken" 1
+ls
+cd script-opts
+ls
+touch webtorrent-hook.conf
+nvim webtorrent-hook.conf 
+mpv
+paru -S surfshark
+paru -S surfshark-client
+paru -Syyu surfshark-client
+paru -Syu surfshark-client
+paru -Syu
+paru -R gcc12
+exit
+exit
+exit
+nvim
+exit
+cd game
+ls
+cargo add serde
+paru -Qi gcc12
+paru -Qd
+paru -Qdi
+paru -Qdi obs
+paru -Qdi obs-linuxbrowser-bin 
+paru -Qd
+paru -Syu surfshark-client
+paru -Syu surfshark-client open-broad
+paru -Syu surfshark-client obs-studio 
+paru -R gcc12-libs 
+paru -Syu surfshark-client obs-studio 
+paru -Syu surfshark-client
+paru -Syu surfshark-client vesktop-bin
+paru -S surfshark-client
+paru -S vesktop
+paru -S vesktop-git
+paru -S openvpn
+cd /etc/openvpn
+sudo wget https://my.surfshark.com/vpn/api/v1/server/configurations
+<\n>sudo unzip configurations
+ls
+surfshark
+sudo openvpn au-syd.prod.surfshark.com_udp.ovpn
+nvim
+reboot
+mpv magnet:?xt=urn:btih:18C832A09905C9FEC427D8A3B2D0C4D322299E07&dn=Ted+Lasso+-+Season+1+-+Mp4+x264+AC3+1080p&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Feddie4.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969&tr=udp%3A%2F%2Feddie4.nl%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce
+nvim .config/mpv/script-opts/webtorrent-hook.conf 
+mpv magnet:?xt=urn:btih:18C832A09905C9FEC427D8A3B2D0C4D322299E07&dn=Ted+Lasso+-+Season+1+-+Mp4+x264+AC3+1080p&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Feddie4.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969&tr=udp%3A%2F%2Feddie4.nl%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce
+cd ..
+cd .config/mpv/scripts
+ls
+git clone https://github.com/Anskrevy/mpv-webtorrent-hook.git
+rm mpv-webtorrent-hook/
+rm -rf mpv-webtorrent-hook/
+git clone https://github.com/Anskrevy/mpv-webtorrent-hook.git
+mpv magnet:?xt=urn:btih:18C832A09905C9FEC427D8A3B2D0C4D322299E07&dn=Ted+Lasso+-+Season+1+-+Mp4+x264+AC3+1080p&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Feddie4.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969&tr=udp%3A%2F%2Feddie4.nl%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce
+paru -S youtube-dl
+mpv magnet:?xt=urn:btih:18C832A09905C9FEC427D8A3B2D0C4D322299E07&dn=Ted+Lasso+-+Season+1+-+Mp4+x264+AC3+1080p&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Feddie4.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969&tr=udp%3A%2F%2Feddie4.nl%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce
+paru -Syu webtorrent-cli
+paru -S webtorrent-cli
+mpv magnet:?xt=urn:btih:18C832A09905C9FEC427D8A3B2D0C4D322299E07&dn=Ted+Lasso+-+Season+1+-+Mp4+x264+AC3+1080p&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Feddie4.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969&tr=udp%3A%2F%2Feddie4.nl%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce
+webtorrent
+webtorrent magnet:?xt=urn:btih:18C832A09905C9FEC427D8A3B2D0C4D322299E07&dn=Ted+Lasso+-+Season+1+-+Mp4+x264+AC3+1080p&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Feddie4.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969&tr=udp%3A%2F%2Feddie4.nl%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce --mpv
+ip link
+cd game
+cargo add toml
+cargo run
+nvim
+cargo run
+nvim
+cargo fmt
+cargo run
+nvim
+cargo run
+shutdown now
+cd game
+cargo run
+gh repo create
+git push --set-upstream origin master
+git add -A
+git commit -m "initial"
+git push --set-upstream origin master
+nvim
+htop
+shutdown now
+cd game
+nvim
+git push --set-upstream origin master
+git -A
+git -a
+git add -A
+git commit -m "buh"
+git push --set-upstream origin master
+shutdown now
+cd ga,e
+cd game
+nvim
+cargo build
+git add -A
+cd game
+git add -A
+git commit -m "buh"
+git push --set-upstream origin master
+shutdown now
+cd game
+cargo run
+nvim
+cargo run
+cd game
+cargo run
+nvim
+shutdown now
+cd game
+cargo build
+cargo run
+nvim
+cd game
+cargo run
+nvim
+cargo run
+nvim
+neovim
+sensors
+sudo sensors
+nvidia-smi
+nvidia-smi -q
+nvim
+shutdown now
+cd game
+cargo add leafwing
+cargo leafwing-input-manager
+cargo add leafwing-input-manager
+nvim
+mv src/direktor ./direktor
+ls
+cd ..
+ls
+mkdir direktor
+cd direktor
+ls
+cargo init
+cd ..
+ls
+cd game
+ls
+rm -rf direktor
+ls
+cd ..
+cd direktor
+ls
+cd src
+ls
+rm main.rs
+touch lib.rs
+nvim
+cd ..
+cd game
+cargo run
+nvim
+nvim
+systemctl --user restart pipewire.service 
+systemctl --user enable pipewire.service
+systemctl disable pipewire.service
+systemctl --user enable pipewire.service
+nvim .config/hypr/hyprland.conf
+cd videos
+ls
+cd ..
+cd ~
+ls
+vlc "2024-05-22 12-57-53.mkv" 
+vlc "2024-05-22 13-06-04.mkv" 
+vlc "2024-05-22 13-10-35.mkv" 
+vlc "2024-05-22 13-11-41.mkv" 
+pavucontrol
+vlc "2024-05-22 13-38-19.mkv" 
+neovim
+nvim
+shutdown now
+cd game
+nvim
+cargo build
+cargo run
+reaper
+paru -S reaper
+nvim
+davinci-resolve
+resolve
+DavinciResolve
+Davinci
+paru -Q davinci
+paru -Q davinci-resolve
+which davinci
+/opt/resolve/bin/resolve
+cd home
+ls
+cd mrtea
+cd mrteathyme/
+ls
+vlc "2024-05-23 17-46-26.mkv" 
+shutdown now
+cd game
+exit
+ls
+nvim
+cargo build
+nvim
+mv src/stat_system.rs src/damage_system.rs
+cargo build
+nvim
+cargo build
+cargo build --release
+nvim
+cargo build --release
+cargo build
+cargo fmt
+cargo build
+cargp clippy -h
+cargp clippy
+clippy
+cargo clippy
+cd game
+cargo build
+cargo fmt
+cargo build
+nvim
+cd game
+nvim
+shutdown now
+cd game
+cargo build
+cargo fmt
+nvim
+cargo build
+shutdown now
+cd game
+nvim
+shutdown now
+cd projects
+mkdir my_particle_system
+cd my_particle_system/
+cargo init
+nvim
+touch lib.rs
+nvim lib.rs
+rm lib.rs
+touch src/lib.rs
+shutdown now
+cd projects
+mkdir blackout
+cd blackout
+touch youtube.js
+cd youtube.js
+cd ..
+mkdir youtube-black
+cd youtube-black
+cargo init
+cargo add axum --features 'axum/http2' --features axum/macros
+cargo add reqwest
+cargo build
+cargo add tokio --features full
+cargo run
+cargo add scraper
+cargo run
+nvim
+ls
+rm index.html
+cargo run
+ls
+rm index.html
+cargo run
+ls
+nvim
+cargo add fantoccini
+chrome --headless
+google-chrome-stable --headless
+google-chrome-stable --headless=new
+cargo run
+ps | google
+ps | rg google
+cargo run
+ps | rg google
+paru -S chromedriver
+chromedriver
+cargo run
+paru -S google-chrome-stable
+paru -S google-chrome 
+cargo run
+chromedriver -h
+chromedriver -h
+cargo add serde_json
+cargo run
+gh repo create
+git add -A
+git commit -m "exploring options atm, the api is too costly to be used, scraping should be legal given the usecase"
+git push --set-upstream origin master
+ping twitter.com
+ping x.com
+ping google.com
+ip link
+ip addr
+surfshark
+shutdown now
+ps | discord
+ps | rg discord
+ps | rg Disc
+ps | rg vesk
+pkill vesktop
+shutdown now
+shutdown now\
+shutdown now
+nvim
+cd projects
+mkdir rpg_mvp
+cargo init
+cargo add bevy
+touch src/lib.rs
+nvim
+del Cargo.lock
+delete cargo.lock
+rm cargo.lock
+ls
+rm Cargo.lock
+rm Cargo.toml
+rm -rf src
+ls
+ls -a
+rm .git
+rm -rf .git
+rm .gitignore
+cd rpg_mvp/
+cargo init
+cargo add bevy
+touch src/lib.rs
+cargo build
+cargo add bevy_xpbd
+cargo add bevy_xpbd_3d
+cargo build
+nvim
+cargo fmt
+nvim
+shutdown now
+cd rpg_mvp/
+cd rpg_mvp
+cd game
+exit
+nvim
+exit
+cargo run
+cargo fmt
+nvim
+gh repo create
+git add -A
+git commit -m ""
+git commit -m " "
+git commit -m "x"
+git push --set-upstream origin master
+shutdown now
+paru -S heroic-games-launcher 
+cd rpg_mvp
+nvim
+cargo run
+cd game
+cd ..
+cd rpg_mvp
+cargo run
+cargo add leafwing-input-manager
+cargo run
+nvim
+nvim
+cd rpg_mvp
+git add -A
+git commit -m "x"
+git push --set-upstream origin master
+shutdown now
+cd rpg_mvp
+nvim
+rm \
+cargo run --release
+nvim
+rustup update
+cargo run --release
+nvim
+git add -A
+git commit -m "x"
+git push --set-upstream origin master
+shutdown now
+cd projects
+mkdir zig_interfaces
+zig init bin
+zig init
+nvim
+rm .gitignore
+rm .git
+ls -a
+rm build.zig build.zig.zon
+rm -rf src
+ls
+cd zig_interfaces/
+zig init
+ls
+zig run
+zig run src/main.zig
+nvim
+shutdown now
+cd rpg_mvp
+cargo run
+cargo build
+cargo run
+cd documents
+ls
+cd `REAPER Media/`
+ls
+cp ugh.wav ~/projects/rpg_mvp/
+cp death.wav ~/projects/rpg_mvp/
+ls
+cargo run
+ls
+mv ugh.wav ugh-o.wav
+ls
+cargo run
+mkdir assets
+mv ugh-o.wav assets/ugh.wav
+mv ./ugh-o.wav assets/ugh.wav
+ls
+ls
+mv ugh-o.wav assets/ugh.wav
+mkdir assets
+mv ugh-o.wav assets/ugh.wav
+mv death.wav assets/oof.wav
+cargo run
+ls
+cd assets
+ls
+cargo run --release
+cargo run
+cargo run --release
+nvim
+cd rpg_mvp
+git add -A
+git commit -m "x"
+git push --set-upstream origin master
+shutdown now
+pkill vesktop
+nano
+ed
+vi
+vim
+shutdown now
+nvim
+cd projects
+mkdir super_tic_tac_toe
+cd super_tic_tac_toe/
+cargo init
+cargo add axum --features 'axum/http2' --features axum/macros
+cargo run
+sudo cargo run
+cargo add tls-rustls
+cargo add rustls
+cargo axum --features
+cargo add axum --features
+cargo add axum --features 'axum/http2' --features axum/macros --features axum/rustls
+cargo add axum --features 'axum/http2' --features axum/macros --features axum/tls-rustls
+cargo add axum --features 'axum/http2' --features axum/macros --features axum/tls
+cargo run
+rustup update
+cargo run
+cargo update
+cargo run
+cargo run -- 3000
+cargo run -- --port=3000
+cargo run -- -port=3000
+cargo run -- port=3000
+cargo run -- -- --port=3000
+cargo run -- -- --port= 3000
+cargo run -- --help
+cargo run
+cargo run -- 3000
+cargo run -- -p 3000
+cargo run -- -p 5000
+nvim
+cargo run -- -p 5000
+cd projects
+mkdir twitch_auto_battles
+cd twitch_auto_battles/
+cargo init
+neofetch
+cd .config/hypr
+ls
+nvim hyprland.conf 
+cd ..
+exit
+paru -Syyu
+cd projects
+cd twitch_auto_battles/
+cargo run
+shutdown now
+cd config
+ls
+cd gtk-3.0/
+ls
+nvim settings.ini
+gsettings
+gsettings get
+gsettings get theme
+cd gtk-3.0/
+cd config
+cd gtk-3.0/
+nvim settings.ini
+gsettings get gtk-theme-name
+nvim settings.ini
+gsettings get settings gtk-theme-name
+gsettings get gtk-theme-name
+echo $env.XDG_SESSION_DESKTOP
+neofetch
+paru -Syu
+gsettings get org.freedesktop.appearance.color-scheme
+gsettings get org.freedesktop.appearance.color-scheme theme
+gsettings get org.freedesktop.appearance.color-scheme
+gsettings get xdg-desktop-portal-gnome org.freedesktop.appearance.color-scheme
+gsettings get xdg-desktop-portal-hyprland org.freedesktop.appearance.color-scheme
+gsettings get xdg-desktop-portal org.freedesktop.appearance.color-scheme
+paru -S xdg-desktop-portal-hyprland-git
+paru -S hyprland
+paru -S xdg-desktop-portal-gtk
+gsettings get xdg-desktop-portal-gtk org.freedesktop.appearance.color-scheme
+gsettings get org.gnome.desktop.interface
+gsettings get org.gnome.desktop.interface gtk-theme
+gsettings get org.gnome.desktop.interface color-scheme
+gsettings get org.gnome.desktop.interface color-scheme prefer-dark
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+gsettings get org.gnome.desktop.interface color-scheme prefer-dark
+gsettings get org.gnome.desktop.interface color-scheme
+cd projects
+mkdir ray_tracing_in_a_weekend
+cd ray_tracing_in_a_weekend/
+cargo init
+cargo add wgpu
+cargo add winit
+cargo run
+cd super_tic_tac_toe/
+cd super_tic_tac_toe
+ls
+image.ppm
+./image.ppm
+cargo run
+cargo new derive
+nvim
+rm -rf derive
+ls
+cargo new derive --lib
+cargo run
+nvim
+cargo run
+cargo expand
+cargo install expand
+cargo expand
+cargo --list
+cargo install expand
+cargo install cargo-expand
+cargo expand
+cargo expand --lib derive
+cargo expand --lib
+cargo run
+cargo expand --lib
+cargo run
+cargo expand --lib
+cargo run
+cargo expand --lib
+cargo build
+cargo build derive
+cargo build --crate derive
+cargo expand
+cargo expand --lib
+cargo build
+cargo build -Z macro-backtrace
+cargo build
+cargo expand
+cargo expand --lib
+cargo build
+cargo expand --lib
+cargo build
+cargo expand --lib
+cargo build
+cargo expand --lib
+cargo build
+cargo expand --lib
+cargo build
+cargo expand --lib
+cargo build
+cargo expand --lib
+cargo build
+nvim
+cargo build
+cargo run
+cargo build
+cargo run
+cargo expand --lib
+cargo run
+cargo expand --lib
+cargo run
+cargo expand --lib
+cargo run
+cargo expand --lib
+cargo run
+cargo expand --lib
+cargo run
+nvim
+exit
+exit
+clear
+ls
+starship
+exit
+exit
+nvim config.nu
+cd config
+cd nu
+ls
+cd config
+ls
+cdc nushell/
+ls
+cd nushell/
+ls
+clear
+exot
+exit
+config nu --default
+nvim
+exit
+exit
+cd config
+cd nushell/
+nvim
+exit
+exit
+exit
+clear
+pkill vesktop
+nvim
+cd config
+ls
+cd wofi/
+ls
+nvim config
+nvim style.css
+gsettings get org.gnome.desktop.interface color-scheme
+cd config
+cd wofi
+ls
+nvim style.css
+mv style.css style.css.old
+ls
+gsettings get org.gnome.desktop.interface color-scheme
+gsettings get org.gnome.desktop.interface
+gsettings get org.gnome.desktop.interface all
+gsettings get org.gnome.desktop.interface *
+echo org.gnome.desktop.interface
+cd wofi
+cd config
+cd wofi
+move style.css.old style.css
+mv style.css.old style.css
+cd config
+cd hypr
+ls
+nvim hyprland.conf
+cd config
+ls
+cd wlogout/
+ls
+nvim style.css
+nvim
+nvim ../wofi/style.css
+cd hypr
+nvim hyprland.conf
+neofetch
+gtk-query-settings
+gtk-query-settings | rg gtk-theme-name
+gsettings get org.gnome.desktop.interface gtk-theme
+gsettings get org.hypr.desktop.interface gtk-theme
+gsettings get org.mate.desktop.interface gtk-theme
+gsettings list-schemas
+paru -S openssh
+sudo systemctl start sshd
+sudo systemctl enable sshd
+sudo ufw allow 22/tcp
+ip addr show
+exit
+ssh mrteathyme@localhost
+cd nushel
+nvim login.nu
+exit
+ssh mrteathyme@localhost
+steam
+pkill steam
+steam
+pkill steaM
+pkill steam
+steam
+ps | rg steam
+pkill -f steam
+pkill -f Steam
+ps | rg steam
+kill 428
+pkill 428
+ps | rg steam
+pkill -f Steam
+pkill -f steam
+ps | rg steam
+pkill 455
+ps | rg steam
+cd /usr/share/applications/
+ls
+pkill steam
+pkill -f steam
+steam
+sudo nvim steam.desktop 
+ps | rg steam
+pkill -f 453
+ps | rg steam
+exit
+cd projects
+mkdir crypto_bot
+cd crypto_bot/
+cargo init
+cargo add reqwest
+cargo build
+cargo add hmac
+cargo add sha2
+cargo add hex_literal
+cargo build
+cargo remove hmac
+cargo remove hex_literal
+cargo remove sha2
+cargo add RustCrypto
+cargo remove RustCrypto
+cargo remove rustcrypto
+cargo add ring
+cargo build
+cargo add hex
+cargo build
+cargo add serde --features derive
+cargo add serde_json
+cargo add reqwest --features json
+cargo add tokio --features full
+cargo run
+cd steam
+ls
+cd steamapps
+ls
+cd common
+ls
+cd `Risk of Rain 2/`
+ls
+cd `Risk of Rain 2_Data/`
+ls
+cd ..
+ls
+cd userdata
+ls
+cd 295036499/
+ls
+cd 632360/
+ls
+cd remote/
+ls
+cd UserProfiles/
+ls
+cp 0a800d1f-c05f-4512-ab69-23c69a434d89.xml 0a800d1f-c05f-4512-ab69-23c69a434d89.xml.bak
+paru -S r2modman-bin
+r2modman
+dir-prime
+dri-prime
+DRIPRIME
+PRIME
+pkill -f steam
+nvim
+nvim 0a800d1f-c05f-4512-ab69-23c69a434d89.xml
+r2modman --no-sandbox
+shutdown now
+cd /etc/systemd/
+ls
+systemd-analyze cat-config
+systemd-analyze cat-config systemd/resolved.conf
+sudo nvim resolved.conf
+ip addr show
+networkctl
+networkctl -h
+networkctl forcerenew
+networkctl
+networkctl forcerenew enp82s0 enp79s0 wlp80s0
+resolvconf
+paru -S resolvconf
+resolvconf
+cd /etc/
+ls
+man resolvconf
+resolvconf -h
+nvim resolvconf.conf
+ip addr show
+ip link
+ip
+ip gateway
+ip help
+ip address
+shutdown now
+cd crypto_bot/
+cd crypto_bot
+cd projects
+cd crypto_bot
+ls
+nvim
+mkdir src/private
+mkdir src/public
+touch accounts.rs
+touch account.rs
+rm accounts.rs
+cd config
+cd hypr
+hyprctl monitors
+hyprctl monitors\
+hyprctl monitors
+nvim
+exit
+exit
+nvim
+shutdown now
+cd projects
+cd youtube-black
+nvim cargo.toml
+ls
+nvim Cargo.toml
+exit
+ls
+cd Pictures/
+ls
+id_front.png
+chrome id_front.png
+shutdown now
+paru -S kicad
+paru -Syu kicad
+paru -Syyu kicad
+paru -S hyprland
+paru -S hyprland gamescope wlroots
+paru -Syu kicad
+paru -S lan-mouse
+paru -Syu kicad
+paru -S catpuccin-gtk
+cd config
+ls
+cd gtk-3.0/
+ls
+cd config
+cd hypr
+nvim hyprland.conf
+cd gtk-3.0
+gsettings get org.mate.desktop.interface gtk-theme
+gsettings get org.gnome.desktop.interface gtk-theme
+gsettings set org.gnome.desktop.interface gtk-theme "catpuccin-mocha-standard-pink-Dark"
+gsettings get org.gnome.desktop.interface gtk-theme
+gsettings set org.gnome.desktop.interface gtk-theme "catpuccin-mocha-standard-pink-Dark"
+steam
+cd projects
+mkdir ear_trainer
+cd ear_trainer/
+ls
+cargo init
+ls
+cargo add rodio
+cargo add slint
+shutdown now
+paru -S virt-manager virt-viewer qemu
+nvim iommu.sh
+iommu.sh
+sh iommu.sh
+sh iommu.sh | rg AMD
+sh iommu.sh | rg AMD -C
+sh iommu.sh | rg AMD -C 1
+groups 20 and 19
+echo "groups 20 and 19"
+paru -S vde2 ebtables iptables-nft nftables dnsmasq bridge-utils ovmf
+sudo nvim /etc/libvirt/libvirtd.conf
+sudo usermod -a -G kvm,libvirt
+whoami
+sudo usermod -a -G kvm,libvirt mrteathyme
+sudo systemctl enable libvirtd
+sudo systemctl start libvirtd
+sudo groups mrteathyme
+sudo groups mrteathyme
+sudo nvim /etc/libvirt/qemu.conf
+sudo systemctl restart libvirtd
+sudo virsh net-autostart default
+shutdown now
+paru -S looking-glass
+hyprctl monitors
+hyprland
+shutdown now
+reboot
+exit
+cd .cache/hyprland
+ls
+paru -S egl-wayland
+sudo nvim /etc/mkinitcpio.conf
+sudo nvim /etc/modprobe.d/nvidia.conf
+sudo mkinitcpio -P
+paru -S nvidia-dkms
+paru -S nvidia-vaapi-driver
+paru -S libva-nvidia-driver
+nvim hyprlandCrashReport1023.txt
+cd ../../.config/hypr/
+nvim
+shutdown now
+wezterm
+$env.PATH = ($env.PATH | append '/usr/bin/')
+wezterm
+wezterm start --always-new-process
+cd .config
+ls
+cd wezterm
+ls
+nvim wezterm.lua
+ps | wezterm
+ps | rg wezterm
+rm 449
+pkill 449
+pkill 468
+ps | rg wezterm
+pkill 445
+ps | rg wezterm
+pkill wezterm
+ps | rg wezterm
+pkill wezterm
+nvim wezterm.lua
+pkill wezterm
+wezterm
+nvim wezterm.lua
+wezterm
+wezterm start --always-new-process
+cd config
+cd wezterm
+nvim wezterm.lua
+wezterm start --always-new-process
+wezterm
+pkill wezterm
+wezterm
+nvim wezterm.lua
+wezterm
+cd config
+cd hypr
+ls
+cd config
+cd wezter
+cd wezterm
+wezterm start --always-new-process
+DRI_PRIME wezterm start --always-new-process
+DRI_PRIME=1 wezterm start --always-new-process
+nvim wezterm.lua
+nvim hyprland.conf
+nvim wezterm.lua
+ls
+pkill wezterm
+wezterm start --always-new-process
+glxinfo
+glxinfo -B
+DRI_PRIME=1 glxinfo -B
+DRI_PRIME=0 glxinfo -B
+DRI_PRIME=2 glxinfo -B
+DRI_PRIME=1 glxinfo -B
+DRI_PRIME=1 glxgears
+DRI_PRIME=0 glxgears
+radeontop
+lspci -k
+nvidia-smi
+nvidia-smi -q
+nvidia-smi
+DRI_PRIME=0 glxgears
+DRI_PRIME=1 glxgears
+nvidia-smi
+DRI_PRIME=2 glxgears
+hyprctl monitors
+lsmod | rg amdgpu
+nvidia-smi -q
+nvidia-smi
+prime-run glxgears
+paru -S vulkan-mesa-layers
+DRI_PRIME=1 glxgears
+nvidia-smi
+DRI_PRIME=0 glxgears
+paru -S lib32-vulkan-mesa-layers
+DRI_PRIME=0 glxgears
+nvidia-smi
+DRI_PRIME=1 glxgears
+lspci -k
+lspci -k | rg amd
+lspci -k | rg amd -C 1
+lspci -k | rg amd -C 2
+lspci -k
+lspci
+DRI_PRIME
+glewinfo
+glewinfo | head -n 20
+_NV_PRIME_RENDER_OFFLOAD=1 glxgears
+nvidia-smi
+radeontop
+_NV_PRIME_RENDER_OFFLOAD=0 glxgears
+nvidia-smi
+radeontop
+VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/radeon_icd.i686.json:/usr/share/vulkan/icd.d/radeon_icd.x86_64.json glxgears
+vkcube-wayland
+vkcube-wayland --gpu_number 1
+echo /dev/dri
+cd /dev
+cd /dri
+cd /dev/dri
+ls
+cd ..
+cd ~
+vkcube-wayland --gpu_number 1
+nvidia-smi
+radeontop
+lspci
+nvidia-smi
+radeontop
+DRI_PRIME=pci-55:00.0 glxgears
+export DRI_PRIME=pci-55:00.0
+DRI_PRIME=pci-55:00.0 vkcube-wayland --gpu_number 1
+lshw -c display
+__NV_PRIME_RENDER_OFFLOAD=1 vkcube
+__NV_PRIME_RENDER_OFFLOAD=1 vkcube --gpu_number 1
+__NV_PRIME_RENDER_OFFLOAD=1 vkcube-wayland --gpu_number 1
+__NV_PRIME_RENDER_OFFLOAD=1 vkcube --gpu_number 1
+__NV_PRIME_RENDER_OFFLOAD=1 vkcube --gpu_number 0
+__NV_PRIME_RENDER_OFFLOAD=1 vkcube --gpu_number 1
+__NV_PRIME_RENDER_OFFLOAD=0 vkcube --gpu_number 1
+__NV_PRIME_RENDER_OFFLOAD=0 vkcube-wayland --gpu_number 1
+__NV_PRIME_RENDER_OFFLOAD=0 vkcube-wayland
+__NV_PRIME_RENDER_OFFLOAD=2 vkcube-wayland
+__NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=non_NVIDIA_only vkcube
+__NV_PRIME_RENDER_OFFLOAD=0 __VK_LAYER_NV_optimus=non_NVIDIA_only vkcube
+DRI3
+paru -S DRI3
+LIBGL_DEBUG=verbose glxinfo | grep libgl
+lsmod | grep -e nvidia -e nouveau
+paru -Rns nvidia nvidia-settings nvidia-utils lib32-nvidia-utils
+paru -Rns nvidia
+paru -Rns nvidia-dkms
+paru -R nvidia-dkms
+reboot
+$env.PATH = ($env.PATH | append '/usr/bin/')
+paru -S nvidia-dkms
+gpu-manager
+sudo nvim /etc/modprobe.d/blacklist.conf
+sudo nvim /etc/modprobe.d/nvidia-utils.conf
+cd .cache/hyprland
+nvim
+ls
+lspci
+hyprctl monitors
+nvim .config/hypr/hyprland.conf
+lspci
+lspci | rg nvidia
+lspci | rg nv
+lspci | rg A2000
+vkcube-wayland --gpu_number 0
+vkcube-wayland --gpu_number 1
+DRI_PRIME=pci-55:00.0 vkcube-wayland --gpu_number 1
+DRI_PRIME=pci-55:00.0 vkcube-wayland
+vkcube-wayland
+radeontop
+htop
+DRI_PRIME=1 vkcube-wayland
+DRI_PRIME=1 vkcube
+DRI_PRIME=0 vkcube
+lspci
+DRI_PRIME=pci-56:00.0 vkcube-wayland
+ps | qemu
+vkcube
+paru -S remmina
+./vm.sh
+virsh net-list
+virsh
+virsh net-info
+pkill 
+ps | virt
+ps | rg virt
+pkill virt
+ps | rg virt
+reboot
+radeontop
+nvidia-smi
+pkill vesktop
+nvidia-smi
+amdgpu_top
+paru -S amdgpu_top
+vkcube
+nvidia-smi
+vkcube-wayland
+vkcube-wayland --gpu_number 1
+vkcube-wayland
+paru -S freerdp
+freerdp
+xfreerdp
+dmesg | grep -i vfio
+sudo dmesg | grep -i vfio
+sudo dmesg
+sudo dmesg | rg vfioo
+sudo dmesg | rg vfio
+amdgpu_top
+$env.PATH = ($env.PATH | append '/usr/bin/')
+google-chrome-stable
+pkill hyprland
+$env.PATH = ($env.PATH | append '/usr/bin/')
+cd config
+ls
+cd hypr
+ls
+nvim hyprland.conf
+paru -Syuu
+paru -S hyprland
+cd hypr
+ls
+nvim hyprland.conf
+exit
+cd hypr
+$env.PATH = ($env.PATH | append '/usr/bin/')
+cd hypr
+nvim hyprland.conf
+exit
+wofi --show drun
+cd hypr
+ls
+wofi --show drun
+cd hypr
+nvim hyprland.conf
+wofi -H 800 -W 800 --show drun
+vesktop
+cd config
+cd hypr
+ls
+nvim hyprland.conf
+hyprctl monitors
+cd hypr
+cd hyprland.conf
+nvim hyprland.conf
+shutdown now
+paru -S quickpassthrough
+mkdir vm_tools
+cd vm_tools/
+git clone https://github.com/HikariKnight/quickpassthrough.git<\n>cd quickpassthrough<\n>go mod download<\n>CGO_ENABLED=0 go build -ldflags="-X github.com/HikariKnight/quickpassthrough/internal/version.Version=$(git rev-parse --short HEAD)" -o quickpassthrough cmd/main.go
+go mod download
+CGO_ENABLED=0 go build -ldflags="-X github.com/HikariKnight/quickpassthrough/internal/version.Version=$(git rev-parse --short HEAD)" -o quickpassthrough cmd/main.go<\n>
+CGO_ENABLED=0 go build -ldflags="-X github.com/HikariKnight/quickpassthrough/internal/version.Version=$(git rev-parse --short HEAD)" -o quickpassthrough cmd/main.go
+ls
+go mod download
+go get -u ./cmd
+CGO_ENABLED=0 go build -ldflags="-X github.com/HikariKnight/quickpassthrough/internal/version.Version=$(git rev-parse --short HEAD)" -o quickpassthrough cmd/main.go<\n>
+CGO_ENABLED=0 go build -ldflags="-X github.com/HikariKnight/quickpassthrough/internal/version.Version=$(git rev-parse --short HEAD)" -o quickpassthrough cmd/main.go
+git rev-parse --short HEAD
+CGO_ENABLED=0 go build -ldflags="-X github.com/HikariKnight/quickpassthrough/internal/version.Version=4d0086d" -o quickpassthrough cmd/main.go
+ls
+quickpassthrough
+./quickpassthrough
+ls
+cd config
+ls
+cd etc
+ls
+cd ..
+cp etc/ /etc/
+cp etc/ /etc/ --recursive
+sudo cp etc/ /etc/ --recursive
+ls
+nvim kernel_args
+cd /boot
+ls
+cd EFI
+ls
+cd Boot
+ls
+cd ..
+cd refind
+ls
+nvim refind.conf
+cd ..
+ls
+cd ..
+ls
+cd ~
+cd vm_tools/
+cd quickpassthrough/
+./quickpassthrough
+ls
+cd config
+ls
+nvim refind_linux.conf
+sudo nvim refind_linux.conf
+nvim kernel_args
+ls
+cd qemu
+ls
+nvim dummy.rom
+cd ..
+ls
+paru -S quickemu
+quickemu
+cd ~
+cd vm_tools
+cd quickpassthrough/
+cd config
+cd qemu
+ls
+cd ..
+ls
+cd etc
+ls
+cd default
+ls
+nvim grub
+paru -S quickget
+quickget
+quickget -h
+quickget --list
+quickget windows
+pkill vesktop
+ps | rg vesktop
+pkill vesktop
+ps | rg vesktop
+pkill vesktop
+vesktop
+cd config
+cd hyprland.conf
+cd hypr
+cd hyprland.conf
+pkill vesktop
+vesktop
+paru -S vesktop
+vesktop
+DRI_PRIME=1 vesktop
+pkill vesktop
+nvim hyprland.conf
+cd config
+cd hypr
+pkill vesktop
+paru -S nvidia-vaapi-driver
+paru -S libva-nvidia-driver
+sudo nvim /etc/modprobe.d/nvidia_drm.conf
+uname -r
+uname
+cd /usr/lib/modules/6.9.6-arch1-1/
+lsmod
+lsmod | rg nvidia
+cat /sys/module/nvidia_drm/parameters/modeset
+sudo cat /sys/module/nvidia_drm/parameters/modeset
+sudo cat /sys/module/nvidia_drm/parameters/fbdev
+quickget windows 11
+ls
+mkdir ~/vm
+cp -r windows-11/ ~/vm/
+cp windows-11.conf ~/vm/
+cd ~/vm
+ls
+quickemu --vm windows-11.conf
+quickemu --vm windows-11.conf --display gtk
+paru -S qemu-full
+--enable-features=UseOzonePlatform --ozone-platform=wayland vesktop
+quickemu --vm windows-11.conf --display gtk
+nvim
+quickemu
+quick emu --kill
+quickemu --kill
+quickemu --kill windows-11.conf
+quickemu --kill --vm windows-11.conf
+ps | rg qemu
+ps | rg kvm
+quickemu --vm windows-11.conf
+quickemu --kill --vm windows-11.conf
+quickemu --vm windows-11.conf
+quickemu --kill --vm windows-11.conf
+cd ~/vm_tools
+cd quickpassthrough/
+ls
+ls-iommu
+cd config
+ls
+cp -r qemu ~/vm/
+cd ..
+ls
+cd utils
+ls
+./ls-iommu
+cd ~/vm
+ls
+quickemu --vm windows-11.conf
+cd vm
+quickemu --vm windows-11.conf
+nvim
+quickemu --vm windows-11.conf
+quickemu --vm windows-11.conf --kill
+quickemu --vm windows-11.conf
+nvim
+quickemu --vm windows-11.conf
+lspci -nnk -s '0000:55:00.0'
+modprobe -r amdgpu
+modprobe vfio-pci
+sudo modprobe vfio-pci
+lspci -nnk -s '0000:55:00.0'
+virsh nodedev-detatch pci_0000_55_00_0
+virsh nodedev-detach pci_0000_55_00_0
+sudo virsh nodedev-detach pci_0000_55_00_0
+cd vm
+quickemu --vm windows-11.conf
+sudo quickemu --vm windows-11.conf
+quickemu --vm windows-11.conf
+cd vm
+quickemu --vm windows-11.conf
+radeontop
+amdgpu_top
+cd /usr/share/applications/
+ls
+nvim google-chrome.desktop
+echo $env.WLR_DRM_DEVICES
+echo $WLR_DRM_DEVICES
+echo WLR_DRM_DEVICES
+cd hypr
+cd hyprland.conf
+nvim hyprland.conf
+ln -sf /dev/dri/by-path/pci-0000:55:00.0-card $HOME/.config/hypr/card
+ln -sf /dev/dri/by-path/pci-0000:55:00.0-card /.config/hypr/card
+ln -sf /dev/dri/by-path/pci-0000:55:00.0-card ~/.config/hypr/card
+nvim hyprland.conf
+ln -sf /dev/dri/by-path/pci-0000:55:00.0-card ~/.config/hypr/amd-primary
+ls -l /dev/dri/by-path
+ln -sf /dev/dri/by-path/pci-0000:56:00.0-card ~/.config/hypr/nvidia
+nvim hyprland.conf
+paru -S mesa
+paru -S vulkan-nouveau
+paru -S lib32-vulkan-nouveau
+paru -R nvidia-dkms nvidia-utils nvidia-settings egl-wayland
+paru -R nvidia-dkms nvidia-utils egl-wayland
+paru -R nvidia-dkms nvidia-utils egl-wayland nvidia-prime
+cd /boot
+ls
+nvim refind_linux.conf
+sudo nvim refind_linux.conf
+$env.PATH = ($env.PATH | append '/usr/bin/')
+ps | rg hypr
+ps | rg Hypr
+modprobe nouveau
+pkill hyprland
+pkill Hyprland
+$env.PATH = ($env.PATH | append '/usr/bin/')
+pkill Hyprland
+Hyprland
+$env.PATH = ($env.PATH | append '/usr/bin/')
+pkill hyprland
+exit
+exit
+cd config
+cd hypr
+cd hyprland.conf
+nvim hyprland.conf
+pkill hyprland
+pkill Hyprland
+nvim hyprland.conf
+pkill Hyprland
+$env.PATH = ($env.PATH | append '/usr/bin/')
+Hyprland
+pkill Hyprland
+Hyprland
+pkill greetd
+ps
+ps | greet
+ps | g
+ps | rg g
+ps | rg gr
+ps | rg gre
+ps | rg gtk
+ps | rg Hypr
+ps | rg gypr
+ps | rg hypr
+nvim hyprland.conf
+Hyprland
+cd /home/mrteathyme/.cache/hyprland
+nvim hyprlandCrashReport2335.txt
+reboot
+$env.PATH = ($env.PATH | append '/usr/bin/')
+cd /home/mrteathyme/.cache/hyprland
+nvim hyprlandCrashReport1167.txt
+cd config/hypr
+nvim hyprland.conf
+reboot
+$env.PATH = ($env.PATH | append '/usr/bin/')
+cd config/hypr
+nvim hyprland.conf
+paru -S egl-wayland
+pkill Hyprland
+nvim hyprland.conf
+pkill Hyprland
+modprobe mesa
+modprobe vulkan-nouveau
+modprobe amdgpu
+modprobe nouveau
+sudo modprobe nouveau
+pkill Hyprland
+modprobe -b
+modprobe -h
+modprobe -c
+modprobe -h
+modprobe -R nouveau
+modprobe -R vulkan-nouveau
+Hyprland
+DRI_PRIME=1 Hyprland
+lspci
+lspci -nnk -s '0000:55:00.0'
+lspci -nnk -s '0000:56:00.0'
+nvidia-smi
+pkill -9
+kill -9
+kill -f -9
+logout
+$env.PATH = ($env.PATH | append '/usr/bin/')
+ps | rg greet
+ps | rg Gre
+ps | rg hypr
+ps | rg Gypr
+ps | rg Hypr
+ps | rg Hyprland
+ps | rg wayland
+modprobe -R vulkan-nouveau
+modprobe -R nouveau
+lspci -nnk -s '0000:56:00.0'
+egl-wayland
+hyprctl
+hyprctl monitors
+Hyprland
+paru -S nvidia-dkms
+reboot
+nvim /etc/mkinitcpio.conf
+sudo nvim /etc/mkinitcpio.conf
+cd config/hypr
+nvim hyprland.conf
+reboot
+lspci -nnk -s '0000:56:00.0'
+paru -R nvidia-dkms
+reboot
+$env.PATH = ($env.PATH | append '/usr/bin/')
+cd hypr
+nvim hyprland.conf
+paru -S nvidia-dkms
+hyprctl monitors
+cd hypr
+lspci -nnk -s '0000:56:00.0'
+xrandr
+prime-run
+glxinfo
+glxinfo | rg "OpenGL renderer"
+lspci -nnk -s '0000:55:00.0'
+DRI_PRIME=pci-55:00.0 glxinfo
+DRI_PRIME=pci-55:00.0 glxinfo | rg "OpenGL"
+DRI_PRIME=pci-55:00.0-card0 glxinfo | rg "OpenGL"
+DRI_PRIME=pci-55:00.0-card1 glxinfo | rg "OpenGL"
+DRI_PRIME=0 glxinfo | rg "OpenGL"
+DRI_PRIME=1 glxinfo | rg "OpenGL"
+cd vm
+cd ~/vm
+quickemu --vm windows-11.conf
+quickemu --vm windows-11.conf --display sdl
+ssh user@localhost -p 22220
+exit
+ssh mrteathyme@localhost
+paru -S spice-webdavd
+lspci -nnk -s '0000:55:00.0'
+ps | rg windows
+ps
+modprobe -r amdgpu
+sudo modprobe -r amdgpu
+sudo modprobe -f -r amdgpu
+sudo modprobe -F -r amdgpu
+modprobe -h
+nvim /etc/modprobe.d/blacklist-nouveau.conf
+sudo nvim /etc/modprobe.d/blacklist.conf
+sudo nvim /etc/modprobe.d/blacklist-nouveau.conf
+reboot
+lspci -nnk -s '0000:55:00.0'
+lspci -nnk -s '0000:56:00.0'
+paru -R nvidia-dkms
+mkinitcpio
+reboot
+lspci -nnk -s '0000:56:00.0'
+$env.PATH = ($env.PATH | append '/usr/bin/')
+lspci -nnk -s '0000:56:00.0'
+modprobe nouveau
+sudo modprobe nouveau
+Hyprland
+pkill Hyprland
+mkinitcpio
+pkill -9
+kill -9
+kill -9 -f
+kill -9 f
+kill -1
+ps
+cat | ps
+ps | cat
+$env.PATH = ($env.PATH | append '/usr/bin/')
+ps | cat
+ps | rg gtk
+ps | rg g
+ps | rg user
+ps | rg tty
+ps | rg session
+ps | rg u
+ps | rg mrteathyme
+ps | rg nu
+pkill 0
+sudo pkill 0
+$env.PATH = ($env.PATH | append '/usr/bin/')
+cd hypr
+nvim hyprland.conf
+sudo nvim /etc/modprobe.d/blacklist-nouveau.conf
+$env.PATH = ($env.PATH | append '/usr/bin/')
+modprobe nouveau
+sudo modprobe nouveau
+pkill Hyprland
+lspci -nnk -s '0000:56:00.0'
+DRI_PRIME=1 glxinfo | rg "OpenGL"
+cd /etc/modprobe.d
+ls
+rm blacklist-nouveau.conf
+sudo mv blacklist-nouveau.conf.bak
+sudo mv blacklist-nouveau.conf blacklist-nouveau.conf.bak
+sudo mkinitcpio -P
+reboot
+sudo modprobe nouveau
+$env.PATH = ($env.PATH | append '/usr/bin/')
+sudo modprobe nouveau
+pkill Hyprland
+paru -R nvidia-drm
+paru -R nvidia_drm
+paru -Q nvidia
+dmesg | grep -i nvidia
+sudo dmesg | grep -i nvidia
+sudo dmesg | grep -i 56:00.0
+sudo dmesg | grep -i 55:00.0
+cd /etc/modprobe.d
+;s
+ls
+sudo nvim nvidia.conf
+ls
+sudo mv nvidia.conf nvidia.conf.bak
+ls
+sudp cp ./ ~/modprobe.d.bak
+sudo cp ./ ~/modprobe.d.bak
+sudo cp -r ./ ~/modprobe.d.bak
+sudo rm blacklist-nouveau.conf.bak
+sudo rm nvidia.conf.bak
+reboot
+$env.PATH = ($env.PATH | append '/usr/bin/')
+sudo modprobe nouveau
+pkill Hyprland
+paru -Qm nvidia
+paru -Qi nvidia
+paru -Qi
+paru -Qi | rg nvidia
+paru -R nvidia-utils
+paru -R egl-wayland
+paru -Qi | rg nvidia
+cd /usr/lib/modprobe.d
+ls
+nvim nvdimm-security.conf
+nvim systemd.conf
+sudo dmesg | rg nouveau
+lspci -n
+vkcube-wayland --gpu_number 1
+amdgpu_top
+DRI_PRIME=1 glxgears
+sudo dmesg | rg opcode
+sudo dmesg | rg vbios
+sudo dmesg | rg 55:00
+sudo dmesg | rg 56:00
+sudo dmesg | rg 55:00.0
+sudo nvim /etc/modprobe.d/vfio.conf
+cd /etc/udev/rules.d
+ls
+cd /usr/lib/udev/rules.d
+ls
+nvim 60-drm.rules
+cd /boot
+nvim refind_linux.conf
+sudo nvim refind_linux.conf
+reboot
+$env.PATH = ($env.PATH | append '/usr/bin/')
+pkill Hyprland
+amdgpu_top
+nvidia-smi
+modprobe -q nouveau
+modprobe nouveau
+sudo modprobe nouveau
+pkill Hyprland
+$env.PATH = ($env.PATH | append '/usr/bin/')
+cd /boot
+sudo nvim refind_linux.conf
+reboot
+$env.PATH = ($env.PATH | append '/usr/bin/')
+lspci -nnk -s '0000:56:00.0'
+lspci -nnk -s '0000:55:00.0'
+modprobe -r amdgpu
+virsh nodedev-detach pci_0000_55_00_0
+sudo virsh nodedev-detach pci_0000_55_00_0
+sudo virsh nodedev-detach pci_0000_55_00_1
+sudo virsh nodedev-detach pci_0000_55_00_0
+modprobe -r amdgpu
+sudo modprobe -r amdgpu
+sudo virsh nodedev-detach pci_0000_55_00_0
+pkill Hyprland
+modprobe -r nouveau
+sudo modprobe -r nouveau
+sudo modprobe nouveau
+pkill Hyprland
+nvim .config/hypr/hyprland.conf
+pkill Hyprland
+cd /boot
+sudo nvim refind_linux.conf
+reboot
+nvim .config/hypr/hyprland.conf
+$env.PATH = ($env.PATH | append '/usr/bin/')
+nvim .config/hypr/hyprland.conf
+pkill Hyprland
+nvim .config/hypr/hyprland.conf
+pkill Hyprland
+ps | rg chrome
+ps | rg google
+ps | rg Go
+ps | rg Hyprland
+modprobe -l
+lspci -nnk -s '0000:55:00.0'
+sudo modprobe amdgpu
+sudo modprobe nouveau
+sudo modprobe vfio-pci
+lspci -nnk -s '0000:55:00.0'
+lspci -nnk -s '0000:56:00.0'
+glxinfo
+glxinfo | rg "OpenGL renderer"
+vulkan-info
+vktools
+vkcube
+vkcube-wayland
+paru -S nvidia-dkms
+reboot
+ls
+$env.PATH = ($env.PATH | append '/usr/bin/')
+nvim .config/hypr/hyprland.conf
+pkill Hyprland
+Hyprland
+sudo modprobe nouveau
+Hyprland
+vkcube-wayland
+vkcube
+reboot
+lspci -nnk -s '0000:56:00.0'
+$env.PATH = ($env.PATH | append '/usr/bin/')
+lspci -nnk -s '0000:56:00.0'
+lspci -nnk -s '0000:55:00.0'
+lspci -nnk -s '0000:56:00.0'
+sudo modprobe nouveau
+lspci -nnk -s '0000:56:00.0'
+sudo modprobe -r nvidia
+sudo modprobe -r -F nvidia
+sudo modprobe -r -f nvidia
+virsh nodedev-detach pci_0000_56_00_0
+nodedev-detach pci_0000_56_00_0
+which virsh
+nvim /usr/bin/virsh
+cd /etc/modprobe.d
+ls
+cd ..
+cd /usr/lib/modprobe.d
+ls
+nvim nvidia-utils.conf
+sudo nvim nvidia-utils.conf
+reboot
+lspci -nnk -s '0000:56:00.0'
+paru -R nvidia-utils
+paru -R nvidia-dkms
+paru -R nvidia-utils
+reboot
+paru -S nvidia-utils
+$env.PATH = ($env.PATH | append '/usr/bin/')
+paru -S nvidia-utils
+cd /usr/lib/modprobe.d
+ls
+nvim nvidia-utils.conf
+sudo nvim nvidia-utils.conf
+reboot
+paru -S nvidia-dkms
+$env.PATH = ($env.PATH | append '/usr/bin/')
+paru -S nvidia-dkms
+reboot
+ls
+paru -R nvidia-utils
+$env.PATH = ($env.PATH | append '/usr/bin/')
+paru -R nvidia-utils
+cd /etc/modprobe.d
+ls
+cd /usr/lib/modprobe.d
+ls
+nvim nvidia-utils.conf
+sudo nvim nvidia-utils.conf
+reboot
+mkinitcpio -P
+$env.PATH = ($env.PATH | append '/usr/bin/')
+sudo mkinitcpio -P
+reboot
+$env.PATH = ($env.PATH | append '/usr/bin/')
+sudo modprobe nouveau
+pkill Hyprland
+cd /usr/lib/modprobe.d
+sudo nvim nvidia-utils.conf
+reboot
+ls
+DRI_PRIME=1 glxgears
+DRI_PRIME=1 glxinfo | rg "OpenGL"
+glxinfo | grep "OpenGL"
+vulkan-info
+vulkaninfo
+vkcube
+vkcube-wayland
+vkcube-wayland --gpu_number 1
+vkcube-wayland
+vulkaninfo
+vulkaninfo | rg nvidia
+amdgpu_top
+nvidia-smi
+steam
+pkill steam
+pkill -f steam
+DRI_PRIME=1 steam
+htop
+exit
+ls
+vulkaninfo | rg "GPU[0123]" -A 10
+DRI_PRIME=1 glxinfo | rg "OpenGL"
+DRI_PRIME=0 glxinfo | rg "OpenGL"
+DRI_PRIME=2 glxinfo | rg "OpenGL"
+DRI_PRIME=1! glxinfo
+DRI_PRIME=1! glxinfo | rg "opengl<\n>"
+DRI_PRIME=1! glxinfo | rg "opengl"
+DRI_PRIME=1! glxinfo | rg "Opengl"
+DRI_PRIME=1 glxinfo | rg "Opengl"
+DRI_PRIME=1 glxinfo
+DRI_PRIME=1! glxinfo | rg "OpenGL"
+vulkaninfo | grep "GPU[0123]" -A 10
+DRI_PRIME=2! glxinfo | rg "OpenGL"
+DRI_PRIME=1! glxinfo | rg "OpenGL"
+DRI_PRIME=0! glxinfo | rg "OpenGL"
+DRI_PRIME=!! glxinfo | rg "OpenGL"
+DRI_PRIME=1! glxinfo | rg "OpenGL"
+DRI_PRIME=1! glxinfo | rg "OpenGL"
+glxinfo | rg "OpenGL"
+DRI_PRIME=0! glxinfo | rg "OpenGL"
+DRI_PRIME=2! glxinfo | rg "OpenGL"
+DRI_PRIME=3! glxinfo | rg "OpenGL"
+DRI_PRIME=1! glxinfo | rg "OpenGL"
+cd vm
+quickemu --vm windows-11.conf --display sdl
+cd /etc/libvirt/
+ls
+cd hooks
+ls
+cd hooks
+sudo rmmod amdgpu
+nvim .config/hypr/hyprland.conf
+cd hypr
+nvim hyprland.conf
+udevadm trigger --verbose --type=devices --action=remove --subsystem-match=drm --property-match="MINOR=1"
+sudo udevadm trigger --verbose --type=devices --action=remove --subsystem-match=drm --property-match="MINOR=1"
+lspci -nnk -s '0000:55:00.0'
+modprobe -r amdgpu
+sudo udevadm trigger --verbose --type=devices --action=remove --subsystem-match=drm --property-match="MINOR=1"
+sudo modprobe -r amdgpu
+sudo udevadm trigger --verbose --type=devices --action=remove --subsystem-match=drm --property-match="MINOR=1"
+lsmod amdgpu
+lsmod
+ps 9
+ps
+lsmod
+modprobe vfio-pci
+sudo modprobe vfio-pci
+lspci -nnk -s '0000:55:00.0'
+sudo dmesg | rg vfio
+nvim /etc/modprobe.d/vfio.conf
+sudo nvim /etc/modprobe.d/vfio.conf
+reboot
+lspci -nnk -s '0000:55:00.0'
+sudo dmesg | rg vfio
+sudo dmesg | rg amdgpu
+nvim /etc/modprobe.d/vfio.conf
+nvim /etc/mkinitcpio.conf
+sudo nvim /etc/modprobe.d/vfio.conf
+sudo nvim /etc/mkinitcpio.conf
+reboot
+cd vm
+ls
+quickemu --vm windows-11.conf --display sdl
+pipewire
+quickemu --vm windows-11.conf --display sdl
+lspci -nnk -s '0000:55:00.0'
+quickemu --vm windows-11.conf --display sdl
+cd vn
+cd vm
+quickemu --vm windows-11.conf --display sdl
+mkinitcpio -P
+sudo mkinitcpio -P
+nvim /etc/mkinitcpio.conf
+nvim /etc/modprobe.d/vfio.conf
+lspci
+lspci | rg amd
+lspci | rg 55:00
+cd vm_tools
+cd quickpassthrough/
+cd utils
+./ls-iommu
+cd /boot
+ls
+sudo nvim /etc/modprobe.d/vfio.conf
+reboot
+ls
+$env.PATH = ($env.PATH | append '/usr/bin/')
+lspci | rg 55:00
+lspci | rg 56:00
+sudo modprobe nouveau
+pkill Hyprland
+paru -S nvidia-dkms
+sudo nvim /usr/lib/modprobe.d/nvidia-utils.conf
+sudo nvim /usr/lib64/modprobe.d/nvidia-utils.conf
+reboot
+$env.PATH = ($env.PATH | append '/usr/bin/')
+sudo nvim /usr/lib64/modprobe.d/nvidia-utils.conf
+nvim .config/hypr/hyprland.conf
+paru -S egl-wayland
+sudo nvim /etc/mkinitcpio.conf
+mkinitcpio -P
+sudo mkinitcpio -P
+lspci | rg 56:00
+$env.PATH = ($env.PATH | append '/usr/bin/')
+lspci | rg 56:00
+lspci | rg 55:00
+modprobe nvidia
+lspci | rg 56:00
+lspci
+lspci -nnk -s '0000:56:00.0'
+lspci -nnk -s '0000:55:00.0'
+lspci -nnk -s '0000:56:00.0'
+paru -S nvidia-settings
+paru -S nvidia-drm
+paru -S nvidia-urm
+$env.PATH = ($env.PATH | append '/usr/bin/')
+paru -S nvidia-dkms
+nvim /etc/mkinitcpio.conf
+cd /etc/modprobe.d
+ls
+cd /usr/lib/modprobe.d
+ls
+nvim nvidia-utils.conf
+sudo nvim nvidia-utils.conf
+nvim nvidia-utils.conf
+nvim ~/modprobe.d.bak/nvidia.conf.bak
+sudo nvim nvidia-utils.conf
+cp ~/modprobe.d.bak/blacklist-nouveau.conf.bak ./nvidia.conf
+sudo cp ~/modprobe.d.bak/blacklist-nouveau.conf.bak ./nvidia.conf
+reboot
+nvim .config/hypr/hyprland.conf
+$env.PATH = ($env.PATH | append '/usr/bin/')
+nvim .config/hypr/hyprland.conf
+paru -S nvidia-drm
+paru -S nvidia-dkms
+paru -S nvidia-utils
+paru -S egl-wayland
+sudo nvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+reboot
+cd .cache/hyprland
+ls
+nvim hyprlandCrashReport867
+$env.PATH = ($env.PATH | append '/usr/bin/')
+nvim hyprlandCrashReport867
+:q!
+nvim hyprlandCrashReport867
+nvim hyprlandCrashReport1089
+ls
+nvim hyprlandCrashReport1089.txt
+sudo nvim /etc/modprobe.d/vfio.conf
+reboot
+ls
+lspci -nnk -s '0000:56:00.0'
+$env.PATH = ($env.PATH | append '/usr/bin/')
+lspci -nnk -s '0000:56:00.0'
+nvidia-modprobe
+sudo nvidia-modprobe
+reboot
+ls
+cd /boot
+ls
+sudo nvim refind_linux.conf
+$env.PATH = ($env.PATH | append '/usr/bin/')
+sudo nvim refind_linux.conf
+reboot
+nvim .config/hypr/hyprland.conf
+$env.PATH = ($env.PATH | append '/usr/bin/')
+nvim .config/hypr/hyprland.conf
+reboot
+paru -S hyprland-nvidia
+$env.PATH = ($env.PATH | append '/usr/bin/')
+paru -S hyprland-nvidia
+paru -S hyprland_nvidia
+paru -S SwayFX
+paru -S SwayFx
+paru -S swayfx
+sway
+sway --unsupported-gpu
+nvim /etc/greetd/config.toml
+sudo nvim /etc/greetd/config.toml
+reboot
+paru -S linux-firmware
+$env.PATH = ($env.PATH | append '/usr/bin/')
+paru -S linux-firmware
+paru -R nvidia-dkms
+paru -R nvidia-dkms nvidia-utils egl-wayland
+reboot
+sudo cd /etc/mkinitcpio.conf
+$env.PATH = ($env.PATH | append '/usr/bin/')
+sudo cd /etc/mkinitcpio.conf
+sudo nvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+$env.PATH = ($env.PATH | append '/usr/bin/')
+sudo nvim /etc/greetd/config.toml
+reboot
+$env.PATH = ($env.PATH | append '/usr/bin/')
+vulkaninfo
+vulkaninfo | grep "GPU[0123]" -A 10
+hyprctl monitors
+hyprctl
+sudo dmesh nouveau
+lspci -nnk -s '0000:56:00.0'
+sudo dmesg nouveau
+sudo dmesg | rg nouveau
+nvim .config/hypr/hyprland.conf
+pkill Hyprland
+sway
+paru -S swaybg
+sway
+paru -S sway
+sudo nvim /etc/greetd/config.toml
+pkill Hyprland
+paru -S sway
+pkill sway
+pkill swayfx
+pkill Sway
+sway
+reboot
+paru -S swayfx
+$env.PATH = ($env.PATH | append '/usr/bin/')
+paru -S swayfx
+reboot
+$env.PATH = ($env.PATH | append '/usr/bin/')
+paru -S mesa-git
+reboot
+$env.PATH = ($env.PATH | append '/usr/bin/')
+paru -R lib32-vulkan-nouveau
+reboot
+paru -R vulkan-nouveau
+$env.PATH = ($env.PATH | append '/usr/bin/')
+paru -R vulkan-nouveau
+cd .config
+ls
+cd sway
+ls
+cd /etc/sway/
+ls
+nvim config
+Hyprland
+sudo /etc/greetd/config.toml
+sudo nvim /etc/greetd/config.toml
+pkill sway
+pkill swayfx
+pkill Sway
+paru -S mesa
+$env.PATH = ($env.PATH | append '/usr/bin/')
+paru -S mesa vulkan-nouveau
+paru -S vulkan-nouveau
+paru -S mesa
+paru -Syyu
+paru -S mesa
+paru -S swayfx
+sway
+paru -S sway
+ls
+sudo /etc/greetd/config.toml
+sudo nvim /etc/greetd/config.toml
+cp /etc/sway/config .config/sway/
+mkdir .config/sway
+cp /etc/sway/config .config/sway/
+cd .config
+cd sway
+ls
+nvim config
+reboot
+cd .config
+cd sway
+nvim config
+google-chrome-stable
+cd vm
+cd ~
+cd vm
+quickemu --vm windows-11.conf --display sdl
+nvim ~/.config/hypr/hyprland.conf
+pipewire
+systemctl --user enable pipewire.service
+systemctl --user start pipewire.service
+exit
+systemctl --user restart pipewire.service
+systemctl --user status pipewire.service
+systemctl --user status pipewire pipewire-media-session pipewire-pulse
+pkill pipewire
+systemctl --user status pipewire pipewire-media-session pipewire-pulse
+systemctl --user start pipewire.service
+systemctl --user status pipewire pipewire-media-session pipewire-pulse
+systemctl --user status pipewire
+nvim ~/.config/hypr/hyprland.conf
+cd config
+ls
+cd pipewire
+ls
+nvim pipewire.conf
+systemctl --user status pipewire
+systemctl --user restart pipewire
+systemctl --user status pipewire
+reboot
+systemctl --user status pipewire
+systemctl --user restart pipewire
+systemctl --user status pipewire
+exit
+journalctl --user -u pipewire
+cd config
+cd pipewire
+ls
+systemctl --user restart pipewire
+systemctl --user status pipewire
+cd ~
+cd vm
+quickemu --vm windows-11.conf --display sdl
+reboot
+cd vm
+quickemu --vm windows-11.conf --display sdl
+systemctl --user status pipewire
+pavucontrol
+quickemu --vm windows-11.conf --display sdl
+pavucontrol
+lspci -nnk -s '0000:55:00.0'
+sudo quickemu --vm windows-11.conf --display sdl
+quickemu --vm windows-11.conf --display sdl
+virt-viewer
+paru -S looking-glass
+looking-glass
+looking-glass-client 
+cd vm
+ls
+nvim windows-11.conf
+touch /etc/tmpfiles.d/10-looking-glass.conf
+sudo nvim /etc/tmpfiles.d/10-looking-glass.conf
+looking-glass-client 
+quickemu --vm windows-11.conf --kill
+quickemu --vm windows-11.conf
+looking-glass-client 
+nvim windows-11.conf
+quickemu --vm windows-11.conf
+remmina
+looking-glass-client 
+looking-glass-client -s
+nvim windows-11.conf
+quickemu --vm windows-11.conf --kill
+quickemu --vm windows-11.conf
+looking-glass-client 
+looking-glass-client -s
+nvim windows-11.conf
+quickemu --vm windows-11.conf
+looking-glass-client -s
+quickemu --vm windows-11.conf
+quickemu --vm windows-11.conf --kill
+ps
+quickemu --vm windows-11.conf
+virsh net-list
+virsh net-dhcp-leases
+virsh net-list
+arp -n
+sudo virsh list
+ip address
+ping 10.0.2.15
+exit
+socat -,echo=0,icanon=0 unix-connect:windows-11/windows-11-monitor.socket
+quickemu --vm windows-11.conf
+ssh user@localhost -p 22220
+ssh mrteathyme@localhost -p 22220
+ip address
+brctl addbr br0
+sudo brctl addbr br0
+ip address
+ip addr flush dev enp79s0
+sudo ip addr flush dev enp79s0
+brctl addif br0 enp79s0
+sudo brctl addif br0 enp79s0
+sudo tunctl -t tap0 -u  mrteathyme
+tunctl -t tap0 -u  mrteathyme
+ip tuntap
+ip address
+sudo ip tuntap add dev tun0 mode tun user mrteathyme
+ip address
+ip tuntap
+ip link show tun0
+sudo brctl addif br0 tun0
+brctl addif br0 tun0
+sudo  brctl addif br0 tap0
+sudo brctl addif br0 tap0
+sudo brctl addif br0 tun0
+sudo ip tuntap add dev tap0 mode tap user mrteathyme
+sudo brctl addif br0 tap0
+ifconfig tap0 up ifconfig br0 up
+ifconfig tap0 up
+ip addr tap0 up
+ip addr
+ip addr -h
+ip addr help
+ip addr tap0
+ip addr UP
+ip link set tap0 UP
+ip link set tap0 up
+sudo ip link set tap0 up
+sudo ip link set br0 up
+ip addr
+sudo ip link set tap0 up
+ip addr
+brctl addif br0 enp79s0
+sudo brctl addif br0 enp79s0
+sudo ip addr del 192.169.122.98/16 dev enp79s0
+sudo ip addr add 192.169.122.98/16 broadcast + dev br0
+ip addr
+cd vm
+nvim windows-11.conf
+quickemu --vm windows-11.conf
+quickemu --vm windows-11.conf -q
+quickemu --vm windows-11.conf
+socat -,echo=0,icanon=0 unix-connect:windows-11/windows-11-monitor.socket
+reboot
+cd vm
+quickemu --vm windows-11.conf
+sudo quickemu --vm windows-11.conf
+quickemu --vm windows-11.conf
+pavucontrol
+quickemu --vm windows-11.conf
+sudo quickemu --vm windows-11.conf
+quickemu --vm windows-11.conf
+cd /etc/qemu
+ls
+nvim bridge.conf
+sudo nvim bridge.conf
+cd ~vm
+cd ~/vm
+quickemu --vm windows-11.conf
+ip addr
+nvim windows-11.conf
+quickemu --vm windows-11.conf
+cd vm
+quickemu --vm windows-11.conf
+quickemu --vm windows-11.conf --kill
+quickemu --vm windows-11.conf
+quickemu --vm windows-11.conf --kill
+quickemu --vm windows-11.conf
+ping 192.168.122.77
+ping 192.168.122.1
+logouut
+logout
+exit
+reboot
+cd vm
+quickemu --vm windows-11.conf
+pavucontrol
+quickemu --vm windows-11.conf
+freerdp
+xfreerdp
+remmina
+exit
+cd vm
+quickemu --vm windows-11.conf
+nvim windows-11.conf
+quickemu --vm windows-11.conf
+cd vm_tools
+cd ..
+cd vm
+ls
+nvim windows-11.conf
+quickemu --vm windows-11.conf
+nvim windows-11.conf
+quickemu --vm windows-11.conf
+ps | windows
+ps | rg windows
+ps
+exit
+lspci -nnk -s '0000:55:00.0'
+DRI_PRIME=1! glxinfo | rg "OpenGL"
+DRI_PRIME=2! glxinfo | rg "OpenGL"
+DRI_PRIME=0! glxinfo | rg "OpenGL"
+DRI_PRIME=1! glxinfo | rg "OpenGL"
+glxinfo | rg "OpenGL"
+vulkaninfo | grep "GPU[0123]" -A 10
+exit
+quickemu --vm windows-11.conf -D ./log.txt
+quickemu --vm windows-11.conf -- -D ./log.txt
+quickemu --vm windows-11.conf --extra_args -D ./log.txt
+quickemu --vm windows-11.conf --extra_args= -D ./log.txt
+quickemu --vm windows-11.conf --extra_args="-D ./log.txt"
+quickemu --vm windows-11.conf --extra_args= "-D ./log.txt"
+nvim windows-11.conf
+quickemu --vm windows-11.conf --extra_args= "-D ./log.txt"
+quickemu --vm windows-11.conf
+ls
+nvim log.txt
+cd windows-11
+ls
+nvim windows-11.sh
+windows-11.sh
+./windows-11.sh
+sudo sh ./windows-11.sh
+sh ./windows-11.sh
+sudo ./windows-11.sh
+nvim windows-11.log
+cd unattended
+ls
+cd ..
+ls
+reboot
+cd vm_tools
+cd quickpassthrough
+cd utils/
+ls
+./ls-iommu
+looking-glass-client
+looking-glass-client -s
+looking-glass-client
+virsh w11
+virsh win11
+virsh list
+virsh list --all
+sudo virsh list --all
+sudo virsh win11
+sudo virsh start win11
+looking-glass-client
+sudo virsh start win11
+looking-glass-client
+looking-glass-client -s
+looking-glass-client -v
+looking-glass-client --version
+looking-glass-client -h
+looking-glass-client
+reboot
+sudo virsh start win11
+looking-glass-client
+paru -S looking-glass-B7
+paru -S looking-glass-rc
+looking-glass-client
+nvim pci
+shutdown now
+cd vm
+ls
+nvim windows-11.conf
+quickemu --vm windows-11.conf
+ls
+cd windows-11
+ls
+cd ..
+quickget windows 11
+quickemu --vm windows-11.conf
+cd config
+cd hypr
+ls
+nvim hyprland.conf
+cd /etc/greetd/
+sudo nvim config.toml
+cd /etc/modprobe.d
+ls
+nvim vfio.conf
+sudo nvim vfio.conf
+cd /usr/lib/modprobe.d
+ls
+sudo nvim nvidia.conf
+cd /boot
+ls
+sudo nvim refind_linux.conf
+cd ~/vm_tools/
+ls
+cd quickpassthrough/
+ls
+cd config
+ls
+cd etc
+ls
+nvim mkinitcpio.conf
+cd modprobe.d/
+ls
+nvim vfio.conf
+cd ..
+ls
+cd default
+ls
+:q
+cd ..
+ls
+cd ..
+ls
+nvim kernel_args
+shutdown now
+$env.PATH = ($env.PATH | append '/usr/bin/')
+lspci -nnk -s '0000:55:00.0'
+cd /etc/udev/rules.d
+ls
+cd /usr/lib/udev/rules.d
+ls
+nvim
+sudo mkinitcpio -P
+reboot
+ls
+lspci -nnk -s '0000:55:00.0'
+$env.PATH = ($env.PATH | append '/usr/bin/')
+lspci -nnk -s '0000:55:00.0'
+swayfx
+paru -S swayfx
+Hyprland
+cd .config
+cd sway
+ls
+nvim config
+sway
+sway
+exit
+Hyprland
+exit
+sway
+exit
+exit
+cd /usr/lib/pipewire
+ls
+cd /usr/lib
+ls
+systemctl --user status pipewire
+systemctl --user restart pipewire
+pkill vesktop
+nvim pipewire.conf
+ls
+cd config
+cd pipewire/
+ls
+nvim pipewire-aes67.conf
+systemctl --user restart pipewire
+pkill vesktop
+vesktop
+systemctl --user restart pipewire
+reboot
+cd pipewire
+nvim pipewire.conf
+mv pipewire-aes67.conf pipewire-aes67.conf.bak
+systemctl --user restart pipewire
+mv pipewire.config pipewire.conf.bak
+mv pipewire.conf pipewire.conf.bak
+systemctl --user restart pipewire
+mv pipewire.conf.bak pipewire.conf
+systemctl --user restart pipewire
+nvim pipewire.conf
+systemctl --user restart pipewire
+pkill vesktop
+systemctl --user restart pipewire
+pkill vesktop
+nvim pipewire.conf
+shutdown now]
+shutdown now
+exit
+shutdown now
+cd projects
+sing_right
+mkdir sing_right
+cd sing_right/
+cargo init
+cargo add rustfft
+cargo add rodio
+ls
+cargo add cpal
+cargo add cpal --features jack
+cargo build
+cargo run
+ls
+cd ..
+ls
+cd brain_cells
+ls
+nvim
+cd ..
+nvim binary_brain/
+ls
+cargo run\
+cargo run
+cargo add hann-rs
+nvim src/lib.rs
+cargo run
+ls
+cargo run
+exit
+exit
+exit
+cd projects
+ls
+cd sing_right/
+ls
+cargo run
+cargo add hann-rs
+cargo run
+nvim Cargo.toml
+cargo run
+nvim Cargo.toml
+cargo run
+cargo remove hann-rs
+cargo add hann-rs
+cargo run
+cd /home/.cargo
+ls
+cd /home/.Cargo
+cd ~/.cargo
+ls
+cd registry
+ls
+cd src
+ls
+cd index.crates.io-6f17d22bba15001f/
+ls
+cd hann-rs-0.1.0/
+ls
+mv cargo.toml Cargo.toml
+ls
+cargo run
+exit
+cargo run
+nvim
+cargo run
+cargo add plotters
+cargo run
+ls
+fft.png
+./fft.png
+krita fft.png
+ls
+cargo run
+cd ..
+ls
+cd rpg_mvp/
+ls
+cd assets
+ls
+cp oof.wav ../../sing_right/
+cargo run
+cargo add slint
+touch plotter.slint
+nvim plotter.slint
+cargo run
+exit
+cargo run
+nvim
+exit
+nvim plotter.slint
+exit
+exit
+shutdown now
+cd projects
+ls
+cd rpg_mvp/
+cargo update
+nvim
+cargo build
+nvim cargo.toml
+nvim Cargo.toml
+cargo build
+nvim Cargo.toml
+cargo build
+cargo upgrades
+cargo upgrade
+cargo update
+nvim Cargo.toml
+cargo build
+:q
+nvim Cargo.toml
+exit
+exit
+cd rpg_mvp
+cargo build
+cd target/
+ls
+cd debug
+ls
+cd deps
+ls
+cd leafwing_input_manager-0abde75e621bdbe9.d
+ls
+cd ..
+cargo clean
+cd target/
+ls
+cd deps
+ls
+cargo build
+cd ..
+cd rpg_mvp
+ls
+cargo clean
+ls
+cargo build
+ls
+nvim Cargo.toml
+cargo build
+nvim Cargo.toml
+cargo build
+ls
+cd target/
+ls
+cd debug
+ls
+cd deps
+ls
+cd leafwing_input_manager-0bdb9986a25aec79.d
+cd leafwing_input_manager_macros-64f02f902ef6e84f.d
+ls
+ls leafwing_input_manager-0bdb9986a25aec79.d
+nvim leafwing_input_manager-0bdb9986a25aec79.d
+cd ..
+ls
+cd ~/.cargo
+ls
+cd git
+ls
+cd checkouts/
+ls
+cd leafwing-input-manager-85f1d55581648fda/
+la
+ls
+cd a603533/
+ls
+nvim Cargo.toml
+cd rpg_mvp
+cargo build
+nvim Cargo.toml
+cargo build
+cargo run
+cargo run --release
+paru -S mesa
+paru -S vulkan-mesa-layers vulkan-radeon mesa-vdpau libva-mesa-driver mesa
+paru -S mesa
+cargo run --release
+reboot
+cd rpg_mvp
+cargo run --release
+paru -S syyu
+paru -Syyu
+cargo run --example animated_fox
+cargo run --features wayland --example hello_world
+cargo run--example hello_world
+cargo run --example hello_world
+cd ~/.cargo
+ls
+cd bin
+ls
+cd ..
+ls
+cd registry/
+ls
+cd src
+ls
+cd ..
+ls
+cd -
+cd rpg_mvp
+ls
+cd target
+ls
+cd release
+ls
+cd deps
+ls
+cd bevy-d47513c5b1c0d3e4.d
+cd ~/.cargo
+ls
+cd .crates
+ls -a
+cd .global-cache
+cd bin
+ls
+ls -a
+cd ..
+cd git
+ls -a
+cd checkouts/
+ls
+ls -a
+cd bevy-f7ffde730c324c74/
+ls
+cd 79a93de/
+ls
+cargo run --example hello_world
+cargo run --example animated_fox
+paru -S radv
+ls /usr/share/vulkan/icd.d/
+vulkaninfo
+vulkaninfo | grep "GPU[0123]" -A 10
+AMD_VULKAN_ICD=RADV cargo run --release
+cargo run --release
+paru -R mesa-git
+paru -R amdvlk
+reboot
+cd rpg_mvp
+cargo run --release
+nvim
+sh
+shutdown now
+cd rpg_mvp
+cargo run --release
+shutdown now
+cd .config
+cd neovim
+ls
+cd nvim
+ls
+nvim init.lua
+cd lua
+ls
+cd plugins
+ls
+nvim ../../init.lua
+cd rpg_mvp
+nvim
+cd projects
+cargo init
+rm -rf .git
+rm -rf src/
+rm Cargo.toml
+ls
+mkdir evo_game
+cd evo_game/
+cargo init
+cargo add bevy
+cd ..
+cd rpg_mvp
+nvim
+exit
+cargo run
+cargo add rand
+cargo run
+nvim
+shutdown now
+cd sing_right
+cd projects
+cd sing_right/
+ls
+nvim src/main.rs
+cd projects
+cd sing_right/
+cargo run
+nvim src/main.rs
+cd projects
+cd rpg_mvp
+cargo run --release
+shutdown now
+paru -S obs-studio-browser
+paru -Syyu obs-studio-browser
+paru -S obs-studio-browser
+paru
+paru -Syu
+paru -Syu obs-studio-browser
+paru -R swayfx
+paru -Syu obs-studio-browser
+paru -R scenefx-git
+paru -Syu obs-studio-browser
+sudo nvim
+exit
+paru -Syu obs-studio-browser
+nvim /etc/security/faillock.conf
+sudo nvim /etc/security/faillock.conf
+paru -Syu obs-studio-browser
+reboot
+pkill obs
+obs
+paru -S nvidia-smi
+paru -S nvidia-utils
+reboot
+$env.PATH = ($env.PATH | append '/usr/bin/')
+nvim .config/hypr/hyprland.conf
+reboot
+$env.PATH = ($env.PATH | append '/usr/bin/')
+pkill hyprland
+hyprctl monitors
+nvim .config/hypr/hyprland.conf
+cd /etc/modprobe.d
+ls
+cd /etc/udev/rules.d
+ls
+cd /usr/lib/modprobe.d
+ls
+nvim nvidia-utils.conf
+ls
+nvim nvidia.conf
+ls
+lspci -nnk -s '0000:55:00.0'
+lspci -nnk -s '0000:56:00.0'
+paru -S nvidia-dkms
+rebo
+cd documents
+cd videos
+ls
+cd ..
+ls
+`2024-07-16 17-40-27.mkv`
+vlc `2024-07-16 17-40-27.mkv`
+cd .config
+cd obs-studio/
+ls
+cd logs
+ls
+nvim `2024-07-16 17-39-38.txt`
+cd ..
+ls
+cd logs
+ls
+cd documents
+cd ..
+ls
+vlc `2024-07-16 17-43-54.mkv`
+cd .config
+ls
+cd pipewire/
+ls
+nvim pipewire-pulse.conf
+nvim /etc/pipewire/pipewire-pulse.conf.d/
+ls /etc/pipewire/pipewire-pulse.conf.d/
+nvim /etc/pipewire/pipewire-pulse.conf.d/
+nvim /etc/pipewire/pipewire-pulse.conf
+cd /etc/pipewire/pipewire-pulse.conf.d/
+ls
+cd ..
+cd pipewire.conf.d/
+ls
+cd ..
+ls
+cd ~/.config/pipewire
+la
+ls
+systemctl --user restart pipewire
+systemctl --user status pipewire
+systemctl --user restart pipewire
+systemctl --user status pipewire
+systemctl --user stop pipewire
+systemctl --user status pipewire
+systemctl --user stop pipewire
+systemctl --user status pipewire
+systemctl --user restart pipewire
+systemctl --user status pipewire
+systemctl --user restart pipewire
+systemctl --user status pipewire
+env PULSE_SINKi=browser-bridge google-chrome-stable
+systemctl --user restart pipewire
+cd projects
+mkdir pw_matchmaker
+cd pw_matchmaker/
+cargo init
+cargo add pipewire
+cargo run
+nvim
+exit
+exit
+systemctl --user restart pipewire
+nvim pipewire.conf
+cd ..
+mkdir wireplumber
+cd wireplumber/
+ls
+mkdir scripts
+cd ~
+cd projects
+ls
+cd pw_matchmaker/
+ls
+neofetch
+paru -S freshfetch
+freshfetch
+cargo install freshfetch
+paru -S freshfetch-bin
+clear
+freshfetch
+paru -Syu
+nvim
+exit
+exit
+reboot
+$env.PATH = ($env.PATH | append '/usr/bin/')
+reboot
+shutdown now
+cd .config/wireplumber/
+ls
+mkdir wireplumber.conf.d
+ls
+cd scripts
+ls
+nvim autolink.lua
+ls
+mv autolink.lua link_utils.lua
+ls
+nvim autolink.lua
+cd ..
+wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+journalctl -u wireplumber
+journalctl --user -u wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+wireplumber list-sinks
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+wireplumber list-sinks
+wpctl
+wpctl status
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+wpctl status
+nvim dump-ports.lua
+-- Dump all Wireplumber ports<\n><\n>function dump(o)<\n>   if type(o) == 'table' then<\n>      local s = '{ '<\n>      for k,v in pairs(o) do<\n>         if type(k) ~= 'number' then k = '"'..k..'"' end<\n>         s = s .. '['..k..'] = ' .. dump(v) .. ',\n'<\n>      end<\n>      return s .. '} '<\n>   else<\n>      return tostring(o)<\n>   end<\n>end<\n><\n>local port_om = ObjectManager {<\n>  Interest {<\n>    type = "port",<\n>  }<\n>}<\n><\n>port_om:connect("object-added", function (om, port)<\n>  print(dump(port.properties) .. '\n\n')<\n>end)<\n><\n>port_om:activate()
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+nvim
+cd scripts/
+mv link_utils.lua auto-connect-ports.lua
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+nvim wireplumber.conf.d/99-auto-connect-ports.conf
+ls
+mv dump-ports.lua scripts/
+ls
+cd scritps
+ls
+cd scripts
+ls
+rm autolink.lua
+ls
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+paru -S wireplumber
+cd ..
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+nvim
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+systemctl --user status wireplumber
+systemctl --user restart wireplumber
+nvim scripts/dump-links.lua
+wpexec ./dump-ports.lua
+wpexec ./dump-links.lua
+systemctl --user restart wireplumber
+cd scripts
+wpexec ./auto-connect-ports.lua
+wpexec ./scripts/dump-links.lua
+wpexec ./auto-connect-ports.lua
+wpexec ./dump-ports.lua
+wpexec ./dump-ports.lua | rg tea
+wpexec ./auto-connect-ports.lua
+systemctl --user stop wireplumber
+wireplumber
+systemctl --user start wireplumber
+wpexec ./auto-connect-ports.lua
+wpctl status
+wpexec ./auto-connect-ports.lua
+systemctl --user restart wireplumber
+wpexec ./auto-connect-ports.lua
+mkdir ~/.local/share/wireplumber/scripts/
+cp auto-connect-ports.lua ~/.local/share/wireplumber/scripts/
+systemctl --user restart wireplumber
+systemctl --user stop wireplumber
+wireplumber
+systemctl --user restart wireplumber
+wpexec ./auto-connect-ports.lua
+systemctl --user restart wireplumber
+nvim
+nvim
+shutdown now
+cd downloads
+ls
+tar -xf obs-multi-rtmp-0.5.0.4-x86_64-linux-gnu.tar.xz
+ls
+cd obs-multi-rtmp/
+ls
+cd ..
+cp obs-multi-rtmp/ ~/.config/obs-studio/plugins
+mkdir ~/.config/obs-studio/plugins
+cp obs-multi-rtmp/ ~/.config/obs-studio/plugins
+cp -r obs-multi-rtmp/ ~/.config/obs-studio/plugins
+exit
+paru -S obs-vkcapture-git
+paru -S obs-vkcapture
+cd documents
+ls
+cd ..
+vlc `2024-07-24 07-39-48.mkv`
+env OBS_VKCAPTURE=1 nvim
+env OBS_VKCAPTURE=1 wezterm
+exit
+obs_gamecapture wezterm
+obs-gamecapture wezterm
+exit
+exit
+paru -S libmobiledevice
+paru -S libimobiledevice
+paru -S usbmuxd
+idevicepair pair
+ideviceinfo
+systemctl status usbmuxd.service
+sudo systemctl restart usbmuxd
+systemctl status usbmuxd.service
+ideviceinfo
+idevicepair pair
+ifconfig
+ipconfig
+networkctl forcerenew enp82s0 enp79s0 wlp80s0
+netmanager-cli
+networkctl 
+lspci
+ip link
+ip link set wlan0 up
+lspci -k
+lspci -k | rg wifi
+dhclient
+dhcpd
+/etc/init.d/networking restart
+ip link
+ip link set enp78s0 down
+ip link set enp78 down
+ip link set enp82s0 up
+ip link set enp82s0 down
+sudo ip link set enp82s0 down
+sudo ip link set enp82s0 up
+sudo ip link set enp79s0 up
+sudo ip link set enp79s0 down
+sudo ip link set enp79s0 up
+sudo ip link set enp79s0 down
+sudo ip link set enp79s0 up
+sudo ip link set enp82s0 down
+sudo ip link set enp82s0 up
+ip link
+sudo ip link set enp82s0 down
+sudo ip link set enp82s0 up
+sudo ip link set enp79s0 down
+sudo ip link set enp79s0 up
+sudo ip link set enp79s0 down
+sudo ip link set enp79s0 up
+sudo ip link set enp82s0 down
+sudo ip link set enp82s0 up
+sudo ip link set enp82s0 down
+sudo ip link set enp82s0 up
+sudo ip link set enp79s0 down
+sudo ip link set enp79s0 up
+NetworkManager
+nmtui
+reboot
+nmtui
+gsettings set org.gnome.desktop.remote-desktop.rdp screen-share-mode extend
+paru -S path-of-building-community-git 
+shutdown now
+cd projects
+ls
+mkdir evosim
+cd evosim
+cargo init
+cargo add bevy
+cargo add avian
+cargo remove avian
+cargo add avian2d
+cargo run
+nvim
+cd evosim
+cd projects
+cd evosim
+cd ..
+cd evosim
+cd projects
+cd evosim
+cd ~
+cd evosim
+cd rpg_mvp
+cd ..
+cd evosim
+cd ~
+cd evosim
+cd evo_game
+nvim $nu.env-path
+nvim $nu.config-path
+paru -S zoxide
+nvim $nu.env-path
+cd projects
+cd evosim
+cd ~
+cd evosim
+cd -V
+zoxide -V
+cd edit
+zoxide edit
+paru -S nu
+paru -S nushell
+zoxide init nushell
+echo $env
+echo $env.__zoxide_hooked
+echo $env.config
+$env.__zoxide_hooked = false
+echo $env.__zoxide_hooked
+cd projects
+cd ..
+echo $env.__zoxide_hooked
+nvim .zoxide.nu
+nvim $nu.env-path
+nvim $nu.loginshell-path
+nvim $nu.config-path
+exit
+exit
+exit
+echo $env
+logout
+echo $env
+reboot
+echo $env
+nvim $nu.config-path
+nvim $nu.env-path
+nvim $nu.loginshell-path
+nvim $nu.env-path
+cd projects
+cd evosim
+cd ~
+cd evosim
+echo $env.config
+zoxide init nushell
+$env.__zoxide_hooked = false
+if (not ($env | default false __zoxide_hooked | get __zoxide_hooked)) {<\n>  $env.__zoxide_hooked = true<\n>  $env.config = ($env | default {} config).config<\n>  $env.config = ($env.config | default {} hooks)<\n>  $env.config = ($env.config | update hooks ($env.config.hooks | default {} env_change))<\n>  $env.config = ($env.config | update hooks.env_change ($env.config.hooks.env_change | default [] PWD))<\n>  $env.config = ($env.config | update hooks.env_change.PWD ($env.config.hooks.env_change.PWD | append {|_, dir|<\n>    zoxide add -- $dir<\n>  }))<\n>}
+echo $env.config
+echo $env
+nvim $nu.config-path
+cd .config/nushell/
+ls
+nbim login.nu
+nvim login.nu
+cd ~
+nvim .bashrc
+nvim .bash_profile
+nvim .bash_history
+ls -a
+logout
+echo $env
+nvim $nu.loginshell-path
+echo $env
+nvim $nu.config-path
+echo $env
+cd evosim
+cd projects
+cd evosim
+cd ~
+cd evosim
+ls
+cd nushell
+nvim $nu.loginshell-path
+nvim
+mv login.nu login.nu.bak
+ls
+hyprland
+Hyprland
+exit
+exit
+paru -S carapace
+paru -S carapace-bin
+carapace -V
+carapace -h
+carapace -v
+nvim $nu.config-path
+carapace
+carapace --list
+carapace
+cd .config/carapace
+ls
+nvim
+cd overlays
+ls
+ls -a
+cd ..
+ls
+mkdir cert4
+cd cert4
+mkdir scripting
+mkdir programming
+mkdir database
+cd scripting
+ls
+exit
+nvim $nu.env-path
+exit
+nvim myFirstWebPage.html
+exit
+shutdown now
+reboot
+cd downloads
+ls
+unzip "filter preset (1).zip"
+ls
+cd ..
+ls
+cd ..
+cd mrteathyme
+cd Documents
+ls
+cd my_games
+ls
+cd ..
+cd downloads
+unzip "filter preset (1).zip" ../my_games/path_of_exile/
+unzip "filter preset (1).zip" ../documents/my_games/path_of_exile/
+unzip "filter preset (1).zip" ../Documents/my_games/path_of_exile/
+unzip "filter preset (1).zip" ../Documents/
+unzip "filter preset (1).zip" ../Documents
+unzip ../Documents "filter preset (1).zip"
+unzip "filter preset (1).zip" -d ../Documents/my_games/path_of_exil
+cd Documents
+ls
+cd my_games
+ls
+cp -r path_of_exil/ path_of_exile/
+cd path_of_exile/
+ls
+cd path mv path_of_exil/* ./
+mv path mv path_of_exil/* ./
+mv path_of_exil/* ./
+ls
+rm `filter preset.zip`
+rm `filter preset_0_Soft.filter`
+rm `filter preset_1_Regular.filter`
+rm `filter preset_2_Semi-Strict.filter`
+rm `filter preset_3_Strict.filter`
+rm `filter preset_4_Very Strict.filter`
+rm `filter preset_5_Uber Strict.filter`
+rm `filter preset_6_Uber Plus Strict.filter`
+ls
+cd downloads
+ls
+cd ..
+ls
+cd downloads
+ls
+unzip `Ugandan Items.zip` ../Documents/my_games/path_of_exile/
+unzip `Ugandan Items.zip` -d ../Documents/my_games/path_of_exile/
+nmtui
+exit
+paru -S youtube-music
+paru -S youtube-music-next-bin
+pkill obs
+shutdown now
+env PULSE_SINK=browser-bridge google-chrome-stable 
+nvim /usr/share/applications/google-chrome.desktop 
+sudo nvim /usr/share/applications/google-chrome.desktop 
+exit
+shutdown now
+paru -S path-of-building-community-git 
+shutdown now
+pavucontrol
+cd documents
+mkdir class
+cd class
+mkdir database
+cd database
+mkdir assignments
+cd assignments/
+nvim assignment1.sql
+exit
+nvim
+exit
+shutdown now
+cd projects
+mkdir triangle_wave
+cd triangle_wave/
+cargo init
+cargo add num
+cargo run
+nvim
+exit
+exit
+cd projects
+mkdir chat_watch
+cd chat_watch/
+cargo init
+cargo add slint
+cargo add tray-item
+exit
+cd triangle_wave/
+cd triangle_wave
+nvim
+exit
+shutdown now
+cd chat
+cd chat_watch/
+cd chat_watch
+cd downloads
+ls
+exit
+cargo run
+cargo add tray-item
+cargo run
+cargo install tray-item --features knsi
+cargo install tray-item --features ksni
+cargo add tray-item --features ksni
+cargo run
+1password
+nvim
+exit
+nvim twitchChat.py 
+exit
+shutdown now
+lsusb
+reboot
+lsusb
+shutdown now
+cd chat
+ls
+cargo run
+cd hypr
+ls
+nvim hyprland.conf 
+cd documents
+ls
+cd ..
+ls
+vlc "2024-08-07 04-20-13.mkv" 
+cargo run
+cd config
+cd hypr
+cd --
+cd -
+cargo run
+hyprctl windows
+hyprctl
+hyprctl clients
+cargo run
+hyprctl focus
+hyprctl
+cargo run
+hyprctl setprop
+hyprctl setprop nofocus
+hyprctl setprop nofocus toggle chat_watch
+hyprctl setprop nofocus toggle class:^(chat_watch)$
+hyprctl setprop nofocus toggle "Hello World"
+hyprctl setprop chat_watch focus toggle
+hyprctl setprop chat_watch nofocus toggle
+pkill steam
+pkill Steam
+obs-vkcapture
+obs-gamecapture noita
+obs-gamecapture steam
+pkill steam
+pkill Steam
+hyprctl clients
+hyprctl
+hyprctl dispatch movetoworkspace Steam game
+gamescope -e steam
+gamescope -e -f steam
+gamescope -w 2560 -h 1440:w -e -f steam
+gamescope -w 2560 -h 1440 -e -f steam
+env OBS_VKCAPTURE=1 gamescope -w 2560 -h 1440 -e -f steam
+hyprctl clients
+env OBS_VKCAPTURE=1 gamescope -w 2560 -h 1440 -r 144 -e -f steam
+nvim
+nvim
+pkill wine
+pkill Wine
+htop
+kill -9 (pgrep wine)
+kill -9 (pgrep Wine)
+kill -9 $(pgrep Wine)
+kill -9 `pgrep wine`
+cd hypr
+nvim
+pkill -f "\.exe"
+pkill -f "\\.exe"
+chmod +x gamescope.sh 
+htop
+hyprctl
+hyprctl clients
+~/gamescope.sh -- steam
+pkill steam
+pkill Steam
+~/gamescope.sh -- steam
+~/gamescope.sh steam
+hyprctl clients
+pkill Steam
+pkill steam
+pkill -9 steam
+pkill -9 Steam
+pkill -f "\\.exe"
+pkill -f steam
+~/gamescope.sh -- steam
+pkill -f Steam
+pkill -f "\\.exe"
+pkill -f "gamescope"
+nvim gamescope.sh
+pkill -f "Gamescope"
+pkill -f "gamescope"
+pkill -F "gamescope"
+pkill -f "gamescope"
+pkill -f -9 "gamescope"
+pkill -f "\\.exe"
+shutdown now
+carla -no-gui
+cd config
+cd pipewire/
+ls
+nvim pipewire.conf 
+systemctl restart pipewire
+systemctl --user restart pipewire
+pkill vesktop
+pkill discord
+pkill Vesktop
+pkill -f Vesktop
+pkill -f vesktop
+htop
+pkill -f chrome
+nvim pipewire.conf
+cd pipewire
+systemctl --user restart pipewire
+paru -S noise-repellent 
+pavucontrol
+paru -S calf 
+pavucontrol
+cd /usr/share/applications/
+sudo nvim /usr/share/applications/google-chrome.desktop 
+cd /usr/share/applications/
+sudo nvim /usr/share/applications/vesktop.desktop 
+cd /usr/share/applications/
+sudo nvim /usr/share/applications/vesktop.desktop 
+cd config
+ls
+cd /etc/
+sudo nvim paru.conf 
+cd paru
+cd ~/.config/paru
+ls
+echo $PARU_CONF
+echo $env.PARU_CONF
+paru -h
+cd /etc
+sudo nvim pacman-conf 
+cd pacman.conf
+ls
+cd pacman.d/
+ls
+cd gnupg/
+ls
+cd ..
+ls
+nvim pacman.conf
+sudo nvim pacman.conf
+paru -Syu
+cd hypr
+nvim hyprland.conf 
+htop
+cd hypr
+nvim
+cd config
+cd wezterm/
+ls
+nvim wezterm.lua 
+cd hypr
+nvim
+cd wezterm/
+cd wezterm
+nvim wezterm.lua 
+wezterm start --always-new-process
+paru -S noise-suppression-for-voice 
+pkill carla
+carla -no-gui ~/carla.carxp
+carla -no-gui ~/carla.carxp &
+pueued carla -no-gui ~/carla.carxp
+pueued
+paru -S pueued
+paru -S pueue
+pueue carla -no-gui ~/carla.carxp
+nvim restart_carla.sh
+chmod +x restart_carla.sh 
+restart_carla.sh
+./restart_carla.sh
+ls
+nvim restart_carla.sh 
+nvim gamescope.sh 
+nvim restart_carla.sh 
+restart_carla.sh
+./restart_carla.sh
+htop
+paru -S youtube-music-next-bin
+paru -Syu youtube-music-next-bin
+paru -Syu youtube-music-next-bin-git
+paru -Syu youtube-music-next-bin
+paru youtube-music-next
+paru -S youtube-music-bin
+cd /usr/share/applications/
+sudo nvim youtube-music
+sudo nvim youtube-music.desktop 
+pkill carla
+./restart_carla.sh
+pkill carla
+./restart_carla.sh
+htop
+top
+radeontop
+vkinfo
+vulkaninfo
+paru list
+nvtop
+cd hypr
+nvim
+cd hypr
+nvim
+exit
+nvim gamescope.sh 
+exit
+amdgpu_top 
+cd pipewire
+ls
+nvim pipewire.conf
+systemctl --user restart pipewire
+~/restart_carla.sh
+shutdown now
+paru -S libdeep_filter_ladspa-bin 
+pkill carla
+restart_carla.sh
+~/.restart_carla.sh
+~/restart_carla.sh
+cd hypr
+hyprctl clients
+nvim hyprland.conf 
+exit
+cd pipewire
+systemctl --user restart pipewire
+~/restart_carla.sh
+systemctl --user restart pipewire
+~/restart_carla.sh
+pw-top
+pw-metadata -n settings 0 clock.force-quantum 256
+nvim pipewire.conf
+cd pipewire-aes67.conf
+cd pipewire
+pw-top
+systemctl --user restart pipewire
+./restart_carla.sh
+paru -S linux-rt
+nvim restart_carla.sh 
+nvim pipewire.conf
+exit
+exit
+cd hypr
+nvim hyprland.conf 
+restart_carla.sh
+./restart_carla.sh
+nvim restart_carla.sh 
+paru -S wlrobs
+mkdir -p ~/.config/obs-studio/plugins/wlrobs/bin/64bit<\n>cp build/libwlrobs.so ~/.config/obs-studio/plugins/wlrobs/bin/64bit
+mkdir -p ~/.config/obs-studio/plugins/wlrobs/bin/64bit
+mkdir ~/.config/obs-studio/plugins/wlrobs/bin/64bit
+git clone https://hg.sr.ht/~scoopta/wlrobs wlrobs
+pw-top
+restart_carla.sh
+~/restart_carla.sh
+shutdown now
+nvim restart_carla.sh 
+./restart_carla.sh
+paru -R linux-rt
+paru -S linux
+shutdown now
+pkill carla
+~/restart_carla.sh
+cd downloads
+ls
+unzip SingleTableQueries_SOLUTIONS.zip
+cd SingleTableQueries_SOLUTIONS/
+ls
+cd ..
+cd class
+ls
+cd database
+ls
+cd assignments/
+ls
+nvim assignment2.sql
+nvim "SELECT Single-Table Queries Exercises (MSSQL).sql" 
+exit
+nvim
+exit
+nvim
+exit
+exit
+shutdown now
+cd projects
+mkdir waymat
+cd waymat
+ls
+cargo init
+cargo add smithay-client-toolkit
+cargo run
+cargo uninstall smithay_client_toolkit
+cargo remove smithay_client_toolkit
+cargo remove smithay-client-toolkit 
+cargo add wayland-client
+cargo run
+cargo add wayland-protocols-wlr
+cargo add wayland-protocols-wlr --features client, wayland-client
+cargo add wayland-protocols-wlr --features wayland-client
+nvim
+cargo run
+nvim
+hyprctl clients
+pkill Soul
+pkill Soulstone-Survi 
+pkill Soulstone-Survivors
+pkill -f Soulstone-Survivors
+pkill -f Soulstone-Survi 
+pkill -f -9 Soulstone-Survi 
+shutdown now
+paru -S catpuccin-gtk
+paru -S catpuccin-gtk-theme-mocha
+~/restart_carla.sh
+cd .config
+ls
+cd gtk-3.0/
+ls
+cd ..
+curl -LsSO "https://raw.githubusercontent.com/catppuccin/gtk/v1.0.3/install.py"<\n>python3 install.py mocha pink
+cd .local
+ls
+cd share
+ls
+cd themes
+ls
+gsettings set org.gnome.desktop.interface gtk-theme "catpuccin-mocha-standard-pink-standard"
+gsettings get org.gnome.desktop.interface gtk-theme
+gsettings set org.gnome.desktop.interface gtk-theme "catpuccin-mocha-standard-pink-standard+default"
+cd .config
+ls
+cd gtk-3.0/
+ls
+gtk-application-prefer-dark-theme = true
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+cd /etc/gtk-3.0/
+ls
+nvim
+cd ..
+cd gtk-2.0/
+ls
+env GTK_THEME=catppuccin-mocha-pink-standard+default
+env GTK_THEME=catppuccin-mocha-pink-standard+default lutris
+lutris
+$nu.env
+nvim $nu.env-path
+lutris
+cd projects
+ls
+cd ..
+ls
+cd hypr
+ls
+echo $env.GTK_THEME
+nvim hyprland.conf 
+pkill -f -9 lutris
+shutdown now
+paru -S curseforge
+paru -S wowup-cf-bin 
+cd projects
+mkdir social_scrub
+cd social_scrub/
+touch manifest.json
+touch twitter.js
+ls
+rm twitter.js
+mkdir scripts
+touch scripts/twitter.js
+nvim
+ls
+cd scripts
+cd ..
+nvim background.js
+git add -A
+git init
+ls
+ls -a
+git add -A
+git commit -m "x"
+nvim background.js
+nvim twitter.js
+nvim
+gh repo create
+shutdown now
+pkill -f -9 carla
+~/.restart_carla.sh
+~/restart_carla.sh
+pkill -f -9 carla
+~/restart_carla.sh
+shutdown now
+pkill -f -9 carla
+~/restart_carla.sh
+pkill -f -9 carla
+~/restart_carla.sh
+pkill -f -9 carla
+./restart_carla.sh
+pkill -f -9 carla
+./restart_carla.sh
+pkill -f -9 carla
+pkill -f steam
+pkill -f Steam
+pkill -f proton
+pkill -f Proton
+./restart_carla.sh
+cd /usr/share/applications/
+ls
+sudo nvim steam.desktop 
+pkill -f steam
+pkill -f -9 steam
+cd downloads
+ls
+cp `filter preset.zip` ~/Documents/my_games/path_of_exile/
+cd ~/Documents/my_games/path_of_exile/
+ls
+unzip "filter preset.zip" 
+ls
+cd downloads
+cp `Ugandan Items (2).zip` ~/Documents/my_games/path_of_exile/
+cd ~/Documents/my_games/path_of_exile/
+unzip "Ugandan Items (2).zip" 
+sh
+shutdown now
+paru -Syu
+reboot
+cd .config
+cd hypr/
+nvim
+exit
+neofetch
+clear | neofetch
+glxinfo | rg "OpenGL"
+DRI_PRIME=1 glxinfo | rg "OpenGL"
+DRI_PRIME=1 glxgears
+DRI_PRIME=1 vkcube
+DRI_PRIME=0 vkcube
+vkcube
+cd /usr/share/applications/
+ls
+sudoo nvim com.obsproject.Studio.desktop
+amdgpu_top 
+paru -S intel-compute-runtime 
+paru -S intel-media-driver vulkan-intel
+reboot
+ls
+vlc 2024-08-19_17-56-08.mkv 
+cd /usr/share/applications/
+sudo nvim steam.desktop 
+pkill -f -9 steam
+hyprctl
+hyprctl displays
+hyprctl monitors
+nvim ~/.config/hypr/hyprland.conf
+amdgpu_top 
+hyprctl clients
+nvim ~/.config/hypr/hyprland.conf
+vlc 2024-08-19_19-09-04.mkv 
+clear | neofetch
+amdgpu_top 
+hyprctl clients
+amdgpu_top 
+pkill -f -9 wine
+ip link
+amdgpu_top 
+lspci | grep -E 'VGA|3D'
+ls -l /dev/dri/by-path
+nvim ~/.config/hypr/hyprland.conf
+amdgpu_top 
+pkill -f -9 hyprland
+pkill -f -9 Hyprland
+amdgpu_top 
+pkill -f -9 vesktop
+shutdown now
+amdgpu_top 
+pkill -f -9 vesktop
+vesktop
+cd /etc/tmpfiles.d
+ls
+paru -S looking-glass-rc
+looking-glass-client
+amdgpu_top 
+looking-glass-client
+paru -S obs-plugin-looking-glass-rc 
+clear | neofetch
+DRI_PRIME=0 vkcube
+DRI_PRIME=1 vkcube
+sudoo virsh list --all
+sudo virsh list --all
+virsh list --all
+sudo virsh list --all
+usermod -a -G kvm mrteathyme
+sudo usermod -a -G kvm mrteathyme
+virsh list --all
+virsh -h
+virsh -c qemu:///system list all
+virsh -c qemu:///system list --all
+virsh -c qemu:///system start w11
+virsh -c qemu:///system start win11
+virsh -c qemu:///system stop win11
+virsh -c qemu:///system shutdown win11
+virsh -c qemu:///system start win11
+looking-glass-client
+DRI_PRIME=1 vkcube
+virsh -c qemu:///system start win11
+reboot
+virsh -c qemu:///system start win11
+cd /usr/share/applications/
+ls
+touch windows.desktop
+sudo touch windows.desktop
+sudo nvim
+sudo ln -s /home/username/.config/nvim /root/.config/nvim
+sudo nvim
+ls -a
+sudo -E nvim
+looking-glass-client
+virsh -c qemu:///system start win11
+virsh -c qemu:///system start win11 && looking-glass-client
+virsh -c qemu:///system start win11 | looking-glass-client
+looking-glass-client
+virsh -c qemu:///system force-off win11
+virsh -c qemu:///system shutdown win11
+cd /etc/libvirt
+ls
+cd hooks
+mkdir hooks
+sudo mkdir hooks
+cd hooks
+sudo nvim looking-glass
+sudo chmod +x looking-glass
+chmod +x looking-glass
+sudo -E nvim
+looking-glass-client
+sudo nvim -E looking-glass
+sudo nvim -e looking-glass
+sudo nvim looking-glass
+cd ~/
+mkdir vm_tools
+ls
+cd vm_tools/
+ls
+nvim looking_glass_launcher
+chmod +x looking_glass_launcher 
+cd /home
+ls
+looking-glass-client
+ls
+sudo rm looking-glass
+ls
+looking-glass-client
+cd /dev/shm
+ls
+modprobe kvmfr static_size_mb=256
+cd ~
+git clone https://github.com/gnif/LookingGlass<\n>cd LookingGlass/module
+sudo dkms install "."
+sudo cat > /etc/udev/rules.d/99-kvmfr.rules <<EOF<\n>SUBSYSTEM=="kvmfr", OWNER="libvirt-qemu", GROUP="kvm", MODE="0666"<\n>EOF
+sudo -E nvim /etc/udev/rules.d/99-kvmfr.rules
+sudo -E nvim /etc/modules-load.d/kvmfr.conf
+sudo -E nvim /etc/modprobe.d/kvmfr.conf
+sudo -E nvim /etc/libvirt/qemu.conf 
+sudo systemctl restart libvirtd
+sudo modprobe kvmfr static_size_mb=256
+sudo dmesg | grep kvmfr
+ls -la /dev/kvmfr*
+virsh -c qemu:///system start win11
+looking-glass-client
+ls -l /dev/kvmfr0
+sudo -E nvim /etc/udev/rules.d/99-kvmfr.rules
+qemu -v
+lspci | grep VGA
+lspci -s 55:00.0 -vv
+sudo lspci -s 55:00.0 -vv
+sudo -E nvim /sys/bus/pci/devices/0000:55:00.0/resource0_resize
+sudo echo 14 > /sys/bus/pci/devices/0000:55:00.0/resource0_resize
+bash
+lspci -s 55:00.0 -vv
+sudo lspci -s 55:00.0 -vv
+looking-glass-client
+looking-glass-client -f
+looking-glass-client
+looking-glass-client -f /dev/shm/kvmfr0
+looking-glass-client -f /dev/kvmfr0
+virsh -h
+who
+who libvirt-qemu
+cat /etc/passwd
+ps
+ps | rg lib
+ps | rg libvirt
+ps -u libvirt-qemu
+ps -U libvirt-qemu
+ps --help
+bash
+psaux
+ps aux
+pgrep
+pgrep --help
+pgrep 
+top
+top -U libvirt-qemu
+top -U mrteathyme
+groups
+cd /dev
+ls
+ls -l /dev/kvmfr0
+looking-glass-client
+looking-glass-client -f /dev/kvmfr0
+qemu-system-x86_64 --version
+looking-glass-client -f /dev/kvmfr0
+shutdown now
+looking-glass-client -f /dev/kvmfr0
+ls
+nvim looking_glass_launcher
+nvim ./looking_glass_launcher
+cd vm_tools/
+nvim looking_glass_launcher
+clear | neofetch
+reboot
+paru -S gbar-git 
+gBar
+cd config
+ls
+mkdir gBar
+cd gBar
+mkdir config
+cd config
+nvim config
+rm config
+cd ..
+rm -rf config
+gBar bar 0
+nvim config
+exit
+exit
+amdgpu_top 
+shutdown now
+gBar
+gBar bar 0
+gBar bar 0 &
+cd .config/hypr/
+nvim
+cd .config/hypr/
+hyprctl clients
+nvim
+pkill gBar
+cd games
+ls
+cd ..
+ls
+cd ..
+ls
+cd Games
+ls
+cd battlenet/
+ls
+cd drive_c/
+ls
+cd `Program Files/`
+ls
+cd ..
+cd `Program Files (x86)/`
+ls
+cd `World of Warcraft/`
+ls
+cd _retail_/
+ls
+looking-glass-client -f /dev/kvmfr0
+cd ~/Public
+ls
+wowup
+wowup-c
+wowup-cf
+shutdown now
+clear | neofetch
+shutdown now
+looking-glass-client -f /dev/kvmfr0
+jackctl
+looking-glass-client -f /dev/kvmfr0
+nvim
+shutdown now
+looking-glass-client -f /dev/kvmfr0
+virsh -c qemu:///system stop win11
+virsh -c qemu:///system force-off win11
+virsh -c qemu:///system -h
+virsh -c qemu:///system reboot w11
+virsh -c qemu:///system reboot win11
+looking-glass-client -f /dev/kvmfr0
+~/restart_carla.sh
+htop
+shutdown now
+virsh -c qemu:///system reboot win11
+pkill looking
+reboot
+shutdown now
+virsh -c qemu:///system status win11
+virsh -c qemu:///system
+virsh -c qemu:///system dominfo win11
+clear && beifetcg && virsh -c qemu:///system dominfo win11
+clear | beifetcg | virsh -c qemu:///system dominfo win11
+clear | neofetch | virsh -c qemu:///system dominfo win11
+neofetch | virsh -c qemu:///system dominfo win11
+neofetch ; virsh -c qemu:///system dominfo win11
+clear ; neofetch ; virsh -c qemu:///system dominfo win11
+shutdown now
+cd downloads
+ls
+IMG-1154.jpg
+kritia IMG-1154.jpg
+shutdown now
+cd hypr
+nvim hyprland.conf 
+paru -Syuu
+pacman --version
+git clone https://aur.archlinux.org/paru.git<\n>cd paru<\n>makepkg -si
+sudo pacman -S --needed base-devel<\n>git clone https://aur.archlinux.org/paru-git.git<\n>cd paru-git<\n>makepkg -si
+paru
+sudo pacman -S --needed base-devel<\n>git clone https://aur.archlinux.org/paru-git.git<\n>cd paru-git<\n>makepkg -si
+cd /usr/lib/
+cd debug
+ls
+cd usr
+ls
+cd bin
+ls
+sudo rm paru.debug
+paru
+paru -S paru-git
+paru
+reboot
+shutdown now
+cd /etc/libvirt
+ls
+cd hooks
+ls
+mkdir qemu.d
+sudo mkdir qemu.d
+cd qemu.d/
+mkdir win11
+sudo mkdir win11
+cd win11
+sudo mkdir prepare
+sudo mkdir release
+cd prepare
+ls
+sudo mkdir begin
+cd begin
+sudo -E nvim alloc_hugepages.sh
+cd ../../release
+suudo mkdir end
+sudo mkdir end
+cd end
+sudo -E nvim dealloc_hugepages.sh
+cd ../../prepare/begin
+sudo -E nvim dealloc_hugepages.sh
+sudo -E nvim alloc_hugepages.sh
+cd ..
+sudo rm -rf ./qemu.d/
+ls
+htop
+shutdown now
+cd nvim
+cd conffig
+cd config
+cd nvim
+ls
+cd lua
+ls
+cd config
+ls
+nvim
+cd ..
+cd plugins
+ls
+nvim
+nvim
+cd ..
+cd config
+touch keybinds.lua
+nvim
+ls
+nvim
+touch opts.lua
+nvim opts.lua
+nvim
+cd ~
+cd vm_tools/
+ls
+./looking_glass_launcher
+reboot
+shutdown now
+nvim
+sh
+shutdown now
+cd projects
+ls
+cd config
+cd hypr
+ls
+nvim
+sh
+shutdown now
+pkill carla
+./restart_carla.sh
+carla
+pkill carla
+carla
+./restart_carla.sh
+carla
+pkill carla
+./restart_carla.sh
+carla
+./restart_carla.sh
+cd projects
+ls
+cd trading_bot
+mkdir trading_bot_framework
+cd trading_bot_framework/
+cargo init
+nvim
+cd config
+cd hypr/
+nvim
+ls
+rm -rf paru
+sudo rm -rf ./paru
+paru
+ls
+nvim
+cd config
+cd hypr
+:q
+cd hypr
+nvim
+exit
+pkill wezterm
+cd config
+cd hypr/
+nvim
+cd projects
+mkdir better_note_taking_app
+cd better_note_taking_app/
+ls
+cd ..
+rm better_note_taking_app/
+ls
+mkdir text_editor
+cd text_editor/
+ls
+cargo init
+ls
+cargo add imgui-rs
+cargo add winit
+nvim
+cargo run
+cargo add imgui-winit-support
+cargo run
+cargo add imgui
+cargo run
+cargo remove imgui-rs
+cargo clean
+exit
+exit
+shutdown now
+cd projects
+mkdir game
+cd game
+ls
+cd ..
+mkdir new_game
+cd new_game
+cargo init
+cargo add bevy
+nvim
+exit
+ls
+vlc 2024-10-13_01-23-58.mkv 
+obs
+cd libvirt
+ls
+cd hooks
+ls
+cd ..
+cd hooks
+cdi hooks
+cd ..
+ls
+cd ~
+vlc 2024-10-13_01-34-06.mkv 
+vlc 2024-10-13_01-35-36.mkv 
+vlc 2024-10-13_01-36-52.mkv 
+vlc 2024-10-13_01-39-08.mkv 
+ls
+exit
+exit
+htop
+cd projects
+cd trading_bot/
+mkdir trading_bot/
+cd trading_bot/
+cargo init
+cd src
+mkdir coinex
+cd coinex
+touch mod.rs
+mkdir public
+mkdir private
+cd public
+touch mod.rs
+cd ../private
+touch mod.rs
+cd ..
+cargo add serde
+cargo add serde --features derive
+cargo add serde_json
+nvim
+cargo add reqwest --features json
+cargo run
+cargo build
+curl -sSf https://install.surrealdb.com | sh
+surrealdb
+surreal
+$nu.env.path
+$nu.env
+echo $nu.env
+echo $nu
+echo $env
+echo $env.path
+nvim .config/nushell/env.nu 
+sudo mv /home/mrteathyme/.surrealdb/surreal /usr/local/bin
+surreal
+cargo run
+surreal start memory
+cargo run
+surreal start memory --user root --pass root
+surreal start memory --user root --pass root --log trace
+cargo run
+surreal start memory --user root --pass root
+cargo run
+surreal start memory --user root --pass root
+cargo run
+surreal start memory --user root --pass root
+cargo run
+surreal start memory --user root --pass root
+cargo run
+surreal start memory --user root --pass root
+cargo run
+cargo add parking_lot
+cargo run
+surreal start memory --user root --pass root
+cargo run
+surreal start memory --user root --pass root
+cargo run
+rustup update
+rustup component update rust-analyzer
+rustup component
+rustup component list
+rustup component add rust-analyzer
+nvim
+cargo run
+cargo build
+cargo run
+surreal start memory --user root --pass root
+cargo run
+surreal start memory --user root --pass root
+cargo run
+surreal start memory --user root --pass root
+cargo run
+surreal start memory --user root --pass root
+nvim
+cargo check
+cargo clean
+cargo check
+cargo run
+surreal start memory --user root --pass root
+cargo run
+surreal start memory --user root --pass root
+cargo run
+surreal start memory --user root --pass root
+cargo run
+exit
+exit
+exit
+cargo run
+surreal start memory --user root --pass root
+nvim
+cd src
+ls
+move DBSchema db_schema
+mv -r DBSchema db_schema
+mv DBSchema db_schema
+ls
+cd ..
+surreal start memory --user root --pass root
+cargo run
+nvim
+cargo run
+cargo clean
+cargo check
+cd ..
+mkdir test
+cd test
+ls
+cargo init
+cd ..
+mkdir test_shiot
+cd test_shiot/
+cargo init
+nvim
+exit
+cargo run
+gh repo create
+git add -A
+git commit -m "x"
+git push --set-upstream origin master
+exit
+exit
+exit
+shutdown now
+ip link
+ifconfig
+ip addr
+nvim
+exit
+restart
+systemctl restart libvirt
+exit
+pkill hyprland
+pkill Hyprland
+pkill -9
+pkill -9 Hyprland
+systemctl restart libvirt
+systemctl --user restart libvirt
+pkill -9 libvirt
+systemctl restart libvirtd
+shutdown now
+shutdown now 
+amdgpu_top 
+paru -S kodi
+shutdown now 
+cd documents
+mkdir lutris_scripts
+cd lutris_scripts/
+ls
+touch ashes_of_creation.yaml
+cd ..
+cd downloads
+ls
+wine IntrepidInstaller-0.3.257.9818.exe 
+wine -v
+winetricks
+wine create
+cd Games
+cd ~
+cd Games
+ls
+cd ashes-of-creation
+ls
+WINEPREFIX="~/Games/ashes-of-creation" 
+WINEPREFIX="~/Games/ashes-of-creation" wine 
+echo ~
+echo $env.home
+WINEPREFIX="/home/mrteathyme/Games/ashes-of-creation" wine 
+WINEPREFIX="/home/mrteathyme/Games/ashes-of-creation" wine IntrepidInstaller-0.3.257.9818.exe
+ls
+cd drive_c/
+ls
+cd `Program Files/`
+ls
+cd `Intrepid Studios/`
+ls
+cd Launcher/
+ls
+echo pwd
+pwd
+IntrepidStudiosLauncher.exe
+WINEPREFIX="/home/mrteathyme/Games/ashes-of-creation" wine IntrepidStudiosLauncher.exe
+WINEPREFIX="/home/mrteathyme/Games/ashes-of-creation" gamescope -- wine IntrepidStudiosLauncher.exe
+gamescope
+WINEPREFIX="/home/mrteathyme/Games/ashes-of-creation" gamescope -w 2560 -h 1440 -e -f wine IntrepidStudiosLauncher.exe
+gamescope -w 2560 -h 1440 -e -f steam
+paru -S gamescope
+paru -S
+cd ..
+ls
+cd ..
+rm -rf ashes-of-creation/
+ls
+cd ashes-of-creation/
+ls
+cd drive_c
+ls
+cd ..
+rm -rf ashes-of-creation/
+ls
+cd Downloads/
+ls
+cd ~
+cd Downloads/
+ls
+mv IntrepidInstaller-0.3.257.9818.exe intrepid_installer.exe
+cd -
+cd ~home/Games
+ls
+cd ~/Games
+ls
+paru -Syu 
+exit
+paru -S umu-launcher 
+paru -S lutris
+umu-launcher
+umu-run
+ls
+rm ashes-of-creation/
+rm -rf ashes-of-creation/
+lutris
+lutrs -d
+lutris -d
+paru -R umu-launcher
+proton
+exit
+lutris -d
+paru -S umu
+paru -S umu-launcher 
+lutris -d
+paru -S lutris
+lutris -d
+paru -R lutris
+paru -S lutris
+lutris -d
+paru -Sy
+paru -Syu
+pacman -Syu
+sudo pacman -Syu
+exit
+exit
+exit
+exit
+nvim
+exit
+paru -S hyprland
+paru -Syyu
+paru -S hyprutils-git
+pkill -9 Hyprland
+htop
+Hyprland
+restart
+reboot
+steam
+pkill -9 steam
+cd .local
+ls
+cd share
+ls
+cd Steam
+cd compatibilitytools.d/
+ls
+cd umu-launcher/
+ls
+cd ..
+ls
+cd umu-launcher/
+ls
+cd ..
+ls
+paru -S protonup-rs 
+env LUTRIS_EXPERIMENTAL_FEATURES_ENABLED=1 lutris -d
+paru -S lutris-git
+lutris
+pkill -9 gamescope
+lutris
+gamescope -w 2560 -h 1440 -e -f steam
+paru -S bottles
+cd Documents/
+cd lutris_scripts/
+nvim ashes_of_creation.yaml 
+pkill -9 wine
+pkill -9 soda
+htop
+pid
+ps
+pkill -9 *.exe
+pkill -9 explorer.exe
+ps
+cd ~/Games
+cd ashes-of-creation/
+ls
+cd drive_c/
+ls
+cd `Program Files/`
+ls
+cd `Intrepid Studios/`
+ls
+cd Launcher/
+ls
+nvim dxvk.conf
+cd ~/Documents/lutris_scripts/
+protontricks --gui
+paru -S protontricks
+protontricks --gui
+clear | neofetch
+amdgpu_top 
+htop
+amdgpu_top 
+nvim ashes_of_creation.yaml 
+cd config
+cd hypr/
+nvim
+cd hyp
+hyprctl clients
+amdgpu_top 
+lutris -d
+cd Games
+cd ashes-of-creation/
+ls
+cd drive_c/
+ls
+cd `Program Files/`
+ls
+cd `Intrepid Studios/`
+ls
+cd Launcher
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd openxr
+ls
+nvim wineopenxr64.json 
+cd ..
+ls
+cd ..
+ls
+cd pfx
+ls
+cd pfx
+ls
+cd ..
+ls
+cd dosdevices/
+ls
+cd c:
+ls
+cd ..
+ls
+cd com1
+ls
+cd ..
+ls
+amdgpu_top 
+WINEPREFIX="/home/mrteathyme/Games/ashes-of-creation" 
+cd Games
+cd ashes-of-creation/
+cd intrepid-studios
+cd drive
+cd `Program Files/`
+cd `Intrepid Studios/`
+ls
+cd Launcher/
+WINEPREFIX="/home/mrteathyme/Games/ashes-of-creation" wine IntrepidStudiosLauncher.exe
+amdgpu_top 
+WINEPREFIX="/home/mrteathyme/Games/ashes-of-creation" winekill
+pkill -9 wine
+pkill -9 Wine
+protontricks --gui
+paru -S protonhax
+protonhax cmd
+protonhax ls
+protonhax cmd
+protonhax cmd pfx
+protonhax ls
+shutdown now 
+htop
+logout
+lofoff
+paru -S dmidecode
+dmidecode
+sudo dmidecode
+HTOP
+htop
+./restart_carla.sh
+env PIPEWIRE_LATENCY="512/48000" carla -no-gui ~/carla.carxp &
+./restart_carla.sh
+exit
+nvim ./restart_carla.sh 
+exit
+shutdown now 
+./restart_carla.sh
+obs
+cpuset
+vfio-isolate
+cd /etc/libvirt
+ls
+cd hooks
+ls
+sudo nvim qemu
+nvim qemu
+sudo nvim qemu
+systemctl restart libvirtd.service
+paru -Syyu
+htop
+exit
+htop
+sudo -E nvim qemu
+ps -aeF
+htop
+lstopo --no-factorize --output-format png -v --no-io > cpu.png
+lstopo
+cat /proc/cpuinfo
+lstopo-no-graphics --no-io --no-legend --of txt
+htop
+lstopo
+lstopo -p
+lstopo -e
+cd hooks
+lstopo
+htop
+lstopo
+nvim qemu
+hyop
+htop
+exit
+exit
+exit
+systemctl restart libvirtd.service
+exit
+chmod +x qemu 
+sudo chmod +x qemu 
+systemctl restart libvirtd.service
+lstopo
+htop
+lstopo
+htop
+taskset -apc 0-5,12-17 921
+htop
+top
+htop
+sudo -E nvim qemu
+CORENUM=0<\n>ps -e -o pid,psr,cpu,cmd | grep -E  "^[[:space:]][[:digit:]]+[[:space:]]+${CORENUM}"
+ps -e -o cpu
+ps --help
+ps | sort-by cpu
+ps | sort-by psr
+ps --help
+bash
+exit
+ps -l
+ps | sort-by psr
+ps -l | sort-by psr
+ps
+p -l
+ps -l
+ps -l | columns
+ps -l | where cpu == 4
+ps -l | where process_threads = 4
+ps -l | process_threads
+ps -l
+ps -l | columns
+ps -l | select process_threads
+ps -l | columns
+ps -l | select priority
+ps -l
+^ps aux | detect columns
+^ps -e aux | detect columns
+^ps -o -e aux | detect columns
+^ps -o -e | detect columns
+^ps -e -o | detect columns
+^ps -e -o PID,PSR | detect columns
+^ps -e -o pid,psr,cmd | detect columns
+^ps -e -o pid,psr,cmd | detect columns | sort-by psr
+^ps -e -o pid,psr,cmd | detect columns | sort-by PSR
+ps aux
+^ps aux
+^ps aux | detect columns
+^ps -e -o pid,psr,cmd | detect columns | sort-by PSR
+^ps aux | detect columns
+^ps -e -o pid,psr,cmd | detect columns | sort-by PSR
+^ps -e -o pid,psr,cmd | detect columns | where PSR=6
+^ps -e -o pid,psr,cmd | detect columns | where PSR = 6
+^ps -e -o pid,psr,cmd | detect columns | where PSR == 6
+^ps -e -o pid,psr,cmd | detect columns | where PSR==6
+^ps -e -o pid,psr,cmd | detect columns | where PSR == 6
+^ps -e -o pid,psr,cmd | detect columns | where PSR == "6"
+^ps -e -o pid,psr,cmd | detect columns | where PSR == "7"
+^ps -e -o pid,psr,cmd | detect columns | where PSR == "8"
+^ps -e -o pid,psr,cmd | detect columns | where PSR == "9"
+^ps -e -o pid,psr,cmd | detect columns | where PSR == "10"
+^ps -e -o pid,psr,cmd | detect columns
+for process in ^ps -e -o pid,psr,cmd | detect columns
+for process in (^ps -e -o pid,psr,cmd | detect columns)
+for process in [^ps -e -o pid,psr,cmd | detect columns)]
+for process in [^ps -e -o pid,psr,cmd | detect columns]
+for process in ^ps -e -o pid,psr,cmd | detect columns
+^ps -e -o pid,psr,cmd | detect columns
+for x in (^ps -e -o pid,psr,cmd | detect columns) {}
+for x in (^ps -e -o pid,psr,cmd | detect columns) {echo x.PID}
+for x in (^ps -e -o pid,psr,cmd | detect columns) {echo x.pid}
+for x in (^ps -e -o pid,psr,cmd | detect columns) {echo x}
+for x in (^ps -e -o pid,psr,cmd | detect columns) {echo }
+for x in (^ps -e -o pid,psr,cmd | detect columns) {echo test}
+^ps -e -o pid,psr,cmd | detect columns | each
+^ps -e -o pid,psr,cmd | detect columns | each {|e| echo e}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| echo $e}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| echo e.PID}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| echo $e.PID}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| echo $e.PSR}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if $e.PSR != $e.PID {echo oof}}
+echo /proc/404/cgroup
+cat /proc/404/cgroup
+cat /proc/403/cgroup
+cat /proc/400/cgroup
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if $e.PSR != $e.PID {echo $e.PID}}
+cat /proc/15973/cgroup
+cat /proc/15719/cgroup
+systemctl status 15719
+systemctl status 15719 | detect columns
+systemd-cgtop
+cat /proc/15719/cgroup
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if $e.PSR != $e.PID {echo $e.PID}}
+cat /proc/9506/cgroup
+cat proc/9506/cgroup
+cat /proc/9506/cgroup
+sudo cat /proc/9506/cgroup
+cat /proc/9506/cgroup
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if $e.PSR != $e.PID {echo $e.PID}}
+bash
+cd hooks
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if ($e.PSR >= 6 and $e.PSR <= 11) or ($e.PSR >= 17)) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if ($e.PSR >= 6 and $e.PSR <= 11) or ($e.PSR >= 17) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if (($e.PSR into int) >= 6 and $e.PSR <= 11) or ($e.PSR >= 17) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if ((into int $e.PSR) >= 6 and $e.PSR <= 11) or ($e.PSR >= 17) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if ((into int $e.PSR >= 6 and $e.PSR <= 11) or ($e.PSR >= 17) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if (into int $e.PSR >= 6 and $e.PSR <= 11) or ($e.PSR >= 17) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if (into int $e.PSR >= 6 and into int $e.PSR <= 11) or ($e.PSR >= 17) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if (into int $e.PSR >= 6 and into int $e.PSR <= 11) or (into int $e.PSR >= 17) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if ({into int $e.PSR} >= 6 and into int $e.PSR <= 11) or (into int $e.PSR >= 17) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if (into int $e.PSR >= 6 and into int $e.PSR <= 11) or (into int $e.PSR >= 17) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if ((into int $e.PSR >= 6 and into int $e.PSR <= 11) or (into int $e.PSR >= 17)) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if ((into int $e.PSR >= 6 and into int $e.PSR <= 11)) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if (into int $e.PSR >= 6 and into int $e.PSR <= 11) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| if into int $e.PSR >= 6 and into int $e.PSR <= 11 {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| pid = into int $e.PID; if ($pid >= 6) and ($pid <= 11) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| $pid = into int $e.PID; if ($pid >= 6) and ($pid <= 11) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| pid = into int $e.PID; if ($pid >= 6) and ($pid <= 11) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let pid = into int $e.PID; if ($pid >= 6) and ($pid <= 11) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let pid = $e.PID; if ($pid >= 6) and ($pid <= 11) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let pid = into int $e.PID; if ($pid >= 6) and ($pid <= 11) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let pid = $e.PID | into int; if ($pid >= 6) and ($pid <= 11) {echo out}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let pid = $e.PID | into int; if ($pid >= 6) and ($pid <= 11) {echo $e.PID is out of bounds}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let pid = $e.PID | into int; if ($pid >= 6) and ($pid <= 11) {echo "$e.PID is out of bounds"}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let pid = $e.PID | into int; if ($pid >= 6) and ($pid <= 11) {echo $"$(e.PID) is out of bounds"}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let pid = $e.PID | into int; if ($pid >= 6) and ($pid <= 11) {echo $"($e.PID) is out of bounds"}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let pid = $e.PID | into int; if ($pid >= 6) and ($pid <= 11) {echo $"($e.PID) is out of bounds, command: ($e.cmd)"}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let pid = $e.PID | into int; if (($pid >= 6) and ($pid <= 11)) or ($pid >= 17) {echo $"($e.PID) is out of bounds, command: ($e.cmd)"}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let pid = $e.PID | into int; if (($pid >= 6) and ($pid <= 11)) or ($pid >= 18) {echo $"($e.PID) is out of bounds, command: ($e.cmd)"}}
+ps -e -o 11732
+ps -e 11732
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let pid = $e.PID | into int; if (($pid >= 6) and ($pid <= 11)) or ($pid >= 18) {echo $"($e.PID) is out of bounds, command: ($e.cmd)"}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let pid = $e.PID | into int; if (($pid >= 6) and ($pid <= 11)) or ($pid >= 18) {echo $"process ($e.PID) is out of bounds with core ($e.PSR), command: ($e.cmd)"}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let psr = $e.PSR | into int; if (($psr >= 6) and ($psr <= 11)) or ($psr >= 18) {echo $"process ($e.PID) is out of bounds with core ($e.PSR), command: ($e.cmd)"}}
+def is_kernel [cmd] {}
+def is_kernel [cmd] {<\n>return cmd | str contains "kworker"<\n>}
+is_kernel "[kworker/u96:2]"
+def is_kernel [cmd] {<\n>return $cmd | str contains "kworker"<\n>}
+is_kernel "[kworker/u96:2]"
+def is_kernel [cmd] {<\n>return {$cmd | str contains "kworker"}<\n>}
+is_kernel "[kworker/u96:2]"
+def is_kernel [cmd] {<\n>$cmd | str contains "kworker"<\n>}
+is_kernel "[kworker/u96:2]"
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let psr = $e.PSR | into int; if (($psr >= 6) and ($psr <= 11)) or ($psr >= 18) {echo $"process ($e.PID) is out of bounds with core ($e.PSR), command: ($e.cmd)"}}
+def out_of_bounds [row]
+def out_of_bounds [row] {}
+def out_of_bounds [row] {<\n>let psr = row.PSR | into int<\n>}
+def out_of_bounds [row] {<\n>let psr = $row.PSR | into int<\n>if (is_kernel $row.cmd) {return false}<\n>if (psr >= 6 and <= 11) {return true}<\n>if (psr >= 18) {return true}<\n>false<\n>}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let psr = $e.PSR | into int; if out_of_bounds($e) {echo $"process ($e.PID) is out of bounds with core ($e.PSR), command: ($e.cmd)"}}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let psr = $e.PSR | into int; if (out_of_bounds $e) {echo $"process ($e.PID) is out of bounds with core ($e.PSR), command: ($e.cmd)"}}
+def out_of_bounds [row] {<\n>let psr = $row.PSR | into int<\n>if (is_kernel $row.cmd) {return false}<\n>if ($psr >= 6 and <= 11) {return true}<\n>if ($psr >= 18) {return true}<\n>false<\n>}
+def out_of_bounds [row] {<\n>let psr = $row.PSR | into int<\n>if (is_kernel $row.cmd) {return false}<\n>if ($psr >= 6 and $psr <= 11) {return true}<\n>if ($psr >= 18) {return true}<\n>false<\n>}
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let psr = $e.PSR | into int; if (out_of_bounds $e) {echo $"process ($e.PID) is out of bounds with core ($e.PSR), command: ($e.cmd)"}}
+cat /proc/3/exec
+cat /proc/3/cmdline
+cat /proc/136/cmdline
+cat /proc/136/exec
+cat /proc/136/comm
+cat /proc/3/comm
+cat /proc/655/comm
+cat /proc/65/comm
+cat /proc/65/exec
+cat /proc/65/cmdline
+cat /proc/61/cmdline
+cat /proc/21/cmdline
+taskset
+taskset 872
+cat /proc/872/cmdline
+cat /proc/872/cgroup
+taskset -apc 0-5,12-17 872
+sudo taskset -apc 0-5,12-17 872
+^ps -e -o pid,psr,cmd | detect columns | each {|e| let psr = $e.PSR | into int; if (out_of_bounds $e) {echo $"process ($e.PID) is out of bounds with core ($e.PSR), command: ($e.cmd)"}}
+sudo taskset -apc 0-5,12-17 872
+./restart_carla.sh
+nvim qemu
+exit
+exit
+exit
+cd hypr
+nvim
+./restart_carla.sh
+cd hypr
+nvim hyprland.conf 
+nvim restart_carla.sh 
+cd hypr
+nvim restart_carla.sh 
+cd ~
+nvim restart_carla.sh 
+cd pipewire
+ls
+pw-metadata -n settings 0 clock force-quantum 256
+pw-metadata -n settings 0 clock.force-rate 48000
+pw-metadata -n settings
+pw-metadata -n settings 0 clock.force-quantum 256
+nvim .config/hypr/hyprland.conf
+gamescope -w 2560 -h 1440 -e -f obs
+gamescope -w 2560 -h 1440 obs
+gamescope -w 2560 -h 1440 -f obs
+gamescope -w 2560 -h 1440 -e -f obs
+gamescope -w 2560 -h 1440 -e obs
+gamescope -W 2560 -H 1440-f obs
+gamescope -W 2560 -H 1440 -b obs
+paru -R obs-ndi
+obs
+cd /usr/share/obs
+ls
+cd obs-plugins
+ls
+cd frontend-tools/
+ls
+cd scripts
+ls
+touch hide_vm_capture.py
+cd ~
+mkdir obs_scripts
+cd obs_scripts/
+touch hide_vm_capture.py
+pkill obs
+virsh-list --all
+virsh list --all
+virsh -c qemu:///system list
+virsh -c qemu:///system
+virsh -c qemu:///system dominfo win11
+pkill obs
+obs
+pkill obs
+pkill python
+obs
+pkill python
+pkill obs
+obs
+pkill obs
+obs
+pkill obs
+obs
+pkill obs
+obs
+pkill obs
+obs
+pkill obs
+obs
+exit
+nvim hide_vm_capture.py 
+exit
+cd obs_scripts/
+nvim hide_vm_capture.py 
+hyprctl clients
+cd hypr
+hyprctl clients
+nvim hyprland.conf 
+exit
+exit
+exit
+htop
+cd hypr
+pw-metadata -n settings 0 clock.force-quantum 512
+nvim hyprland.conf 
+pkill carla
+cd projects
+mkdir audio_mixer
+cd audio_mixer/
+ls
+cargo init
+cargo add cpal --features jack
+cargo run
+cargo add rust-jack
+cargo add jack
+cargo run
+nvim
+exit
+exit
+pw-metadata -n settings 0 clock.force-quantum 1024
+cpupower
+paru -S cpupower
+cpupower
+cpupower info
+sudo cpupower info
+sudo cpupower -c
+sudo cpupower -c info
+sudo cpupower monitor
+sudo cpupower powercap-info
+sudo cpupower frequency-info
+sudo nvim -E /etc/default/cpupower
+cd /etc/default/cpupower
+ls
+nvim /etc/default/cpupower
+sudo -E nvim /etc/default/cpupower
+systemctl enable cpupower.server
+sudo systemctl enable cpupower.server
+sudo systemctl enable cpupower.service
+sudo systemctl start cpupower.service
+sudo systemctl status cpupower.service
+cpupower
+sudo cpupower frequency-info
+shutdown now 
+cd projects
+ls
+cd youtube
+ls
+nvim
+exit
+cd projects
+gh clone crypto_bot
+gh repo clone crypto_bot
+cd crypto_bot
+ls
+nvim
+cd ..
+rm -rf crypto_bot/
+cd crypto_bot
+gh repo clone crypto_bot
+cd crypto_bot
+cargo run -- rrFQf4pN3AS4CoyDHuPr4A cxakp_zXBkY3ifH5Jhq1t45cZuCr
+nvim
+cargo run -- rrFQf4pN3AS4CoyDHuPr4A cxakp_zXBkY3ifH5Jhq1t45cZuCr
+cargo run -- FdP7PagY6oTgF6cx7nKUeM cxakp_BpcCU5jgR6dr9vbcAdTHtz
+cd projects
+cd youtube-black/
+nvim
+exit
+exit
+nvim
+exit
+traceroute -p 993 imap.gmail.com
+paru -S traceroute
+traceroute -p 993 imap.gmail.com
+shutdown now 
+reboot
+cd qemu
+ls
+cd libvirt
+cd hooks
+ls
+nvim qemu
+shutdown now 
+cd lutris_scripts
+ls
+nvim ashes_of_creation.yaml 
+cd projects
+cd trading_bot/
+ls
+cd ..
+cd trading_bot/
+ls
+nvim
+cd rm -rf src
+rm -rf src
+mkdir src
+touch src/main.rs
+touch src/lib.rs
+rm \
+ls
+shutdown now 
+curl --request GET 'https://api.alpaca.markets/v2/assets?asset_class=crypto' \<\n>--header 'Apca-Api-Key-Id: <KEY>' \<\n>--header 'Apca-Api-Secret-Key: <SECRET>'
+curl --request GET 'https://api.alpaca.markets/v2/assets?asset_class=crypto' --header 'Apca-Api-Key-Id: <KEY>' --header 'Apca-Api-Secret-Key: <SECRET>'
+curl --request GET 'https://api.alpaca.markets/v2/assets?asset_class=crypto' --header 'Apca-Api-Key-Id: AKU8RMLP6IUGUANO6TPW' --header 'Apca-Api-Secret-Key: EFA2mcYZwu0kpMUMwEr0aqqWGdOTpVtqz9GjKxGy'
+curl --request GET 'https://api.alpaca.markets/v2/assets?asset_class=crypto' --header 'Apca-Api-Key-Id: AKU8RMLP6IUGUANO6TPW' --header 'Apca-Api-Secret-Key: EFA2mcYZwu0kpMUMwEr0aqqWGdOTpVtqz9GjKxGy' | rg symbol
+$env.COIN_LIST = (curl --request GET 'https://api.alpaca.markets/v2/assets?asset_class=crypto' --header 'Apca-Api-Key-Id: AKU8RMLP6IUGUANO6TPW' --header 'Apca-Api-Secret-Key: EFA2mcYZwu0kpMUMwEr0aqqWGdOTpVtqz9GjKxGy')
+echo $env.COIN_LIST
+$env.COIN_LIST | split_row ","
+$env.COIN_LIST | split row ","
+$env.COIN_LIST | split column "{"
+$env.COIN_LIST | split row "{"
+$env.COIN_LIST | split row "{" | split column ","
+$env.COIN_LIST | split row "{" | split column "," | drop_nth 0
+$env.COIN_LIST | split row "{" | split column "," | drop nth 0
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST | split row "{" | split column "," | drop nth 0
+echo $env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW | select column4
+$env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW | select 00
+$env.COIN_LIST_TABLE_RAW | select 0
+$env.COIN_LIST_TABLE_RAW | rename id class exchange symbol
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | rename id class exchange symbol
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move symbol --before id
+echo $env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move class --after column5
+echo $env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move column5 --after column6
+echo $env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move class --after column6
+echo $env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move class --after column7
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move column6 --after column7
+echo $env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move column5 --after column7
+echo $env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move column8 --before column7
+echo $env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move column9 --before column8
+echo $env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move column10 --before column9
+echo $env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move column11 --before column10
+echo $env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move column12 --before column11
+echo $env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move column13 --before column12
+echo $env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move column14 --before column13
+echo $env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move column15 --before column14
+echo $env.COIN_LIST_TABLE_RAW
+$env.COIN_LIST_TABLE_RAW = $env.COIN_LIST_TABLE_RAW | move column16 --before column15
+echo $env.COIN_LIST_TABLE_RAW
+echo $env.COIN_LIST_TABLE_RAW | select symbol
+$env.COIN_LIST_TABLE_RAW | select symbol | each {|s| $s | parse}
+$env.COIN_LIST_TABLE_RAW | select symbol | each {|s| $s | parse `{symbol}`}
+$env.COIN_LIST_TABLE_RAW | select symbol | each {|s| $s | into string | parse `{symbol}`}
+$env.COIN_LIST_TABLE_RAW | select symbol | each {|s| $s | to nuon | parse `{symbol}`}
+$env.COIN_LIST_TABLE_RAW | select symbol | each {|s| $s}
+$env.COIN_LIST_TABLE_RAW | select symbol | each {|s| $s | select symbol}
+$env.COIN_LIST_TABLE_RAW | select symbol | each {|s| $s | select symbol | into string}
+$env.COIN_LIST_TABLE_RAW | select symbol | each {|s| $s | select symbol | to nuon}
+$env.COIN_LIST_TABLE_RAW | select symbol | each {|s| $s | select symbol}
+$env.COIN_LIST_TABLE_RAW | select symbol | each {|s| $s.symbol | into string}
+$env.COIN_LIST_TABLE_RAW | select symbol | each {|s| $s.symbol | parse}
+$env.COIN_LIST_TABLE_RAW | select symbol | each {|s| $s.symbol | parse `symbol`}
+$env.COIN_LIST_TABLE_RAW | select symbol | each {|s| $s.symbol | parse `{symbol}`}
+$env.COIN_LIST_TABLE_RAW | select symbol | each {|s| $s.symbol | from json}
+$env.COIN_LIST_TABLE_RAW | each {|s| $s.symbol | from json}
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | from json}
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each | from json}
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| $x | from json}}
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| $x | from json} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| $x | echo} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| $x} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| echo $x} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| $x | from json} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| $x | parse ''} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| $x | parse ``} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| $x | parse `{test}`} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| $x | into string} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| $x | to nuon} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | to nuon }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| echo $x} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| echo | to nuon} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| $x | to nuon} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| echo} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| echo $x} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| echo $x | to nuon} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| echo $x | from json} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| echo $x} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| echo $x | to nuon} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| echo $x | to nuon | from json} }
+$env.COIN_LIST_TABLE_RAW | each {|s| $s | each {|x| echo $x} }
+echo $env.COIN_LIST
+echo $env.COIN_LIST | from json
+cd projects
+mkdir shocktivity
+cd shocktivity
+ls
+cargo init
+touch src/lib.rs
+cargo add reqwest
+cargo add reqwest-websocket
+cargo run
+cargo add serde_json
+cargo add serde --features derive
+cargo add futures_util
+cargo run
+cargo add tokio --features full
+cargo run
+nvim
+cargo run
+cd projects
+cd trading_bot/
+ls
+nvim
+cargo run
+cargo add trait_variant
+paru -S waydroid
+waydroid
+waydroid -h
+waydroid first-launch
+sudo modprobe binder_linux
+paru -S binder_linux
+paru -S binder_linux-dkms 
+waydroid first-launch
+sudo waydroid-extras
+paru -S waydroid-extras
+paru -S waydroid_script
+paru -S waydroid-script-git 
+sudo waydroid-extras
+waydroid -h
+waydroid status
+waydroid --details=to=stdout
+waydroid -V
+waydroid
+waydroid show-full-ui
+sudo waydroid-extras
+waydroid show-full-ui
+waydroid prop set persist.waydroid.fake_touch jp.pokemon.pokemontcgp
+waydroid prop set persist.waydroid.width 576
+systemctl start waydroid
+systemctl start waydroid-container
+waydroid prop set persist.waydroid.fake_touch jp.pokemon.pokemontcgp
+sudo systemctl start waydroid-container
+waydroid prop set persist.waydroid.fake_touch jp.pokemon.pokemontcgp
+waydroid session start
+waydroid prop set persist.waydroid.width 576
+waydroid prop set persist.waydroid.height 1024
+waydroid prop set persist.waydroid.fake_touch jp.pokemon.pokemontcgp
+sudo waydroid-extras
+DRI_PRIME=1 waydroid show-full-ui
+sudo systemctl stop waydroid-container
+waydroid -info
+waydroid staus
+waydroid status
+ls
+mkdir src/exchange_framework
+mv src/lib.rs src/exchange_framework/mod.rs
+touch src/lib.rs
+mkdir src/cdc_api
+mkdir src/alpaca_api
+nvim
+touch src/alpaca_api/mod.rs
+touch src/cdc_api/mod.rs
+nvim
+cargo check
+cargo check -Awarnings
+cargo checki -- -Awarnings
+cargo check -- -Awarnings
+cargo check --help
+cargo rustc -- -Awarnings
+cargo -Z
+cargo -Z --help
+cargo --help
+cargo clippy --help
+ls
+cargo add http
+cargo add ring
+cargo add hex
+cargo add reqwest --features json
+cargo check
+cargo run
+cargo add chrono
+cargo run
+cargo check
+cargo build
+cargo check
+cargo run
+cargo check
+cargo run
+nvim
+cd trading_bot/
+ls
+nvim
+rm -rf cdc_api/
+cargo check
+rust-analyzer -V
+rustup component add rust-analyzer
+rustup update
+cargo fmt
+nvim
+cargo add UUID
+cargo add UUID --features v4
+nvim
+mkdir src/alpaca_api/trading
+mkdir src/alpaca_api/data
+mkdir src/alpaca_api/broker
+touch src/alpaca_api/trading/mod.rs
+touch src/alpaca_api/data/mod.rs
+touch src/alpaca_api/broker/mod.rs
+rustup toolchain remove
+rustup toolchain uninstall stable
+rustup
+rustup update
+cd ..
+mkdir alpaca_rs
+rm alpaca_rs/
+ls
+cd ..
+mkdir alpaca_rs
+ls
+cd alpaca_rs/
+ls
+cargo init
+nvim
+mkdir src/trading
+mkdir src/data
+mkdir src/broker
+rm src/main.rs
+touch src/lib.rs
+nvim
+touch src/trading/mod.rs
+touch src/data/mod.rs
+touch src/broker/mod.rs
+exit
+cargo add serde --features derive
+cargo add serde_json
+cargo add http
+cargo add serde_with
+cargo check
+cargo add bytes
+cargo check
+cargo add chrono
+cargo add chrono --features serde
+cargo check
+cargo add reqwest
+cargo check
+cargo add tokio --features full
+cargo check
+cargo run
+nvim
+cargo run
+cargo check
+cargo add UUID --features v4
+cargo add UUID --features v4, serde
+cargo add UUID --features v4 --features serde
+cargo check
+cargo run
+cargo check
+cargo run
+cargo check
+cargo run
+cargo check
+cargo run
+nvim
+cd ..
+mv alpaca_rs/src/main.rs trading_bot/src/main.rs
+cd trading_bot/
+nvim
+ls
+cd src
+ls
+rm -rf alpaca_api/
+rm -rf exchange_framework/
+cd src
+ls
+cd alpaca_api/
+ls
+cd broker
+ls
+cd ..
+cd 
+nvim
+cd trading_bot
+cd src
+ls
+cd src
+ls
+nvim
+cd ..
+rm -rf src
+ls
+nvim
+rm lib.rs
+ls
+cd. .
+cd ..
+ls
+cargo check
+nvim
+cd alpaca_rs
+nvim
+cargo build
+cargo add bytes
+cargo run
+cargo run --release
+ls
+cd alpaca_rs
+ls
+nvim
+gh repo create
+git add -A
+git commit -m "x"
+git push --set-upstream origin master
+exit
+exiy
+exit
+exit
+shutdown now 
+cd shocktivity\
+cd shocktivity
+ls
+cargo run --release
+cd trading_bot
+ls
+cargo run --release
+cargo run --release | rg sol
+cargo run --release | rg symbol
+cargo run --release | rg symbol | table
+cargo run --release | rg symbol
+cargo run --release | rg symbol | select symbol
+ls
+cd target
+ls
+cd release
+ls
+trading_bot
+./trading_bot
+./trading_bot | rg symbol
+./trading_bot | rg symbol | select symbol
+./trading_bot | rg symbol
+./trading_bot | rg symbol | less
+./trading_bot | rg symbol | echo
+./trading_bot | rg symbol
+./trading_bot | less
+./trading_bot | echo
+$env.OUTPUT = ./trading_bot
+$env.OUTPUT = ^./trading_bot
+exit
+$env.OUTPUT =  ^(cargo run --release | rg symbol)
+echo $env.OUTPUT
+$env.OUTPUT = ^cargo run --release | rg symbol
+exit
+cargo run --release
+cargo check
+cargo run --release
+cargo run --release | save temp.rs
+nvim
+cargo run --release | save temp.rs
+rm temp.rs
+cargo run --release | save temp.rs
+nvim
+cd alpaca_rs
+ls
+touch build.rs
+nvim
+nvim
+nvim build.rs
+rm -rf build.rs
+ls
+nvim cargo.toml
+nvim Cargo.toml
+cd trading_bot
+cargo build
+env ALPACA_KEY=AKU8RMLP6IUGUANO6TPW env ALPACA_SECRET=EFA2mcYZwu0kpMUMwEr0aqqWGdOTpVtqz9GjKxGy cargo build
+ls
+cd target
+ls
+cd debug
+ls
+nvim
+cd build
+ls
+cd ..
+ls
+cd ..
+ls
+cargo build
+cd target
+ls
+cd debug
+ls
+cd deps
+ls
+cd out
+ls
+cd ..
+ls
+cd out
+cd ..
+ls
+cd trading_bot/
+ls
+cd target
+ls
+cd debug
+ls
+cd deps
+ls
+cd ..
+ls
+cd build
+ls
+cd out
+cd --
+cd -
+cd build
+ls
+cd ..
+ls
+cd ..
+cargo build
+nvim
+env ALPACA_KEY=AKU8RMLP6IUGUANO6TPW env ALPACA_SECRET=EFA2mcYZwu0kpMUMwEr0aqqWGdOTpVtqz9GjKxGy cargo build
+cd target
+ls
+cd debug
+ls
+cd ..
+ls
+cd debug
+ls
+env ALPACA_KEY=AKU8RMLP6IUGUANO6TPW env ALPACA_SECRET=EFA2mcYZwu0kpMUMwEr0aqqWGdOTpVtqz9GjKxGy cargo build
+env ALPACA_KEY=AKU8RMLP6IUGUANO6TPW env ALPACA_SECRET=EFA2mcYZwu0kpMUMwEr0aqqWGdOTpVtqz9GjKxGy cargo build -vv
+cd target
+cd build
+cd blake3-609c0a661e647a06/
+ls
+cd out
+ls
+cd ..
+:w
+cargo build --force
+cargo build --help
+env ALPACA_KEY=AKU8RMLP6IUGUANO6TPW env ALPACA_SECRET=EFA2mcYZwu0kpMUMwEr0aqqWGdOTpVtqz9GjKxGy cargo force-build
+env ALPACA_KEY=AKU8RMLP6IUGUANO6TPW env ALPACA_SECRET=EFA2mcYZwu0kpMUMwEr0aqqWGdOTpVtqz9GjKxGy cargo force build
+env ALPACA_KEY=AKU8RMLP6IUGUANO6TPW env ALPACA_SECRET=EFA2mcYZwu0kpMUMwEr0aqqWGdOTpVtqz9GjKxGy cargo build
+nvim
+cargo build
+env ALPACA_KEY=AKU8RMLP6IUGUANO6TPW env ALPACA_SECRET=EFA2mcYZwu0kpMUMwEr0aqqWGdOTpVtqz9GjKxGy cargo build
+cd build
+ls
+cd ..
+ls
+ccd build
+ls
+cd build
+ls
+cd trading_bot-40c3b552bc5bf73e/
+ls
+..
+ls
+..
+ls
+..
+ls
+..
+ls
+cargo build
+env ALPACA_KEY=AKU8RMLP6IUGUANO6TPW env ALPACA_SECRET=EFA2mcYZwu0kpMUMwEr0aqqWGdOTpVtqz9GjKxGy cargo build
+cd .config
+cd nvim
+ls
+cd lua
+ls
+cd plugins
+ls
+nvim mason.lua 
+nvim
+nvim
+rm -rf target/
+rm -rf temp.rs
+env ALPACA_KEY=AKU8RMLP6IUGUANO6TPW env ALPACA_SECRET=EFA2mcYZwu0kpMUMwEr0aqqWGdOTpVtqz9GjKxGy cargo build
+cargo install --locked cargo-px
+cargo px
+nvim
+cd src
+ls
+cd ..
+ls
+cd src
+ls
+nvim
+env ALPACA_KEY=AKU8RMLP6IUGUANO6TPW env ALPACA_SECRET=EFA2mcYZwu0kpMUMwEr0aqqWGdOTpVtqz9GjKxGy cargo build
+nvim
+cargo check
+ls
+mv build.rs _build.rs
+nvim
+cd trading_bot
+ls
+rm -rf target
+cargo check
+cd alpaca_rs
+ls
+cd ..
+mkdir alpaca_rs_updater
+cd alpaca_rs_updater/
+cargo init
+cargo add reqwest
+cargo add serde
+cargo add serde --features derive
+cargo add serde-json
+cargo check
+cargo run
+cargo check
+cargo run
+cargo check
+cargo run
+ls
+cd src
+ls
+nvim assets.rs
+cargo run
+nvim assets.rs
+rm -rf assets.rs
+cargo run
+nvim assets.rs
+ls
+cd ..
+ls
+cargo run
+nvim
+ls
+cd src
+ls
+cd ..
+ls
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo run
+nvim
+cargo build --release
+ls
+cd target
+ls
+cd release
+ls
+cp alpaca_rs_updater ../../../alpaca_rs/
+nvim
+alpaca_rs_updater
+./alpaca_rs_updater
+cargo build --release
+cp alpaca_rs_updater ../../../alpaca_rs/
+nvim
+./alpaca_rs_updater
+nvim
+cargo build --release
+cp alpaca_rs_updater ../../../alpaca_rs/
+nvim
+cargo check
+cargo add uuid --features v4
+cargo check
+cargo add chrono --features serde
+cargo check
+cargo add uuid --features v4 --features serde
+cargo check
+cargo add serde_with
+cargo check
+nvim
+cargo build --release
+cargo build --release
+cp alpaca_rs_updater ../../../alpaca_rs/
+nvim
+./alpaca_rs_updater
+./alpaca_rs_updater
+nvim
+cargo build --release
+cp alpaca_rs_updater ../../../alpaca_rs/
+cp target/build/release/alpaca_rs_updater ../../../alpaca_rs/
+cd target
+ls
+cd ..
+cp target/release/build/alpaca_rs_updater ../../../alpaca_rs/
+cp target/release/build/alpaca_rs_updater ../alpaca_rs/
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+nvim
+./alpaca_rs_updater
+nvim
+./alpaca_rs_updater
+nvim
+./alpaca_rs_updater
+nvim
+cargo build --release
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+cargo build --release
+nvim
+rm -rf src/assets.rs
+./alpaca_rs_updater
+cargo build --release
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+cd ..
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+cargo build --release
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+nvim
+./alpaca_rs_updater
+cargo build --release
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+cargo build --release
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+cargo build --release
+./alpaca_rs_updater
+cargo build --release
+nvim _build.rs 
+nvim
+rm -rf src/assets.rs
+cargo build --release
+cargo build --release
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+./alpaca_rs_updater
+cargo build --release
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+nvim
+./alpaca_rs_updater
+nvim
+cargo build --release
+cargo build --release
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+./alpaca_rs_updater
+cargo build --release
+cargo build --release
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+./alpaca_rs_updater
+cargo build --release
+cargo build --release
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+./alpaca_rs_updater
+cargo build --release
+cargo build --release
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+./alpaca_rs_updater
+cargo build --release
+cargo build --release
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+nvim
+./alpaca_rs_updater
+cargo build --release
+cargo build --release
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+./alpaca_rs_updater
+cargo build --release
+cargo build --release
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+./alpaca_rs_updater
+cargo build --release
+cargo build --release
+cp target/release/alpaca_rs_updater ../alpaca_rs/
+./alpaca_rs_updater
+cargo build --release
+nvim
+cargo checkl
+cargo check
+nvim
+cargo check
+nvim
+cargo check
+cargo run --release
+cargo check
+nvim
+exit
+exit
+exit
+nvim
+exit
+exit
+shutdown now
+cd alpaca_rs
+git pull
+git pull --force 
+git clean
+git clean -f
+git pull
+git reset
+git pull
+git reset hard
+git reset --hard
+git pull
+cargo add derive_builder
+cargo check
+ls
+cd src
+cd trading
+ls
+mkdir orders
+cd orders
+ls
+touch mod.rs
+nvim
+cargo check
+git add -A
+git commit -m "Refactored Orders endpoint to new style"
+git push
+cd trading_bot
+ls
+nvim
+cargo check
+cargo run
+git add -A
+git commit -m "bugfix"
+git push
+cargo check
+cargo update
+cargo check
+cargo build
+nvim
+cargo run
+git add -A
+git comm
+git commit -m "bugfix"
+git push
+cargo build
+cargo update
+cargo build
+cargo run
+git add -A
+git commit -m "bugfix"
+git push
+cargo update\
+cargo update
+cargo run
+git add -A
+git commit -m "bugfix"
+git push
+cargo update
+cargo run
+git add -A
+git commit -m "bugfix"
+git push
+cargo update
+cargo run
+cargo check
+cd ..
+git add- A
+git add -A
+git commit -m "trying stuff"
+git push
+cargo update
+git add -A
+git commit -m "trying stuff"
+git push
+cargo run
+cargo check
+git add -A
+git commit -m "trying stuff"
+git push
+cargo update
+cargo run
+git add -A
+git commit -m "trying stuff"
+git push
+cargo update
+cargo run
+cargo check
+git add -A
+git commit -m "trying stuff"
+git push
+cargo update
+cargo run
+git add -A
+git commit -m "trying stuff"
+git push
+cargo update
+cargo run
+git add -A
+git commit -m "trying stuff"
+git push
+cargo update
+cargo run
+cargo check
+cargo check
+git add -A
+git commit -m "trying stuff"
+git push
+cargo update
+cargo run
+shutdown now
+cd nvim
+cd lua
+ls
+cd plugins
+ls
+nvim avante.lua
+cd ,,
+cd ..
+ls
+cd config
+ls
+cd ..
+cd plugins
+nvim avante.lua
+nvim
+nvim avante.lua
+nvim
+nvim avante.lua
+nvim
+nvim
+ls
+rm avante.lua
+nvim codecompanion.lua
+nvim codecompanion.lua
+cd wezterm
+ls
+paru -S wezterm
+wezterm ls-fonts --text PASTEHEARTHERE
+wezterm ls-fonts
+cd /usr/share/TTF
+ls
+cd /usr/share/fonts
+ls
+cd TTF
+ls
+wezterm ls-fonts
+wezterm ls-fonts --list-system
+wezterm ls-fonts
+exit
+exit
+exit
+:w
+exit
+nvim wezterm.lua 
+fc-list
+fc-list | grep MPlus
+fc-list | grep Mplus
+wezterm ls-fonts --list-system
+wezterm ls-fonts --list-system | rg Mplus
+wezterm ls-fonts
+wezterm ls-fonts --test test
+wezterm ls-fonts --text test
+paru -S m+
+paru -S mplus-font
+wezterm ls-fonts --text test
+wezterm ls-fonts --list-system | rg Mplus
+wezterm ls-fonts --list-system
+wezterm ls-fonts --list-system | rg +
+wezterm ls-fonts --list-system | rg m
+wezterm ls-fonts --list-system | rg M p
+wezterm ls-fonts --list-system | rg M+
+wezterm ls-fonts --list-system | rg plus
+fc-list | grep Mplus
+fc-list
+fc-list | grep plus
+paru -S ttf-mplus
+paru -S ttf-mplus-git
+nvim wezterm.lua 
+paru -S nerd-fonts-git
+paru -S nerd-fonts-mplus
+paru -S nerd-fonts-git
+exit
+exit
+exit
+exit
+cd ..
+cd config
+ls
+nvim init.lua
+nvim codecompanion.lua
+cd ..
+cd plugins
+nvim
+󰲡
+wezterm ls-fonts --test 󰲡
+wezterm ls-fonts --text 󰲡
+♥
+nvim codecompanion.lua
+wezterm ls-fonts --text 󰲡
+cd wezterm
+wezterm ls-fonts
+paru -S nerd-fonts-symbols
+paru -S ttf-nerd-fonts-symbols
+wezterm ls-fonts --text 󰲡
+nvim codecompanion.lua
+nvim render_markdown.lua
+exit
+nvim render_markdown.lua 
+exit
+nvim
+exit
+exit
+exit
+exit
+cd wezterm
+nvim wezterm.lua
+cd nvim
+cd plugins
+ls
+nvim lualine.lua
+cd config
+nvim lualine.lua
+nvim init.lua
+nvim plugins
+cd plugins
+nvim
+nvm
+nvim
+nvim config
+cd config
+nvim lualine.lua
+cd plugins
+nvim render_markdown.lua 
+cd config
+nvim lualine.lua
+nvim
+exit
+cd lua
+mkdir lualine
+cd lualina
+cd lualine/
+mkdir components
+cd components/
+nvim
+nvim lualine.lua
+ⓩ
+nvim code_companion_status.lua
+nvim
+nvim code_companion_status.lua
+nvim
+cd ..
+ls
+cd plugins
+nvim nui.nvim
+ls
+mv nui.nvim nui.lua
+nvim
+nvim codecompanion_sidebar.lua
+nvim sidebar.lua
+ls
+nvim codecompanion.lua
+nvim
+nvim codecompanion.lua
+nvim
+nvim codecompanion.lua
+cd ..
+cd plugins
+nvim noice.lua
+cd config
+nvim noice.lua
+nvim
+nvim noice.lua
+nvim lualine.lua
+nvim lualine.lua
+nvim codecompanion.lua
+nvim lualine.lua
+nvim codecompanion.lua
+nvim
+nvim codecompanion.lua
+cd /
+ls
+exit
+exit
+exit
+cd projects
+nvim codecompanion.lua
+cd trading_bot
+nvim main.rs
+cargo check
+cd alpaca_rs
+cargo check
+git add -A
+git commit -m "send bounds on error"
+git push
+cargo update
+cargo build
+cargo check
+git add -A
+git commit -m "send bounds on error"
+git push
+cargo update
+cargo check
+cargo add AnyHow
+cargo add anyhow
+git add -A
+git commit -m "more bounds on error"
+git push
+cargo update
+nvim src/main.rs 
+cargo check
+cargo check
+nvim
+git add -A
+git commit -m "more bounds on error"
+git push
+cargo update
+cargo check
+git add -A
+git commit -m "more bounds on error"
+git push
+cargo update
+cargo run
+cargo add futures
+cargo run
+exit
+exit
+:q
+exit
+cd nvim
+ls
+git add -A
+cd ..
+ls
+cd .git
+git init
+ls
+nvim .gitignore
+cd libvirt
+ls
+cd qemu
+ls
+cd ..
+ls
+cd looking-glass/
+ls
+cd ..
+git add -A
+git commit -m "bro wheres my dot files"
+gh repo create
+nvim .gitignore
+git add -A
+git commit -m "bro wheres my dot files"
+git push
+nvim .gitignore
+git add -A
+git commit -m "bro wheres my dot files"
+nvim .gitignore
