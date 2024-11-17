@@ -1,8 +1,8 @@
 *
 !.gitignore
-!/nvim/*
-!/wezterm/*
-!/nushell/*
-!/wofi/*
-!/wlogout/*
-!/hypr/*
+!nvim/*
+!wezterm/*
+!nushell/*
+!wofi/*
+!wlogout/*
+!hypr/*
